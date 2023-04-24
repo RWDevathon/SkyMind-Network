@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced Arm -->
+
+  <ATR_AdvancedArm.label>Продвинутая рука</ATR_AdvancedArm.label>
+  <ATR_AdvancedArm.description>Высокая прочность пластали и более эффективные компоненты дают этой руке значительное преимущество перед стандартными деталями.</ATR_AdvancedArm.description>
+  <ATR_AdvancedArm.comps.0.tools.0.label>кулак</ATR_AdvancedArm.comps.0.tools.0.label>
+
+
+  <!-- Advanced Leg -->
+
+  <ATR_AdvancedLeg.label>Продвинутая нога</ATR_AdvancedLeg.label>
+  <ATR_AdvancedLeg.description>Высокая прочность пластали и более эффективные компоненты дают этой ноге значительное преимущество перед стандартными деталями.</ATR_AdvancedLeg.description>
+
+
+  <!-- Advanced Visual Sensor -->
+
+  <ATR_AdvancedVisualSensor.label>Продвинутый визуальный сенсор</ATR_AdvancedVisualSensor.label>
+  <ATR_AdvancedVisualSensor.description>Высокая прочность пластали с более эффективными компонентами дает этому визуальному сенсору значительное преимущество по сравнению со стандартными деталями.</ATR_AdvancedVisualSensor.description>
+
+
+  <!-- Advanced Audio Sensor -->
+
+  <ATR_AdvancedAudioSensor.label>Продвинутый звуковой сенсор</ATR_AdvancedAudioSensor.label>
+  <ATR_AdvancedAudioSensor.description>Высокая прочность пластали и более эффективные компоненты дают этому звуковому сенсору значительное преимущество по сравнению со стандартными деталями.</ATR_AdvancedAudioSensor.description>
+
+
+  <!-- Advanced Heatsink -->
+
+  <ATR_AdvancedHeatsink.label>Продвинутый радиатор</ATR_AdvancedHeatsink.label>
+  <ATR_AdvancedHeatsink.description>Высокая прочность пластали и более эффективные компоненты дают этому радиатору значительное преимущество перед стандартными деталями.</ATR_AdvancedHeatsink.description>
+
+
+  <!-- Advanced Coolant Pump -->
+
+  <ATR_AdvancedCoolantPump.label>Продвинутый насос охлаждающей жидкости</ATR_AdvancedCoolantPump.label>
+  <ATR_AdvancedCoolantPump.description>Высокая прочность пластали и более эффективные компоненты дают этому насосу охлаждающей жидкости значительное преимущество перед стандартными деталями.</ATR_AdvancedCoolantPump.description>
+
+
+  <!-- Advanced Battery -->
+
+  <ATR_AdvancedBattery.label>Продвинутый аккумуляторный блок</ATR_AdvancedBattery.label>
+  <ATR_AdvancedBattery.description>Высокая прочность пластали и более эффективные компоненты дают этому аккумуляторному блоку значительное преимущество перед стандартными деталями.</ATR_AdvancedBattery.description>
+
+
+  <!-- Advanced Mechanite Storage -->
+
+  <ATR_AdvancedMechaniteStorage.label>Продвинутое хранение механитов</ATR_AdvancedMechaniteStorage.label>
+  <ATR_AdvancedMechaniteStorage.description>Высокая прочность пластали и более эффективные компоненты дают этому хранилищу механитов значительное преимущество перед стандартными деталями. Более высокое качество механитов означает, что повреждения будут восстановлены быстрее.</ATR_AdvancedMechaniteStorage.description>
+
+
+  <!-- Advanced Reactor -->
+
+  <ATR_AdvancedReactor.label>Продвинутый реактор</ATR_AdvancedReactor.label>
+  <ATR_AdvancedReactor.description>Высокая прочность пластали и более эффективные компоненты дают этому реактору значительное преимущество перед стандартными деталями.</ATR_AdvancedReactor.description>
+
+
+  <!-- Organic Charger -->
+
+  <ATR_OrganicCharger.label>органическое зарядное устройство</ATR_OrganicCharger.label>
+  <ATR_OrganicCharger.description>Передовая бионическая деталь, позволяющая заряжать органику, на которой она установлена. Она сама требует значительного количества энергии, что приводит к ускоренному расходу, и уменьшает количество поглощаемой пищи при ее употреблении.</ATR_OrganicCharger.description>
+
+
+</LanguageData>

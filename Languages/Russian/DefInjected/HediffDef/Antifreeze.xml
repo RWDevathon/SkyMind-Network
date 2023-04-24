@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_Toxicated.label>Отравление</ATR_Toxicated.label>
+  <ATR_Toxicated.description>Токсичные синтетические соединения попадают в кровь, вызывая серьезные дефекты здоровья.</ATR_Toxicated.description>
+  <ATR_Toxicated.stages.0.label>Незначительное</ATR_Toxicated.stages.0.label>
+  <ATR_Toxicated.stages.1.label>Малое</ATR_Toxicated.stages.1.label>
+  <ATR_Toxicated.stages.2.label>Умеренное</ATR_Toxicated.stages.2.label>
+  <ATR_Toxicated.stages.3.label>Основное</ATR_Toxicated.stages.3.label>
+  <ATR_Toxicated.stages.4.label>Системное</ATR_Toxicated.stages.4.label>
+
+
+  <!-- HediffMechanical -->
+
+  <ATR_MechAntifreeze.label>Механит антифриз</ATR_MechAntifreeze.label>
+  <ATR_MechAntifreeze.description>Синтетическое химическое соединение, предназначенное для снижения восприимчивости шасси к неблагоприятным температурам - положительным и отрицательным. Небезопасно для органического потребления.</ATR_MechAntifreeze.description>
+  <ATR_MechAntifreeze.stages.0.label>Незначительное</ATR_MechAntifreeze.stages.0.label>
+  <ATR_MechAntifreeze.stages.1.label>Малое</ATR_MechAntifreeze.stages.1.label>
+  <ATR_MechAntifreeze.stages.2.label>Умеренное</ATR_MechAntifreeze.stages.2.label>
+  <ATR_MechAntifreeze.stages.3.label>Существенное</ATR_MechAntifreeze.stages.3.label>
+  <ATR_MechAntifreeze.stages.4.label>Пиковое</ATR_MechAntifreeze.stages.4.label>
+
+
+</LanguageData>

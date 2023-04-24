@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_StasisPill.label>Стазисная таблетка</ATR_StasisPill.label>
+  <ATR_StasisPill.description>Небольшая таблетка, содержащая суспензию высокопроводящих, слегка успокаивающих синтетических химикатов. При попадании в механические устройства, химикаты значительно снижают потребление энергии ценой снижения эффективности работы.\n\nРазработана для дальних путешествий без доступа к надежной энергии, эта таблетка снижает потребление энергии на 75% при 50% снижении скорости работы в течение ~3 дней. Обычно используется рейдерами, торговцами и солдатами, которые ценят эффективность и не занимаются трудом.</ATR_StasisPill.description>
+  <ATR_StasisPill.ingestible.ingestCommandString>Принять {0}</ATR_StasisPill.ingestible.ingestCommandString>
+  <ATR_StasisPill.ingestible.ingestReportString>Принимает {0}.</ATR_StasisPill.ingestible.ingestReportString>
+
+
+</LanguageData>

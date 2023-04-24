@@ -1,0 +1,4 @@
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_Android Tiers\1.4\Assemblies\Android Tiers Reforged.dll
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_Android Tiers\Source\v1.4\obj\Debug\Androids.csproj.AssemblyReference.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_Android Tiers\Source\v1.4\obj\Debug\Androids.csproj.CoreCompileInputs.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_Android Tiers\Source\v1.4\obj\Debug\Android Tiers Reforged.dll

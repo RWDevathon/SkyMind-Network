@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffDef Name="SMN_SkyMindHediffBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+        <initialSeverity>0.5</initialSeverity>
+        <isBad>false</isBad>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_Unconscious</defName>
+        <label>Unconscious</label>
+        <description>This pawn has no consciousness and is only active because of subconscious self-preservation.</description>
+        <labelNoun>No host connected</labelNoun>
+        <defaultLabelColor>(0.0, 0.7, 0.15)</defaultLabelColor>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.1</setMax>
+                    </li>
+                </capMods>
+                <hungerRateFactor>0.2</hungerRateFactor>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_FeedbackLoop</defName>
+        <label>Feedback loop</label>
+        <description>This pawn is currently experiencing a severe feedback loop effect and is effectively unconscious until it fades.</description>
+        <initialSeverity>1</initialSeverity>
+        <defaultLabelColor>(0.3, 0.7, 0.3)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-1</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <hungerRateFactor>0.4</hungerRateFactor>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.1</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_SplitConsciousness</defName>
+		<hediffClass>SkyMind.Hediff_SplitConsciousness</hediffClass>
+        <label>Split consciousness</label>
+        <description>The consciousness controlling this body is split, as it also controls other bodies. This effectively reduces the consciousness's ability to execute fine control over this body. More bodies means a steeper penalty.</description>
+        <labelNoun>Split consciousness</labelNoun>
+        <defaultLabelColor>(0.9, 0.0, 0.3)</defaultLabelColor>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>Safe</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <minSeverity>0.2</minSeverity>
+                <label>Trivial</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.9</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <GlobalLearningFactor>0.9</GlobalLearningFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.4</minSeverity>
+                <label>Manageable</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <GlobalLearningFactor>0.8</GlobalLearningFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.6</minSeverity>
+                <label>Difficult</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.7</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <GlobalLearningFactor>0.7</GlobalLearningFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.8</minSeverity>
+                <label>Intense</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.6</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <GlobalLearningFactor>0.6</GlobalLearningFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>1</minSeverity>
+                <label>Extreme</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.5</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <GlobalLearningFactor>0.5</GlobalLearningFactor>
+                </statFactors>
+            </li>
+        </stages>
+        <comps>
+            <li Class="SkyMind.HediffCompProperties_TetheredMoteSustainer">
+                <moteDef>SMN_SurrogateAttachedMote</moteDef>
+                <scale>0.8</scale>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_ForeignConsciousness</defName>
+		<hediffClass>SkyMind.Hediff_ForeignConsciousness</hediffClass>
+        <label>Foreign consciousness</label>
+        <description>The consciousness controlling this body belongs to another faction. The controller will disconnect upon it being downed, and will likely trigger a core self-destruct.</description>
+        <labelNoun>a foreign consciousness</labelNoun>
+        <defaultLabelColor>(0.9, 0.0, 0.3)</defaultLabelColor>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+        <comps>
+            <li Class="SkyMind.HediffCompProperties_TetheredMoteSustainer">
+                <moteDef>SMN_SurrogateAttachedMote</moteDef>
+                <scale>0.8</scale>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_MindOperation</defName>
+        <label>SkyMind operation in progress</label>
+        <description>This unit is currently undergoing a SkyMind operation. In order to maintain the connection and integrity, the consciousness is not currently in control of this body.</description>
+        <labelNoun>SkyMind operation</labelNoun>
+        <defaultLabelColor>(0.8, 0.0, 0.45)</defaultLabelColor>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.1</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="SkyMind.HediffCompProperties_TetheredMoteSustainer">
+                <moteDef>SMN_MindOperationAttachedMote</moteDef>
+                <scale>0.8</scale>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_NoController</defName>
+        <label>No controller connected</label>
+        <description>This surrogate has no controller and is therefore incapable of autonomous action.</description>
+        <labelNoun>No host connected</labelNoun>
+        <defaultLabelColor>(0.0, 0.7, 0.15)</defaultLabelColor>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.1</setMax>
+                    </li>
+                </capMods>
+                <hungerRateFactor>0.2</hungerRateFactor>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_DDOSRecovery</defName>
+        <label>DDOS Recovery</label>
+        <description>This unit is recovering from exposure to a DDOS attack. The individual's thought processing and memory have been tainted, and it will take some time before a full recovery from the attack can be made.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.25</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                </capMods>
+		        <statOffsets>
+			        <GlobalLearningFactor>-0.3</GlobalLearningFactor>
+                </statOffsets>
+            </li>
+        </stages>
+		<modExtensions>
+			<li Class="SkyMind.SMN_HediffSkyMindExtension">
+                <blocksConnection>true</blocksConnection>
+			</li>
+		</modExtensions>
+    </HediffDef>
+
+    <HediffDef ParentName="SMN_SkyMindHediffBase">
+        <defName>SMN_MemoryCorruption</defName>
+        <label>Memory corruption</label>
+        <description>This individual suffered a critical memory corruption as a result of a failed SkyMind operation. The memories are lost, but the physical trauma will fade. It will be a long and arduous road, however.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.01</severityPerDay>
+                <showDaysToRecover>true</showDaysToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>Near Total Recovery</label>
+            </li>
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <label>Fleeting</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.9</postFactor>
+                    </li>
+                </capMods>
+                <statOffsets>
+                    <SocialImpact>-0.1</SocialImpact>
+                    <GlobalLearningFactor>-0.1</GlobalLearningFactor>
+                </statOffsets>
+            </li>
+            <li>
+	            <minSeverity>0.25</minSeverity>
+                <label>Minor</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                </capMods>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>WanderConfused</mentalState>
+                        <mtbDays>30</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <statOffsets>
+                    <SocialImpact>-0.2</SocialImpact>
+                    <GlobalLearningFactor>-0.25</GlobalLearningFactor>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <label>Major</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.7</postFactor>
+                    </li>
+                </capMods>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>WanderConfused</mentalState>
+                        <mtbDays>15</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <statOffsets>
+                    <SocialImpact>-0.4</SocialImpact>
+                    <GlobalLearningFactor>-0.5</GlobalLearningFactor>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.75</minSeverity>
+                <label>Severe</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.6</postFactor>
+                    </li>
+                </capMods>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>WanderConfused</mentalState>
+                        <mtbDays>10</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <statOffsets>
+                    <SocialImpact>-0.5</SocialImpact>
+                    <GlobalLearningFactor>-0.75</GlobalLearningFactor>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.9</minSeverity>
+                <label>Critical</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.4</postFactor>
+                    </li>
+                </capMods>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>WanderConfused</mentalState>
+                        <mtbDays>5</mtbDays>
+                    </li>
+                </mentalStateGivers>
+                <statOffsets>
+                    <SocialImpact>-0.90</SocialImpact>
+                    <GlobalLearningFactor>-1</GlobalLearningFactor>
+                </statOffsets>
+            </li>
+        </stages>
+		<modExtensions>
+			<li Class="SkyMind.SMN_HediffSkyMindExtension">
+                <blocksConnection>true</blocksConnection>
+			</li>
+		</modExtensions>
+    </HediffDef>
+
+</Defs>

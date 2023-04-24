@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mining Utility Arm -->
+
+  <ATR_Install_MiningArm.label>установить горную руку</ATR_Install_MiningArm.label>
+  <ATR_Install_MiningArm.description>Устанавливает горную руку.</ATR_Install_MiningArm.description>
+  <ATR_Install_MiningArm.jobString>Установка горной руки.</ATR_Install_MiningArm.jobString>
+
+
+  <!-- Agriculture Utility Arm -->
+
+  <ATR_Install_AgriArm.label>установить агро руки</ATR_Install_AgriArm.label>
+  <ATR_Install_AgriArm.description>Устанавливает агро руки.</ATR_Install_AgriArm.description>
+  <ATR_Install_AgriArm.jobString>Установка агро руки.</ATR_Install_AgriArm.jobString>
+
+
+  <!-- Pacification Utility Arm -->
+
+  <ATR_Install_PacificationArm.label>установить усмиряющую руку</ATR_Install_PacificationArm.label>
+  <ATR_Install_PacificationArm.description>Устанавливает усмиряющую руку.</ATR_Install_PacificationArm.description>
+  <ATR_Install_PacificationArm.jobString>Установка усмиряющей руки.</ATR_Install_PacificationArm.jobString>
+
+
+  <!-- Scalpel Utility Arm -->
+
+  <ATR_Install_ScalpelArm.label>установить руку со скальпелем</ATR_Install_ScalpelArm.label>
+  <ATR_Install_ScalpelArm.description>Устанавливает руку со скальпелем.</ATR_Install_ScalpelArm.description>
+  <ATR_Install_ScalpelArm.jobString>Установка руки со скальпелем.</ATR_Install_ScalpelArm.jobString>
+
+
+  <!-- Rending Utility Arm -->
+
+  <ATR_Install_RendingArm.label>установить раздирающую руку</ATR_Install_RendingArm.label>
+  <ATR_Install_RendingArm.description>Устанавливает раздирающую руку.</ATR_Install_RendingArm.description>
+  <ATR_Install_RendingArm.jobString>Установка раздирающей руки.</ATR_Install_RendingArm.jobString>
+
+
+  <!-- Auto-modulator Voice Synthesizer -->
+
+  <ATR_Install_AutomodulatedVoiceSynthesizer.label>установить синтезатор голоса с автомодуляцией</ATR_Install_AutomodulatedVoiceSynthesizer.label>
+  <ATR_Install_AutomodulatedVoiceSynthesizer.description>Устанавливает синтезатор голоса с автомодуляцией.</ATR_Install_AutomodulatedVoiceSynthesizer.description>
+  <ATR_Install_AutomodulatedVoiceSynthesizer.jobString>Установка синтезатора голоса с автомодуляцией.</ATR_Install_AutomodulatedVoiceSynthesizer.jobString>
+
+
+  <!-- Coercive Voice Synthesizer -->
+
+  <ATR_Install_CoerciveVoiceSynthesizer.label>установить принудительный синтезатор голоса</ATR_Install_CoerciveVoiceSynthesizer.label>
+  <ATR_Install_CoerciveVoiceSynthesizer.description>Устанавливает принудительный синтезатор голоса.</ATR_Install_CoerciveVoiceSynthesizer.description>
+  <ATR_Install_CoerciveVoiceSynthesizer.jobString>Установка принудительного синтезатора голоса.</ATR_Install_CoerciveVoiceSynthesizer.jobString>
+
+
+  <!-- Makeshift Leg -->
+
+  <ATR_Install_MakeshiftReplacementLeg.label>установить смодельную механическую ногу</ATR_Install_MakeshiftReplacementLeg.label>
+  <ATR_Install_MakeshiftReplacementLeg.description>Устанавливает смодельную механическую ногу.</ATR_Install_MakeshiftReplacementLeg.description>
+  <ATR_Install_MakeshiftReplacementLeg.jobString>Установка смодельной механической ноги.</ATR_Install_MakeshiftReplacementLeg.jobString>
+
+
+  <!-- Makeshift Arm -->
+
+  <ATR_Install_MakeshiftReplacementArm.label>установить самодельную механическую руку</ATR_Install_MakeshiftReplacementArm.label>
+  <ATR_Install_MakeshiftReplacementArm.description>Устанавливает самодельную механическую руку.</ATR_Install_MakeshiftReplacementArm.description>
+  <ATR_Install_MakeshiftReplacementArm.jobString>Установка самодельной механической руки.</ATR_Install_MakeshiftReplacementArm.jobString>
+
+
+</LanguageData>

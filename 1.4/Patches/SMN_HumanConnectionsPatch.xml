@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Adds the SkyMind extension to humans so they may be surrogates -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName = "Human"]</xpath>
+        <value>
+            <li Class="SkyMind.SMN_PawnSkyMindExtension">
+                <defaultReceiverImplant>SMN_SkyMindReceiver</defaultReceiverImplant>
+                <defaultTransceiverImplant>SMN_SkyMindTransceiver</defaultTransceiverImplant>
+            </li>
+        </value>
+	</Operation>
+
+</Patch>

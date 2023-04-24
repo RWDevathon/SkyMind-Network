@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- General -->
+	<SMN_ViableSources>Available Sources:</SMN_ViableSources>
+	<SMN_ViableTargets>Available Targets:</SMN_ViableTargets>
+	<SMN_NoAvailableTarget>No available targets for operation.</SMN_NoAvailableTarget>
+
+</LanguageData>

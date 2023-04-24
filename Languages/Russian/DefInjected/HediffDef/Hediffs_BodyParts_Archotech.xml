@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Archotech Visual Sensor -->
+
+  <ATR_ArchotechVisualSensor.label>визуальный глаз архотек</ATR_ArchotechVisualSensor.label>
+  <ATR_ArchotechVisualSensor.description>Установленный глаз архотек.</ATR_ArchotechVisualSensor.description>
+  <ATR_ArchotechVisualSensor.labelNoun>архотек визуальный сенсор</ATR_ArchotechVisualSensor.labelNoun>
+
+
+  <!-- Cybertech Audio Sensor -->
+
+  <ATR_CybertechAudioSensor.label>Звуковой сенсор Cybertech</ATR_CybertechAudioSensor.label>
+  <ATR_CybertechAudioSensor.description>Устройство архотек в виде кибернетического уха. Значительно более мощное, чем даже самые совершенные детали, эзотерические знания и навыки, необходимые для его изготовления, ничего не стоят без явного благословения архотек. Возможно, в этом и заключается секрет его силы?</ATR_CybertechAudioSensor.description>
+
+
+  <!-- Cybertech Heatsink -->
+
+  <ATR_CybertechHeatsink.label>Радиатор Cybertech</ATR_CybertechHeatsink.label>
+  <ATR_CybertechHeatsink.description>Устройство архотек в виде кибернетического радиатора. Значительно более мощное, чем даже самые совершенные детали, эзотерические знания и навыки, необходимые для его производства, ничего не стоят без явного благословения архотек. Возможно, в этом и заключается секрет его силы?</ATR_CybertechHeatsink.description>
+
+
+  <!-- Cybertech Coolant Pump -->
+
+  <ATR_CybertechCoolantPump.label>Насос охлаждающей жидкости Cybertech</ATR_CybertechCoolantPump.label>
+  <ATR_CybertechCoolantPump.description>Устройство архотек в виде кибернетического насоса охлаждающей жидкости. Значительно более мощный, чем даже самые совершенные детали, эзотерические знания и навыки, необходимые для его производства, ничего не стоят без явного благословения архотек. Возможно, в этом и заключается секрет его силы?</ATR_CybertechCoolantPump.description>
+
+
+  <!-- Cybertech Battery -->
+
+  <ATR_CybertechBattery.label>Аккумуляторный блок Cybertech</ATR_CybertechBattery.label>
+  <ATR_CybertechBattery.description>Устройство архотек в виде кибернетического аккумулятора. Значительно мощнее даже самых совершенных деталей, но эзотерические знания и навыки, необходимые для его создания, ничего не стоят без явного благословения архотек. Возможно, в этом и заключается секрет его силы?</ATR_CybertechBattery.description>
+
+
+  <!-- Cybertech Mechanite Storage -->
+
+  <ATR_CybertechMechaniteStorage.label>Хранилище механитов Cybertech</ATR_CybertechMechaniteStorage.label>
+  <ATR_CybertechMechaniteStorage.description>Устройство архотек в виде кибернетического литейного цеха нанитов с хранилищем для них. Значительно более мощное, чем даже самые совершенные детали, эзотерические знания и навыки, необходимые для его производства, ничего не стоят без явного благословения архотек. Возможно, в этом и заключается секрет его силы?</ATR_CybertechMechaniteStorage.description>
+
+
+  <!-- Cybertech Reactor -->
+
+  <ATR_CybertechReactor.label>Реактор Cybertech</ATR_CybertechReactor.label>
+  <ATR_CybertechReactor.description>Устройство архотек в виде биореактора - но, похоже, оно также снижает энергопотребление. Значительно более мощное, чем даже самые совершенные детали, эзотерические знания и навыки, необходимые для его производства, ничего не стоят без явного благословения архотек. Возможно, в этом и заключается секрет его силы?</ATR_CybertechReactor.description>
+
+
+</LanguageData>

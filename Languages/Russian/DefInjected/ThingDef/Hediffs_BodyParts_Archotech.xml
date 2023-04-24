@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cybertech Replacement Part -->
+
+  <ATR_CybertechReplacementPart.label>заменитель деталей cybertech</ATR_CybertechReplacementPart.label>
+  <ATR_CybertechReplacementPart.description>Небольшое архотек устройство, без известного назначения, которое может быть вставлено в различные места андроида для замены оригинальной детали. Батареи, насосы охлаждения, хранилища механитов, даже аудиодатчики и реакторы - все это может быть заменено гораздо более функциональной частью. Тот факт, что она может быть удалена из каркаса андроида и затем стать другой частью, не что иное, как чудо.</ATR_CybertechReplacementPart.description>
+
+
+</LanguageData>

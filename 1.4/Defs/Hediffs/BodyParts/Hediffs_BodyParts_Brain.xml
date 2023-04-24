@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Base Brain Implant ThingDef -->
+
+    <ThingDef Name="SMN_BodyPartBaseBrain" ParentName="BodyPartBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+            <MarketValue>500</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+    <!-- Base Brain Implant Surgery RecipeDef -->
+
+    <RecipeDef Name="SMN_SurgeryInstallSkyMindImplantBase" ParentName="SurgeryInstallImplantBase" Abstract="True">
+        <workerClass>SkyMind.Recipe_InstallCranialSkyMindInterface</workerClass>
+        <jobString>Installing neural interface.</jobString>
+        <skillRequirements>
+            <Medicine>10</Medicine>
+        </skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+    </RecipeDef>
+
+    <!-- SkyMind Receiver -->
+
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>SMN_SkyMindReceiver</defName>
+        <label>SkyMind Receiver</label>
+        <description>This device is installed directly into the brain, and completely overrides the subject's neural network, converting them into a blank husk to be controlled by an external force. Due to the complexity of the device and the inherent difficulty of controlling organic matter, this device has a tendency to combust violently upon destruction. \n\nMany forces have used this to their advantage to destroy surrogates rather than let them fall into enemy hands.</description>
+        <stages>
+            <li>
+                <statFactors>
+                    <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">0</MechBandwidth>
+                </statFactors>
+            </li>
+        </stages>
+		<modExtensions>
+			<li Class="SkyMind.SMN_HediffSkyMindExtension">
+                <allowsConnection>true</allowsConnection>
+                <isReceiver>true</isReceiver>
+			</li>
+		</modExtensions>
+    </HediffDef>
+
+    <ThingDef ParentName="SMN_BodyPartBaseBrain">
+        <defName>SMN_SkyMindReceiver</defName>
+        <graphicData>
+            <texPath>Things/Items/BodyParts/ReceiverChip</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <label>SkyMind Receiver</label>
+        <description>A small module that can be implanted into an organic brain to completely override the subject's neural network, converting them into a blank husk to be controlled by an external force. Due to the complexity of the device and the inherent difficulty of controlling organic matter, this device has a tendency to combust violently upon destruction. \n\nMany forces have used this to their advantage to destroy surrogates rather than let them fall into enemy hands.</description>
+        <recipeMaker>
+            <researchPrerequisite>SMN_CranialSkyMindInterfaces</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Plasteel>10</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+    </ThingDef>
+
+    <RecipeDef ParentName="SMN_SurgeryInstallSkyMindImplantBase">
+        <defName>SMN_Install_SkyMindReceiver</defName>
+        <label>Install SkyMind receiver</label>
+        <description>Installs and initializes a receiver in the subjects brain. Whatever intelligence may be stored in the brain will die, and the subject will become a surrogate.</description>
+        <researchPrerequisite>SMN_CranialSkyMindInterfaces</researchPrerequisite>
+        <jobString>Installing SkyMind Receiver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMN_SkyMindReceiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMN_SkyMindReceiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+        <addsHediff>SMN_SkyMindReceiver</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <workerClass>SkyMind.Recipe_RemoveCranialSkyMindInterface</workerClass>
+        <defName>SMN_RemoveSkyMindReceiver</defName>
+        <label>remove SkyMind receiver</label>
+        <description>Remove the Skymind receiver implant.</description>
+        <descriptionHyperlinks>
+            <ThingDef>SMN_SkyMindReceiver</ThingDef>
+            <HediffDef>SMN_SkyMindReceiver</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Skymind receiver.</jobString>
+        <removesHediff>SMN_SkyMindReceiver</removesHediff>
+    </RecipeDef>
+
+    <!-- SkyMind Transceiver -->
+
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>SMN_SkyMindTransceiver</defName>
+        <label>SkyMind Transceiver</label>
+        <description>This device is installed directly into the brain, allowing the subject to freely interact with the SkyMind network. Successfully implanting or removing this implant has no major consequences.</description>
+		<modExtensions>
+			<li Class="SkyMind.SMN_HediffSkyMindExtension">
+                <allowsConnection>true</allowsConnection>
+                <isTransceiver>true</isTransceiver>
+			</li>
+		</modExtensions>
+    </HediffDef>
+
+    <ThingDef ParentName="SMN_BodyPartBaseBrain">
+        <defName>SMN_SkyMindTransceiver</defName>
+        <graphicData>
+            <texPath>Things/Items/BodyParts/TransceiverChip</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <label>SkyMind Transceiver</label>
+        <description>A small module that can be implaned into an organic brain, allowing the subject to freely interact with the SkyMind network. Successfully implanting or removing this implant has no major consequences.</description>
+        <recipeMaker>
+            <researchPrerequisite>SMN_CranialSkyMindInterfaces</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Plasteel>10</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+    </ThingDef>
+
+    <RecipeDef ParentName="SMN_SurgeryInstallSkyMindImplantBase">
+        <defName>SMN_Install_SkyMindTransceiver</defName>
+        <label>Install SkyMind transceiver</label>
+        <description>Installs and initializes a transceiver in the subjects brain. The pawn will be able to access the SkyMind network freely.</description>
+        <researchPrerequisite>SMN_CranialSkyMindInterfaces</researchPrerequisite>
+        <jobString>Installing SkyMind Transceiver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMN_SkyMindTransceiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMN_SkyMindTransceiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+        <addsHediff>SMN_SkyMindTransceiver</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <workerClass>SkyMind.Recipe_RemoveCranialSkyMindInterface</workerClass>
+        <defName>SMN_RemoveOrganicSkyMindTransceiver</defName>
+        <label>remove SkyMind transceiver</label>
+        <description>Remove the Skymind transceiver implant.</description>
+        <descriptionHyperlinks>
+            <ThingDef>SMN_SkyMindTransceiver</ThingDef>
+            <HediffDef>SMN_SkyMindTransceiver</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Skymind transceiver.</jobString>
+        <removesHediff>SMN_SkyMindTransceiver</removesHediff>
+    </RecipeDef>
+
+ </Defs>

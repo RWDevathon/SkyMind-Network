@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- AutoDoor -->
+	<SMN_AutoDoorOpen>Open</SMN_AutoDoorOpen>
+	<SMN_AutoDoorOpenDescription>Open remotely via a SkyMind connection.</SMN_AutoDoorOpenDescription>
+	<SMN_AutoDoorClose>Close</SMN_AutoDoorClose>
+	<SMN_AutoDoorCloseDescription>Close remotely via a SkyMind connection.</SMN_AutoDoorCloseDescription>
+
+    <!-- Comms Console -->
+    <SMN_OpenRemoteComms>Open Comms</SMN_OpenRemoteComms>
+    <SMN_OpenRemoteCommsDesc>Open communications remotely via a SkyMind connection.</SMN_OpenRemoteCommsDesc>
+
+	<!-- Computer -->
+    <SMN_ServerNetworkConnectionNeeded>Server not connected to SkyMind network.</SMN_ServerNetworkConnectionNeeded>
+
+	<SMN_SkillMode>Skill Mode</SMN_SkillMode>
+	<SMN_SkillModeDesc>This server is assigned to skill point generation. Click to switch to security.</SMN_SkillModeDesc>
+
+	<SMN_SecurityMode>Security Mode</SMN_SecurityMode>
+	<SMN_SecurityModeDesc>This server is assigned to security point generation. Click to switch to hacking.</SMN_SecurityModeDesc>
+
+	<SMN_HackingMode>Hacking Mode</SMN_HackingMode>
+	<SMN_HackingModeDesc>This server is assigned to hacking point generation. Click to switch to skill.</SMN_HackingModeDesc>
+
+    <SMN_HackingWindow>Attempt Hack</SMN_HackingWindow>
+    <SMN_HackingWindowDesc>Open the hacking interface, allowing for the usage of hacking points to engage in nefarious activity.</SMN_HackingWindowDesc>
+
+	<SMN_SwitchToSkillMode>Inactive!</SMN_SwitchToSkillMode>
+	<SMN_SwitchToSkillModeDesc>This server is in an illegal state. Click to switch to skill.</SMN_SwitchToSkillModeDesc>
+
+	<!-- SkyMind -->
+	<SMN_ConnectSkyMind>Connect to SkyMind</SMN_ConnectSkyMind>
+	<SMN_ConnectSkyMindDesc>Connect this device to the SkyMind network for remote interaction.</SMN_ConnectSkyMindDesc>
+
+	<!-- Core -->
+	<SMN_CloudPawnInfo>Infos</SMN_CloudPawnInfo>
+	<SMN_CloudPawnInfoDesc>Get information about SkyMind intelligences.</SMN_CloudPawnInfoDesc>
+
+	<SMN_RemoveCloudPawn>Remove</SMN_RemoveCloudPawn>
+	<SMN_RemoveCloudPawnDesc>Remove a SkyMind intelligence</SMN_RemoveCloudPawnDesc>
+	<SMN_RemoveCloudPawnConfirm>Flushing {0} from the SkyMind network will permanently destroy the intelligence. This is considered murder.</SMN_RemoveCloudPawnConfirm>
+
+	<SMN_ReplicateCloudPawn>Replicate</SMN_ReplicateCloudPawn>
+	<SMN_ReplicateCloudPawnDesc>Replicate a SkyMind intelligence.</SMN_ReplicateCloudPawnDesc>
+
+	<SMN_Skills>Skills</SMN_Skills>
+	<SMN_SkillsDesc>Open skill workshop, allowing exchange of server skill points for experience and passions.</SMN_SkillsDesc>
+
+	<SMN_ControlSurrogate>Connect</SMN_ControlSurrogate>
+	<SMN_ControlSurrogateDesc>Take control of the selected hostless surrogate.</SMN_ControlSurrogateDesc>
+
+	<SMN_DisconnectCloudPawn>Disconnect</SMN_DisconnectCloudPawn>
+	<SMN_DisconnectCloudPawnDesc>Disconnect a SkyMind consciousness from its surrogates.</SMN_DisconnectCloudPawnDesc>
+
+	<SMN_ControlCaravanSurrogate>Recover</SMN_ControlCaravanSurrogate>
+	<SMN_ControlCaravanSurrogateDesc>Recover a hostless surrogate in a caravan.</SMN_ControlCaravanSurrogateDesc>
+
+	<!-- Link -->
+    <SMN_Surrogate>surrogate</SMN_Surrogate>
+
+	<SMN_DownloadCloudPawn>Download</SMN_DownloadCloudPawn>
+	<SMN_DownloadCloudPawnDesc>Download a SkyMind intelligence into this pawn.</SMN_DownloadCloudPawnDesc>
+	<SMN_DownloadCloudPawnConfirm>This operation fully transfers a SkyMind intelligence into this pawn. The intelligence will not persist in the network.</SMN_DownloadCloudPawnConfirm>
+
+	<SMN_DisconnectSurrogate>Disconnect</SMN_DisconnectSurrogate>
+	<SMN_DisconnectSurrogateDesc>Disconnect all surrogate links.</SMN_DisconnectSurrogateDesc>
+
+	<SMN_ToggleControlMode>Toggle Controls</SMN_ToggleControlMode>
+	<SMN_ToggleControlModeDesc>Toggle surrogate control mode, allowing for surrogate controls but disabling SkyMind operations.</SMN_ToggleControlModeDesc>
+
+	<SMN_Permute>Permute</SMN_Permute>
+	<SMN_PermuteDesc>Permute the consciousness of the currently selected colonist with another colonist.</SMN_PermuteDesc>
+	<SMN_PermuteConfirm>This operation will swap the intelligences of {0} and {1}.</SMN_PermuteConfirm>
+
+	<SMN_Transfer>Transfer</SMN_Transfer>
+	<SMN_TransferDesc>Transfer the consciousness of the currently selected colonist into an organic surrogate.</SMN_TransferDesc>
+	<SMN_TransferConfirm>This operation will transfer {0} into the target surrogate's body. This will leave {0}'s original body mindless. The SkyMind receiver will burn out once the operation is complete.</SMN_TransferConfirm>
+
+	<SMN_Upload>Upload</SMN_Upload>
+	<SMN_UploadDesc>Upload this intelligence to the SkyMind network. What happens to the left-behind body is controlled via settings (default is body becomes braindead).</SMN_UploadDesc>
+	<SMN_UploadConfirm>This operation transfers this intelligence into the SkyMind network, leaving the body behind.</SMN_UploadConfirm>
+
+    <!-- Remotely Triggered -->
+    <SMN_DetonateIEDRemotely>Trigger IED</SMN_DetonateIEDRemotely>
+    <SMN_DetonateIEDRemotelyDesc>Trigger the IED remotely and instantly via a SkyMind connection.</SMN_DetonateIEDRemotelyDesc>
+
+</LanguageData>

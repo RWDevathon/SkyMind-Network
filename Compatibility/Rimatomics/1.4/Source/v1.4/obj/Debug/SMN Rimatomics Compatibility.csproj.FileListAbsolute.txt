@@ -1,0 +1,4 @@
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\Rimatomics\1.4\Assemblies\SMN Rimatomics Compatibility.dll
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\Rimatomics\1.4\Source\v1.4\obj\Debug\SMN Rimatomics Compatibility.csproj.AssemblyReference.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\Rimatomics\1.4\Source\v1.4\obj\Debug\SMN Rimatomics Compatibility.csproj.CoreCompileInputs.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\Rimatomics\1.4\Source\v1.4\obj\Debug\SMN Rimatomics Compatibility.dll

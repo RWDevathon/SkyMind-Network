@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_MechanicalAssemblyPod.label>Ящик механической сборки</ATR_MechanicalAssemblyPod.label>
+  <ATR_MechanicalAssemblyPod.description>Ящик, предназначенный для формирования шасси и сборки всех необходимых деталей для андроидов и механических животных.</ATR_MechanicalAssemblyPod.description>
+  <ATR_MechanicalAssemblyPod_Blueprint.label>Ящик механической сборки (чертеж)</ATR_MechanicalAssemblyPod_Blueprint.label>
+  <ATR_MechanicalAssemblyPod_Blueprint_Install.label>Ящик механической сборки (чертеж)</ATR_MechanicalAssemblyPod_Blueprint_Install.label>
+  <ATR_MechanicalAssemblyPod_Frame.label>Ящик механической сборки (строительство)</ATR_MechanicalAssemblyPod_Frame.label>
+  <ATR_MechanicalAssemblyPod_Frame.description>Ящик, предназначенный для формирования шасси и сборки всех необходимых деталей для андроидов и механических животных.</ATR_MechanicalAssemblyPod_Frame.description>
+
+  <ATR_MechPartWorkbench.label>Верстак механических деталей</ATR_MechPartWorkbench.label>
+  <ATR_MechPartWorkbench.description>Верстак, на котором хранится все оборудование, необходимое для изготовления различных механических деталей.</ATR_MechPartWorkbench.description>
+  <ATR_MechPartWorkbench_Blueprint.label>Верстак механических деталей (чертеж)</ATR_MechPartWorkbench_Blueprint.label>
+  <ATR_MechPartWorkbench_Blueprint_Install.label>Верстак механических деталей (чертеж)</ATR_MechPartWorkbench_Blueprint_Install.label>
+  <ATR_MechPartWorkbench_Frame.label>Верстак механических деталей (строительство)</ATR_MechPartWorkbench_Frame.label>
+  <ATR_MechPartWorkbench_Frame.description>Верстак, на котором хранится все оборудование, необходимое для изготовления различных механических деталей.</ATR_MechPartWorkbench_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_NewbootAdulthood.title>Механический юнит</ATR_NewbootAdulthood.title>
+  <ATR_NewbootAdulthood.titleShort>Юнит</ATR_NewbootAdulthood.titleShort>
+  <ATR_NewbootAdulthood.baseDesc>{PAWN_nameDef} знает только этот RimWorld и был "рожден" членом этого общества. Будущее для {PAWN_nameDef} неопределенно и не определено.</ATR_NewbootAdulthood.baseDesc>
+
+
+</LanguageData>

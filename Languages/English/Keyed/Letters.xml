@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- General -->
+	<SMN_ServerMeltdown>Server Meltdown</SMN_ServerMeltdown>
+    <SMN_ServerMeltdownDesc>A server has partially exploded due to excessive heat!</SMN_ServerMeltdownDesc>
+
+	<!-- Hacking Incidents -->
+		<!-- Generic Messages -->
+	<SMN_IncidentGenericAttackDesc>A hostile hacking attempt evaluated to have a strength of {0} successfully breached the colony's SkyMind security system, infecting {1} networked devices before safeguards kicked in.</SMN_IncidentGenericAttackDesc>
+	<SMN_IncidentGenericDefense>Hack attempt defeated</SMN_IncidentGenericDefense>
+	<SMN_IncidentGenericDefenseDesc>A hostile hacking attempt evaluated to have a strength of {0} failed to breach the colony's SkyMind security system. System functionality is normal and security servers are attempting to stay ahead of incursions.</SMN_IncidentGenericDefenseDesc>
+	<SMN_IncidentGenericAllyIntercept>Hack intercepted!</SMN_IncidentGenericAllyIntercept>
+	<SMN_IncidentGenericAllyInterceptDesc>White-hat hackers from your ally {0} contact you informing of an attempted hack from a hostile individual on your SkyMind network. They were not only able to stop the attack (evaluated to have a strength of {1} points) that would have breached your security, they were able to identify several security vulnerabilities that can be easily patched, resulting in your security system gaining {2} points!</SMN_IncidentGenericAllyInterceptDesc>
+
+		<!-- Gridscreen Virus -->
+			<!-- Grid-virus defeated -->
+	<SMN_IncidentGridVirusDefeated>Grid Virus defeated</SMN_IncidentGridVirusDefeated>
+
+			<!-- Grid-sleeper attack -->
+	<SMN_IncidentGridsleeperAttack>Grid-sleeper</SMN_IncidentGridsleeperAttack>
+	<SMN_IncidentGridsleeperAttackDesc>Affected devices have crashed, and will require time to restore default functionality.</SMN_IncidentGridsleeperAttackDesc>
+
+			<!-- Grid-locker attack -->
+	<SMN_IncidentGridlockerAttack>Grid-locker</SMN_IncidentGridlockerAttack>
+	<SMN_IncidentGridlockerAttackDesc>Affected devices have had their functionality encrypted by the hacker! It is now up to the hacker to restore functionality - this will require cutting a deal.</SMN_IncidentGridlockerAttackDesc>
+
+	<SMN_CryptolockerNeedRansom>Grid-locker Ransom</SMN_CryptolockerNeedRansom>
+	<SMN_CryptolockerNeedRansomDesc>A grid-locked device spits out a message on loop. The hacker will send decryption codes and relinquish control of the {0} devices they hacked in exchange for {1} silver. </SMN_CryptolockerNeedRansomDesc>
+
+			<!-- Grid-breaker attack -->
+	<SMN_IncidentGridbreakerAttack>Grid-breaker</SMN_IncidentGridbreakerAttack>
+	<SMN_IncidentGridbreakerAttackDesc>Affected devices have had their hardware malfunction due to unsafe software procedures. It will take some time to restore default functionality after repairs.</SMN_IncidentGridbreakerAttackDesc>
+
+			<!-- Ally Grid Virus Intervention -->
+	<SMN_IncidentGridVirusAllyIntercept>Grid Virus intercepted!</SMN_IncidentGridVirusAllyIntercept>
+
+		<!-- DDOS Attack -->
+	<SMN_IncidentDDOSDefeated>Grid Virus defeated</SMN_IncidentDDOSDefeated>
+
+	<SMN_IncidentDDOSAttack>DDOS</SMN_IncidentDDOSAttack>
+	<SMN_IncidentDDOSNormalAttackDesc>Affected devices have been inundated with junk data and garbage information. This will damage skill and hacking insight generation. The attack was unable to effectively damage individual units, however.</SMN_IncidentDDOSNormalAttackDesc>
+	<SMN_IncidentDDOSOverwhelmingAttackDesc>Affected devices have been inundated with junk data and garbage information. This will damage skill and hacking insight generation. The attack was able to successfully upload enough trash information that units will be forced to recompile much of their insights.</SMN_IncidentDDOSOverwhelmingAttackDesc>
+
+	<SMN_IncidentDDOSAllyIntercept>DDOS intercepted!</SMN_IncidentDDOSAllyIntercept>
+
+		<!-- Troll Attack -->
+	<SMN_IncidentTrollDefeated>Troll Attack defeated</SMN_IncidentTrollDefeated>
+
+	<SMN_IncidentTrollAttack>Troll</SMN_IncidentTrollAttack>
+	<SMN_IncidentTrollAttackDesc>The affected pawn, {0}, has lost a total of {1} skill points spread across their passionate and high level skills! {0} is also extremely upset about the horrific things the hackers were able to upload into their mind and the failure of the security systems to protect them.</SMN_IncidentTrollAttackDesc>
+
+	<SMN_IncidentTrollAllyIntercept>Troll attack intercepted!</SMN_IncidentTrollAllyIntercept>
+
+		<!-- Diplohack -->
+	<SMN_IncidentDiplohackDefeated>Diplohack defeated</SMN_IncidentDiplohackDefeated>
+
+	<SMN_IncidentDiplohackAttack>Diplohack</SMN_IncidentDiplohackAttack>
+	<SMN_IncidentDiplohackAttackDesc>Unknown hackers were able to decypher key lines of communication with {0}, and delivered a message to them credibly identifying you as the source. The message contained faulty information which led a caravan from {0} into an ambush. They made their displeasure with your "carelessness and weak security" clear in a strongly worded - and presumably real - diplomatic response. They promised to spread word of this incident to other factions as well.</SMN_IncidentDiplohackAttackDesc>
+
+	<SMN_IncidentDiplohackAllyIntercept>Diplohack intercepted!</SMN_IncidentDiplohackAllyIntercept>
+
+		<!-- Provoker Hack -->
+	<SMN_IncidentProvokerhackDefeated>Provoker Hack defeated</SMN_IncidentProvokerhackDefeated>
+
+	<SMN_IncidentProvokerhackAttack>Provoker Hack</SMN_IncidentProvokerhackAttack>
+	<SMN_IncidentProvokerhackAttackDesc>Unknown hackers were able to breach the SkyMind security and install a simple signal emitter program. The signal drew the attention of a hostile force before it could be deactivated!</SMN_IncidentProvokerhackAttackDesc>
+
+	<SMN_IncidentProvokerhackAllyIntercept>Provoker Hack intercepted!</SMN_IncidentProvokerhackAllyIntercept>
+
+		<!-- Counterhack -->
+	<SMN_IncidentCounterhackDefeated>Counterhack defeated</SMN_IncidentCounterhackDefeated>
+
+	<SMN_IncidentCounterhackAttack>Counterhack</SMN_IncidentCounterhackAttack>
+	<SMN_IncidentCounterhackAttackDesc>Unknown hackers have breached the SkyMind network and seized as much information as they could, preferring intelligence collected on other targets and then skill insights. It's estimated they've stolen up to {0} points overall before they lost access.</SMN_IncidentCounterhackAttackDesc>
+
+	<SMN_IncidentCounterhackAllyIntercept>Counterhack intercepted!</SMN_IncidentCounterhackAllyIntercept>
+
+        <!-- Player Hacks failing -->
+    <SMN_RelationshipRetaliation>Relations damaged</SMN_RelationshipRetaliation>
+    <SMN_RelationshipRetaliationDesc>The attempted operation was intercepted and defeated by target defense measures. The faction suspects you of committing the attempt, but lacks hard evidence tying you to the crime. The actual impact on relations, {0}, seems to have occurred because the individual who intercepted it decided to take it upon themselves to accuse you in front of anyone willing to listen. An unfortunate diplomatic incident.</SMN_RelationshipRetaliationDesc>
+
+    <SMN_FirstSurrogateCreated>About: Surrogates</SMN_FirstSurrogateCreated>
+    <SMN_FirstSurrogateCreatedDesc>You have created your first surrogate pawn. Until it is connected to a controller (any SkyMind-connected pawn can toggle controls and link to this pawn), it will remain blank and not considered part of your faction. When connected to a controller, it will share the skills, passions, and relations with its controller. XP gained is automatically shared. Mood, health, and some other details can't be shared to avoid game-breaking issues.</SMN_FirstSurrogateCreatedDesc>
+
+    <!-- Mental States -->
+    <SMN_SurrogateSufferedMentalState>Surrogate Breakdown</SMN_SurrogateSufferedMentalState>
+    <SMN_SurrogateSufferedMentalStateDesc>A surrogate has suffered a mental break and shut-down as a self-preservation reaction. It will reboot automatically.</SMN_SurrogateSufferedMentalStateDesc>
+
+    <SMN_ControllerSufferedMentalState>Controller Breakdown</SMN_ControllerSufferedMentalState>
+    <SMN_ControllerSufferedMentalStateDesc>A surrogate controller has suffered a mental break due to an extreme breakdown in a surrogate propagating to the controller or a breakdown in the controller directly. All connected surrogates to the controller have shut down - initiating reboots automatically - and have disconnected from the controller.</SMN_ControllerSufferedMentalStateDesc>
+
+</LanguageData>

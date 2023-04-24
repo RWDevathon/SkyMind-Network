@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- These are Mote ThingDefs. Remain the same, DO NOT translate them. -->
+
+  <SMN_MindOperationAttachedMote.label>Mote</SMN_MindOperationAttachedMote.label>
+  <SMN_SurrogateAttachedMote.label>Mote</SMN_SurrogateAttachedMote.label>
+
+
+</LanguageData>

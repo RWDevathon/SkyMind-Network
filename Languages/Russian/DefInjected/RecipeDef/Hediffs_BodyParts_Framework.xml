@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Plasteel Plating -->
+
+  <ATR_Install_PlasteelPlating.label>установить Пласталевую раму</ATR_Install_PlasteelPlating.label>
+  <ATR_Install_PlasteelPlating.description>Заменяет раму шасси этого юнита на раму из закаленной пластали, повышая боевую живучесть.</ATR_Install_PlasteelPlating.description>
+  <ATR_Install_PlasteelPlating.jobString>Замена каркаса.</ATR_Install_PlasteelPlating.jobString>
+
+
+  <!-- Guardian -->
+
+  <ATR_Install_GuardianFrame.label>установить Защитную раму</ATR_Install_GuardianFrame.label>
+  <ATR_Install_GuardianFrame.description>Заменяет раму шасси этого юнита на защитную раму, значительно повышая живучесть в окружающей среде и возможности полиции.</ATR_Install_GuardianFrame.description>
+  <ATR_Install_GuardianFrame.jobString>Замена каркаса.</ATR_Install_GuardianFrame.jobString>
+
+
+  <!-- Hydraulic -->
+
+  <ATR_Install_HydraulicFrame.label>установить Гидравлическую раму</ATR_Install_HydraulicFrame.label>
+  <ATR_Install_HydraulicFrame.description>Заменяет раму шасси этого юнита на гидравлическую раму, значительно повышая грузоподъемность и общую эффективность труда.</ATR_Install_HydraulicFrame.description>
+  <ATR_Install_HydraulicFrame.jobString>Замена каркаса.</ATR_Install_HydraulicFrame.jobString>
+
+
+  <!-- Suppressor -->
+
+  <ATR_Install_SuppressorFrame.label>установить Подавляющую раму</ATR_Install_SuppressorFrame.label>
+  <ATR_Install_SuppressorFrame.description>Заменяет раму шасси этого юнита на подавляющую раму, значительно снижая боевую угрозу этого юнита.</ATR_Install_SuppressorFrame.description>
+  <ATR_Install_SuppressorFrame.jobString>Замена каркаса.</ATR_Install_SuppressorFrame.jobString>
+
+
+  <!-- Composite Plating -->
+
+  <ATR_Install_CompositePlating.label>установить Композитную раму</ATR_Install_CompositePlating.label>
+  <ATR_Install_CompositePlating.description>Заменяет раму шасси этого юнита на раму из механито-пласталевого композита, значительно повышая боевую живучесть.</ATR_Install_CompositePlating.description>
+  <ATR_Install_CompositePlating.jobString>Замена каркаса.</ATR_Install_CompositePlating.jobString>
+
+
+  <!-- Refined -->
+
+  <ATR_Install_RefinedFrame.label>установить Изысканную раму</ATR_Install_RefinedFrame.label>
+  <ATR_Install_RefinedFrame.description>Заменяет раму шасси этого юнита на изысканную раму, подчеркивающую общительность и придающую ему благородный и яркий вид. Установка рамы зависит как от компонентов, так и от художественного мастерства установщика, поскольку нет возможности стандартизировать красоту замысловатого дизайна.</ATR_Install_RefinedFrame.description>
+  <ATR_Install_RefinedFrame.jobString>Замена каркаса.</ATR_Install_RefinedFrame.jobString>
+
+
+  <!-- Sanitary -->
+
+  <ATR_Install_SanitaryFrame.label>установить Санитарную раму</ATR_Install_SanitaryFrame.label>
+  <ATR_Install_SanitaryFrame.description>Заменяет раму шасси этого юнита на санитарную раму, обеспечивая полное отсутствие грязи и полную санитарную обработку.</ATR_Install_SanitaryFrame.description>
+  <ATR_Install_SanitaryFrame.jobString>Замена каркаса.</ATR_Install_SanitaryFrame.jobString>
+
+
+  <!-- Mobility -->
+
+  <ATR_Install_MobilityFrame.label>установить Мобильную раму</ATR_Install_MobilityFrame.label>
+  <ATR_Install_MobilityFrame.description>Заменяет раму шасси этого юнита на мобильную раму, значительно повышая его возможности передвижения и маневренность.</ATR_Install_MobilityFrame.description>
+  <ATR_Install_MobilityFrame.jobString>Замена каркаса.</ATR_Install_MobilityFrame.jobString>
+
+
+</LanguageData>

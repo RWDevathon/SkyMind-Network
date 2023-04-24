@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- AI Persona Core Recipe -->
+
+    <RecipeDef>
+        <defName>SMN_MakeAIPersonaCore</defName>
+        <label>Make an AI persona core</label>
+        <description>Create a complex AI core capable of containing an artificial persona.</description>
+        <jobString>Making AI Core</jobString>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>120</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Gold</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <AIPersonaCore>1</AIPersonaCore>
+        </products>
+        <workAmount>8650</workAmount>
+        <researchPrerequisite>SMN_PersonaManufacturing</researchPrerequisite>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <recipeUsers>
+            <li>FabricationBench</li>
+        </recipeUsers>
+    </RecipeDef>
+
+</Defs>

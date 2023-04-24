@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_FeelingsTowardOrganics.stages.0.label>Обожает органику</ATR_FeelingsTowardOrganics.stages.0.label>
+  <ATR_FeelingsTowardOrganics.stages.1.label>Уважает органику</ATR_FeelingsTowardOrganics.stages.1.label>
+  <ATR_FeelingsTowardOrganics.stages.2.label>Не уважает органику</ATR_FeelingsTowardOrganics.stages.2.label>
+  <ATR_FeelingsTowardOrganics.stages.3.label>Ненавидит органику</ATR_FeelingsTowardOrganics.stages.3.label>
+
+  <ATR_AutomodulatedVoiceSynthesizer.stages.0.label>Звонкий голос</ATR_AutomodulatedVoiceSynthesizer.stages.0.label>
+  <ATR_CoerciveVoiceSynthesizer.stages.0.label>Угрожающий голос</ATR_CoerciveVoiceSynthesizer.stages.0.label>
+
+
+</LanguageData>

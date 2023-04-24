@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<SMN_SkyMindDisconnectionRisk>Disconnection from the SkyMind network while the operation is in progress will result in severe consequences. Memory corruption of varying degree is guaranteed if improper disconnection occurs.</SMN_SkyMindDisconnectionRisk>
+    <SMN_InsufficientPoints>At least {0} points are required for this operation.</SMN_InsufficientPoints>
+
+	<!-- Skill Upgrades -->
+	<SMN_PawnBeingModified>Skills and passions for: </SMN_PawnBeingModified>
+	<SMN_CurrentXP> XP required for next level: </SMN_CurrentXP>
+	<SMN_TodaysXP> XP today: </SMN_TodaysXP>
+
+	<SMN_AddSkillPoints>Inject points into {0}</SMN_AddSkillPoints>
+	<SMN_AvailableSkillPoints>Available points : {0}</SMN_AvailableSkillPoints>
+	<SMN_AvailableSkillPointsDesc>Note: Insight injection is subject to an individual's learning capabilities as well as daily comprehension limits. Passion injection is subject to individual learning capability as well as pre-existing passions. Overstimulation is inefficient.</SMN_AvailableSkillPointsDesc>
+
+    <!-- Hacking Interface -->
+    <SMN_HackInterfaceTitle>Awaiting cyberwarfare directive.</SMN_HackInterfaceTitle>
+
+    <SMN_SuccessChance>Estimated success chance: {0}%</SMN_SuccessChance>
+
+    <SMN_AvailableHackingPoints>Available points: {0}. Time penalty: {1}.</SMN_AvailableHackingPoints>
+    <SMN_AvailableHackingPointsDesc>Note: The cost of initiating hacks is a function of base operation cost multiplied by time since the last hack (penalty for frequent usage).\nDedicating more points increases success likelihood.</SMN_AvailableHackingPointsDesc>
+
+        <!-- Guidance Hack -->
+    <SMN_GuidanceHack>Force a redirect of a faction's guidance system</SMN_GuidanceHack>
+    <SMN_GuidanceHackDesc>Attempt a hack of a faction's guidance system in an attempt to redirect something to this map. There is no guarantee what the contents of what will be sent. It could be supplies, a trade ship, a prisoner - or an enemy garrison transfer.</SMN_GuidanceHackDesc>
+
+        <!-- Propaganda Hack -->
+    <SMN_PropagandaHack>Deploy a targetted positive-propaganda campaign</SMN_PropagandaHack>
+    <SMN_PropagandaHackDesc>Attempt a dedicated and specifically targetted campaign to influence key members of a target faction in favor of the colony. Due to the opaque nature of political influence, the exact outcome is unknown.</SMN_PropagandaHackDesc>
+
+        <!-- Espionage Hack -->
+    <SMN_EspionageHack>Initiate an espionage campaign to acquire a quest</SMN_EspionageHack>
+    <SMN_EspionageHackDesc>Attempt to use acquired intelligence insight to identify a promising quest from the background intelligence from a faction. It is guaranteed to produce insight into some form of a stash, but not from a particular faction or group.</SMN_EspionageHackDesc>
+
+        <!-- Disruptor Hack -->
+    <SMN_DisruptorHack>Launch a map-wide DDOS attack on local hostile units</SMN_DisruptorHack>
+    <SMN_DisruptorHackDesc>Attempt a localized DDOS attack on SkyMind-capable pawns of a particular faction that are present on this map.</SMN_DisruptorHackDesc>
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<SMN_AlertServerHeatCriticalDesc>At least one heat sensitive device is in danger of combusting due to surpassing its maximum safety heat threshold! Action is required to retain network integrity!</SMN_AlertServerHeatCriticalDesc>
+
+	<SMN_AlertFullSkillServers>Full Skill Servers</SMN_AlertFullSkillServers>
+    <SMN_AlertFullSkillServersDesc>There is no more capacity for skill points. Consider using them, or expanding capacity.</SMN_AlertFullSkillServersDesc>
+
+	<SMN_AlertFullHackingServers>Full Hacking Servers</SMN_AlertFullHackingServers>
+    <SMN_AlertFullHackingServersDesc>There is no more capacity for hacking points and there is no current time penalty. Consider using them, or expanding capacity.</SMN_AlertFullHackingServersDesc>
+
+    <SMN_AlertLowSecurity>Network At Risk</SMN_AlertLowSecurity>
+	<SMN_AlertLowSecurityDesc>The number of available security points is exceedingly unlikely to successfully defend against any attempted hacks! Additional security servers and points are required - extreme caution should be practiced around network use at this time.</SMN_AlertLowSecurityDesc>
+
+</LanguageData>

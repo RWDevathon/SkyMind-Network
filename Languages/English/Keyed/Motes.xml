@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- AutoFlickering -->
+	<SMN_FlickEnable>PowerOn via SkyMind</SMN_FlickEnable>
+	<SMN_FlickDisable>PowerOff via SkyMind</SMN_FlickDisable>
+	<SMN_AutoDoorOpenMoteText>Opening via SkyMind</SMN_AutoDoorOpenMoteText>
+	<SMN_AutoDoorCloseMoteText>Closing via SkyMind</SMN_AutoDoorCloseMoteText>
+
+</LanguageData>

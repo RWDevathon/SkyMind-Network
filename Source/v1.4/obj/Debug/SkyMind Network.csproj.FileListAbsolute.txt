@@ -1,0 +1,4 @@
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Source\v1.4\obj\Debug\SkyMind Network.csproj.AssemblyReference.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Source\v1.4\obj\Debug\SkyMind Network.csproj.CoreCompileInputs.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\1.4\Assemblies\SkyMind Network.dll
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Source\v1.4\obj\Debug\SkyMind Network.dll

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Minified Vanometric Power Cell for SkyMind Core needs -->
+    <ThingDef>
+		<defName>SMN_VanometricPowerCellMinified</defName>
+		<label>minified vanometric power cell</label>
+		<thingClass>MinifiedThing</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<rotatable>false</rotatable>
+		<pathCost>14</pathCost>
+		<statBases>
+			<Mass>9</Mass>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<uiIconPath>Things/Building/Special/VanometricPowerCell_north</uiIconPath>
+	</ThingDef>
+
+</Defs>

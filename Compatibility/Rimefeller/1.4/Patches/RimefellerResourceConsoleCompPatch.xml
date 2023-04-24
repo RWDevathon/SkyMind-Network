@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Add the special SkyMind comp to Rimefeller's Resource Console -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ResourceConsole"]/comps</xpath>
+		<value>
+			<li>
+                <compClass>SkyMind.SkyMindRimefellerConsole</compClass>
+            </li>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_MechAntifreeze.label>Механит антифриз</ATR_MechAntifreeze.label>
+  <ATR_MechAntifreeze.description>Синтетическое химическое соединение, предназначенное для снижения восприимчивости шасси к неблагоприятным температурам - положительным и отрицательным. Небезопасно для органического потребления.</ATR_MechAntifreeze.description>
+  <ATR_MechAntifreeze.ingestible.ingestCommandString>Принять {0}</ATR_MechAntifreeze.ingestible.ingestCommandString>
+  <ATR_MechAntifreeze.ingestible.ingestReportString>Принимает {0}.</ATR_MechAntifreeze.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_DoBillsAssemblyPod.label>сборка механических узлов на сборочном стенде</ATR_DoBillsAssemblyPod.label>
+  <ATR_DoBillsAssemblyPod.verb>работать</ATR_DoBillsAssemblyPod.verb>
+  <ATR_DoBillsAssemblyPod.gerund>работать над</ATR_DoBillsAssemblyPod.gerund>
+
+  <ATR_DoBillsPartWorkbench.label>сборка деталей на верстаке</ATR_DoBillsPartWorkbench.label>
+  <ATR_DoBillsPartWorkbench.verb>работать</ATR_DoBillsPartWorkbench.verb>
+  <ATR_DoBillsPartWorkbench.gerund>работать над</ATR_DoBillsPartWorkbench.gerund>
+
+
+</LanguageData>

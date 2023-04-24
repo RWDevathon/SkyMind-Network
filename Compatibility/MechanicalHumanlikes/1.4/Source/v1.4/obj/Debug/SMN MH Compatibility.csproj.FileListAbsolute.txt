@@ -1,0 +1,4 @@
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\MechanicalHumanlikes\1.4\Assemblies\SMN MH Compatibility.dll
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\MechanicalHumanlikes\1.4\Source\v1.4\obj\Debug\SMN MH Compatibility.csproj.AssemblyReference.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\MechanicalHumanlikes\1.4\Source\v1.4\obj\Debug\SMN MH Compatibility.csproj.CoreCompileInputs.cache
+A:\Michael\SteamLibrary\steamapps\common\RimWorld\Mods\Dev_SkyMind Network\Compatibility\MechanicalHumanlikes\1.4\Source\v1.4\obj\Debug\SMN MH Compatibility.dll

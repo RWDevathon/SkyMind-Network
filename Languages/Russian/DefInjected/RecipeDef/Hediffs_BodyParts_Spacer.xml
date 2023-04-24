@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced Arm -->
+
+  <ATR_Install_AdvancedArm.label>установить продвинутую руку</ATR_Install_AdvancedArm.label>
+  <ATR_Install_AdvancedArm.description>Устанавливает продвинутую руку.</ATR_Install_AdvancedArm.description>
+  <ATR_Install_AdvancedArm.jobString>Установка продвинутой руки.</ATR_Install_AdvancedArm.jobString>
+
+
+  <!-- Advanced Leg -->
+
+  <ATR_Install_AdvancedLeg.label>установить продвинутую ногу</ATR_Install_AdvancedLeg.label>
+  <ATR_Install_AdvancedLeg.description>Устанавливает продвинутую ногу</ATR_Install_AdvancedLeg.description>
+  <ATR_Install_AdvancedLeg.jobString>Установка продвинутой ноги.</ATR_Install_AdvancedLeg.jobString>
+
+
+  <!-- Advanced Visual Sensor -->
+
+  <ATR_Install_AdvancedVisualSensor.label>установить продвинутый визуальный сенсор</ATR_Install_AdvancedVisualSensor.label>
+  <ATR_Install_AdvancedVisualSensor.description>Устанавливает продвинутый визуальный сенсор.</ATR_Install_AdvancedVisualSensor.description>
+  <ATR_Install_AdvancedVisualSensor.jobString>Установка продвинутого визуального сенсора.</ATR_Install_AdvancedVisualSensor.jobString>
+
+
+  <!-- Advanced Audio Sensor -->
+
+  <ATR_Install_AdvancedAudioSensor.label>установить продвинутый звуковой сенсор</ATR_Install_AdvancedAudioSensor.label>
+  <ATR_Install_AdvancedAudioSensor.description>Устанавливает продвинутый звуковой сенсор.</ATR_Install_AdvancedAudioSensor.description>
+  <ATR_Install_AdvancedAudioSensor.jobString>Установка продвинутого звукового сенсора.</ATR_Install_AdvancedAudioSensor.jobString>
+
+
+  <!-- Advanced Heatsink -->
+
+  <ATR_Install_AdvancedHeatsink.label>установить продвинутый радиатор</ATR_Install_AdvancedHeatsink.label>
+  <ATR_Install_AdvancedHeatsink.description>Устанавливает продвинутый радиатор.</ATR_Install_AdvancedHeatsink.description>
+  <ATR_Install_AdvancedHeatsink.jobString>Установка продвинутого радиатора.</ATR_Install_AdvancedHeatsink.jobString>
+
+
+  <!-- Advanced Coolant Pump -->
+
+  <ATR_Install_AdvancedCoolantPump.label>установить продвинутый насос охлаждающей жидкости</ATR_Install_AdvancedCoolantPump.label>
+  <ATR_Install_AdvancedCoolantPump.description>Устанавливает продвинутый насос охлаждающей жидкости.</ATR_Install_AdvancedCoolantPump.description>
+  <ATR_Install_AdvancedCoolantPump.jobString>Установка продвинутого насоса охлаждающей жидкости.</ATR_Install_AdvancedCoolantPump.jobString>
+
+
+  <!-- Advanced Battery -->
+
+  <ATR_Install_AdvancedBattery.label>установить продвинутый аккумуляторный блок</ATR_Install_AdvancedBattery.label>
+  <ATR_Install_AdvancedBattery.description>Устанавливает продвинутый аккумуляторный блок.</ATR_Install_AdvancedBattery.description>
+  <ATR_Install_AdvancedBattery.jobString>Установка продвинутого аккумуляторного блока.</ATR_Install_AdvancedBattery.jobString>
+
+
+  <!-- Advanced Mechanite Storage -->
+
+  <ATR_Install_AdvancedMechaniteStorage.label>установить продвинутое хранилище механитов</ATR_Install_AdvancedMechaniteStorage.label>
+  <ATR_Install_AdvancedMechaniteStorage.description>Устанавливает продвинутое хранилище механитов.</ATR_Install_AdvancedMechaniteStorage.description>
+  <ATR_Install_AdvancedMechaniteStorage.jobString>Установка продвинутого хранилища механитов.</ATR_Install_AdvancedMechaniteStorage.jobString>
+
+
+  <!-- Advanced Reactor -->
+
+  <ATR_Install_AdvancedReactor.label>установить продвинутый реактор</ATR_Install_AdvancedReactor.label>
+  <ATR_Install_AdvancedReactor.description>Устанавливает продвинутый реактор.</ATR_Install_AdvancedReactor.description>
+  <ATR_Install_AdvancedReactor.jobString>Установка продвинутого реактора.</ATR_Install_AdvancedReactor.jobString>
+
+
+  <!-- Organic Charger -->
+
+  <ATR_Install_OrganicCharger.label>установить органическое зарядное устройство</ATR_Install_OrganicCharger.label>
+  <ATR_Install_OrganicCharger.description>Устанавливает органическое зарядное устройство.</ATR_Install_OrganicCharger.description>
+  <ATR_Install_OrganicCharger.jobString>Установка органического зарядного устройства.</ATR_Install_OrganicCharger.jobString>
+
+
+</LanguageData>

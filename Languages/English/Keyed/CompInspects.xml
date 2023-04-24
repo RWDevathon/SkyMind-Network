@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Computer -->
+	<SMN_SkillServersSynthesis>Skill Points available: {0} / {1}</SMN_SkillServersSynthesis>
+	<SMN_SkillProducedPoints>Skill Points producing: {0}</SMN_SkillProducedPoints>
+	<SMN_SkillSlotsAdded>Skill Storage added: {0}</SMN_SkillSlotsAdded>
+
+	<SMN_SecurityServersSynthesis>Security Points available: {0} / {1}</SMN_SecurityServersSynthesis>
+	<SMN_SecurityProducedPoints>Security Points producing: {0}</SMN_SecurityProducedPoints>
+	<SMN_SecuritySlotsAdded>Security Storage added: {0}</SMN_SecuritySlotsAdded>
+
+	<SMN_HackingServersSynthesis>Hacking Points available: {0} / {1}</SMN_HackingServersSynthesis>
+	<SMN_HackingProducedPoints>Hacking Points producing: {0}</SMN_HackingProducedPoints>
+	<SMN_HackingSlotsAdded>Hacking Storage added: {0}</SMN_HackingSlotsAdded>
+
+	<!-- Heat -->
+	<SMN_CompHotSensitiveCriticalText>Heat threshold surpassed: damage imminent!</SMN_CompHotSensitiveCriticalText>
+	<SMN_CompHotSensitiveDangerText>Approaching heat threshold: preventative action advised!</SMN_CompHotSensitiveDangerText>
+	<SMN_CompHotSensitiveWarningText>Ideal heat threshold surpassed: caution advised.</SMN_CompHotSensitiveWarningText>
+	<SMN_CompHotSensitiveSafeText>Within safe operating threshold: operations normal.</SMN_CompHotSensitiveSafeText>
+
+	<!-- SkyMind -->
+	<SMN_HackedWithTimer>Software recompilation complete in {0}.</SMN_HackedWithTimer>
+	<SMN_CryptoLocked>Cryptolocked, access denied.</SMN_CryptoLocked>
+	<SMN_SkyMindDetected>Connected to SkyMind</SMN_SkyMindDetected>
+
+	<!-- Core -->
+	<SMN_CloudIntelligenceSummary>SkyMind intelligences: {0} / {1}</SMN_CloudIntelligenceSummary>
+
+	<!-- Link -->
+	<SMN_SkyMindOperationInProgress>Time until operation is complete: {0}</SMN_SkyMindOperationInProgress>
+	<SMN_SkyMindCoreOperationInProgress>Time until operation for {0} is complete: {1}</SMN_SkyMindCoreOperationInProgress>
+	<SMN_SurrogateConnected>Connected to: {0} other pawns</SMN_SurrogateConnected>
+
+	<!-- Tower -->
+	<SMN_SkyMindNetworkSummary>Connected users: {0} / {1}</SMN_SkyMindNetworkSummary>
+
+</LanguageData>

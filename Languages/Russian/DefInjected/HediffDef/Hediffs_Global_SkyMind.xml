@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SMN_SplitConsciousness.label>Разделенное сознание</SMN_SplitConsciousness.label>
+  <SMN_SplitConsciousness.description>Сознание, контролирующее это тело, раздваивается, поскольку оно также контролирует другие тела. Это эффективно снижает способность сознания осуществлять тонкий контроль над этим телом. Большее количество тел означает более суровое наказание.</SMN_SplitConsciousness.description>
+  <SMN_SplitConsciousness.stages.0.label>Безопасно</SMN_SplitConsciousness.stages.0.label>
+  <SMN_SplitConsciousness.stages.1.label>Тривиально</SMN_SplitConsciousness.stages.1.label>
+  <SMN_SplitConsciousness.stages.2.label>Управляемо</SMN_SplitConsciousness.stages.2.label>
+  <SMN_SplitConsciousness.stages.3.label>Сложно</SMN_SplitConsciousness.stages.3.label>
+  <SMN_SplitConsciousness.stages.4.label>Интенсивно</SMN_SplitConsciousness.stages.4.label>
+  <SMN_SplitConsciousness.stages.5.label>Экстремально</SMN_SplitConsciousness.stages.5.label>
+  <SMN_SplitConsciousness.labelNoun>Разделенное сознание</SMN_SplitConsciousness.labelNoun>
+
+  <SMN_ForeignConsciousness.label>Чужое сознание</SMN_ForeignConsciousness.label>
+  <SMN_ForeignConsciousness.description>Сознание, контролирующее это тело, принадлежит другой фракции. Контроллер отключится, когда его уничтожат, и, скорее всего, запустит самоуничтожение ядра.</SMN_ForeignConsciousness.description>
+  <SMN_ForeignConsciousness.labelNoun>чужое сознание</SMN_ForeignConsciousness.labelNoun>
+
+  <SMN_MindOperation.label>Проводится операция SkyMind</SMN_MindOperation.label>
+  <SMN_MindOperation.description>В настоящее время это устройство проходит операцию SkyMind. Чтобы сохранить связь и целостность, сознание в настоящее время не контролирует это тело.</SMN_MindOperation.description>
+  <SMN_MindOperation.labelNoun>операция SkyMind</SMN_MindOperation.labelNoun>
+
+  <SMN_NoController.label>Контроллер не подключен</SMN_NoController.label>
+  <SMN_NoController.description>Этот суррогат не имеет контроллера и поэтому не способен к автономным действиям.</SMN_NoController.description>
+  <SMN_NoController.labelNoun>Нет подключенного хоста</SMN_NoController.labelNoun>
+
+
+</LanguageData>

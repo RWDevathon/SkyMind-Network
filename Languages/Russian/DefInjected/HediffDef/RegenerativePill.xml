@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_RegenOrganic.label>Органическая регенерация</ATR_RegenOrganic.label>
+  <ATR_RegenOrganic.description>Специализированные механоиды восстанавливают и укрепляют поврежденные части тела.</ATR_RegenOrganic.description>
+  <ATR_RegenOrganic.stages.0.label>Незначительная</ATR_RegenOrganic.stages.0.label>
+  <ATR_RegenOrganic.stages.1.label>Малая</ATR_RegenOrganic.stages.1.label>
+  <ATR_RegenOrganic.stages.2.label>Умеренная</ATR_RegenOrganic.stages.2.label>
+  <ATR_RegenOrganic.stages.3.label>Существенная</ATR_RegenOrganic.stages.3.label>
+  <ATR_RegenOrganic.stages.4.label>Пиковая</ATR_RegenOrganic.stages.4.label>
+
+
+  <!-- HediffMechanical -->
+
+  <ATR_RegenMechanical.label>Механическая регенерация</ATR_RegenMechanical.label>
+  <ATR_RegenMechanical.description>Специально разработанные механоиды восстанавливают и укрепляют поврежденные участки шасси.</ATR_RegenMechanical.description>
+
+
+</LanguageData>

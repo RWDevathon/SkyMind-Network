@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- General -->
+	<SMN_SkyMindConnectionFailed>Could not establish SkyMind connection. Check network capacity and availability.</SMN_SkyMindConnectionFailed>
+	<SMN_SkyMindConnectionFailedNoNetwork>Could not establish SkyMind connection. There is no network available.</SMN_SkyMindConnectionFailedNoNetwork>
+
+	<SMN_GridlockerCleared>The Grid-locker has successfully been decrypted and disabled.</SMN_GridlockerCleared>
+
+	<!-- Core -->
+	<SMN_RemoveCloudPawnSuccess>The neural network of {0} has been removed.</SMN_RemoveCloudPawnSuccess>
+
+	<SMN_ReplicateCloudPawnFailed>Could not initiate replication. Insufficient SkyMind space available for allocation.</SMN_ReplicateCloudPawnFailed>
+
+    <!-- Player hacking -->
+    <SMN_HackOperationFailed>The operation failed to breach the target faction's security system. No reprecussions are anticipated.</SMN_HackOperationFailed>
+	<SMN_DisruptorHackSuccess>Disruption successful. Hostile units have been impaired.</SMN_DisruptorHackSuccess>
+
+    <SMN_NoArrival>Nothing was sent to the mixed up coordinates before the faction reset their guidance system. They got lucky, this time.</SMN_NoArrival>
+
+	<!-- Link -->
+    <SMN_CannotConnect>Attempted connection could not be established, ensure adequate network capacity and target viability.</SMN_CannotConnect>
+	<SMN_SurrogateControlled>{0} connected to a new surrogate</SMN_SurrogateControlled>
+	<SMN_OperationInitiated>SkyMind network link established by {0}'s request. Do not disable network connection until procedure is complete.</SMN_OperationInitiated>
+	<SMN_OperationCompleted>SkyMind operation complete</SMN_OperationCompleted>
+	<SMN_OperationCompletedDesc>The SkyMind network has successfully carried out the operation as requested by {0}.</SMN_OperationCompletedDesc>
+    <SMN_OperationFailure>SkyMind operation failed!</SMN_OperationFailure>
+    <SMN_OperationFailureDesc>{0} suffered a catastrophic memory corruption due to the collapse of the SkyMind link during a mind operation. The operation failed and severe damage to memory has occurred.</SMN_OperationFailureDesc>
+
+</LanguageData>

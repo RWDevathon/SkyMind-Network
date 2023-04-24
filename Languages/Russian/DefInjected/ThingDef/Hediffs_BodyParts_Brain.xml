@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SkyMind Receiver -->
+
+  <SMN_SkyMindReceiver.label>Приемник SkyMind</SMN_SkyMindReceiver.label>
+  <SMN_SkyMindReceiver.description>Небольшой модуль, который может быть имплантирован в органический мозг, чтобы полностью отменить нейронную сеть субъекта, превращая его в пустую оболочку, которой можно управлять с помощью внешней силы. Из-за сложности устройства и трудностей, присущих контролю над органической материей, устройство имеет тенденцию сильно воспламеняться при разрушении. \n\nМногие войска использовали это в своих интересах, чтобы уничтожить суррогаты, а не позволить им попасть в руки врага.</SMN_SkyMindReceiver.description>
+
+
+  <!-- SkyMind Transceiver -->
+
+  <SMN_SkyMindTransceiver.label>Трансивер SkyMind</SMN_SkyMindTransceiver.label>
+  <SMN_SkyMindTransceiver.description>Небольшой модуль, который может быть имплантирован в органический мозг, позволяя субъекту свободно взаимодействовать с сетью SkyMind. Успешное вживление или удаление этого имплантата не имеет серьезных последствий.</SMN_SkyMindTransceiver.description>
+
+
+</LanguageData>

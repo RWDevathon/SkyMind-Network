@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- General -->
+  <SMN_ViableSources>Доступные источники:</SMN_ViableSources>
+  <SMN_ViableTargets>Доступные цели:</SMN_ViableTargets>
+  <SMN_NoAvailableTarget>Нет доступных целей для операции.</SMN_NoAvailableTarget>
+
+</LanguageData>

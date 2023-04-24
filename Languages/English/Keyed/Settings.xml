@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- Miscellaneous Keys -->
+	<SkyMindNetwork_ModTitle>SkyMind Network</SkyMindNetwork_ModTitle>
+
+        <!-- Hostile Hacking -->
+	<SMN_EnemyHacksOccur>Hostile hacking is enabled.</SMN_EnemyHacksOccur>
+	<SMN_ChanceAlliesInterceptHack>Chance to intercept hacks against you per allied faction</SMN_ChanceAlliesInterceptHack>
+	<SMN_ChanceAlliesInterceptHackDesc>Percent chance that allied factions will save you from a successful enemy hack, preventing damage and actually giving you security points. This is PER ALLY.</SMN_ChanceAlliesInterceptHackDesc>
+	<SMN_PointsGainedOnInterceptPercentage>Points gained when allies intercept as percentage of attack</SMN_PointsGainedOnInterceptPercentage>
+	<SMN_PointsGainedOnInterceptPercentageDesc>When an ally intercepts an attack against you, they donate security points to you. This controls what percentage of the raid points they give you.</SMN_PointsGainedOnInterceptPercentageDesc>
+	<SMN_EnemyHackAttackStrengthModifier>Enemy hack strength modifier</SMN_EnemyHackAttackStrengthModifier>
+	<SMN_EnemyHackAttackStrengthModifierDesc>Multiplicative modifier on how many hacking points enemy hacking incidents will have. Less than 100% reduces intensity, greater than 100% raises intensity.</SMN_EnemyHackAttackStrengthModifierDesc>
+	<SMN_PercentageOfValueUsedForRansoms>Percentage of item value demanded in ransom attack</SMN_PercentageOfValueUsedForRansoms>
+
+        <!-- Player Hacking -->
+    <SMN_PlayerCanHack>Player hacking is enabled.</SMN_PlayerCanHack>
+    <SMN_receiveFullHackingAlert>Alert for hacking points exceeding 90% of capacity.</SMN_receiveFullHackingAlert>
+    <SMN_RetaliationChanceOnFailure>Chance the target faction will retaliate on a failed hack</SMN_RetaliationChanceOnFailure>
+    <SMN_MinHackSuccessChance>Minimum chance of a successful hack</SMN_MinHackSuccessChance>
+    <SMN_MaxHackSuccessChance>Maximum chance of a successful hack</SMN_MaxHackSuccessChance>
+
+	<!-- Connectivity Settings -->
+        <!-- Surrogates -->
+    <SMN_surrogatesAllowed>Surrogates are permitted.</SMN_surrogatesAllowed>
+    <SMN_otherFactionsAllowedSurrogates>Other factions may use surrogates.</SMN_otherFactionsAllowedSurrogates>
+    <SMN_minGroupSizeForSurrogates>Number of members for faction groups to spawn with surrogates</SMN_minGroupSizeForSurrogates>
+    <SMN_minSurrogatePercentagePerLegalGroup>Minimum percentage of surrogates in legal groups [default 0%]</SMN_minSurrogatePercentagePerLegalGroup>
+    <SMN_maxSurrogatePercentagePerLegalGroup>Maximum percentage of surrogates in legal groups [default 70%]</SMN_maxSurrogatePercentagePerLegalGroup>
+    <SMN_displaySurrogateControlIcon>Display floating icon above controlled surrogates.</SMN_displaySurrogateControlIcon>
+    <SMN_safeSurrogateConnectivityCountBeforePenalty>Surrogates per controller before penalties:</SMN_safeSurrogateConnectivityCountBeforePenalty>
+
+        <!-- Skills -->
+    <SMN_receiveFullSkillAlert>Alert for skill points exceeding 90% of capacity.</SMN_receiveFullSkillAlert>
+	<SMN_skillPointInsertionRate>Amount of skill points used per insertion [default: 100]</SMN_skillPointInsertionRate>
+	<SMN_skillPointConversionRate>Amount of base XP generated per skill point [default: 0.5]</SMN_skillPointConversionRate>
+	<SMN_passionSoftCap>Passion soft-cap before cost increases per passion [default: 8]</SMN_passionSoftCap>
+	<SMN_basePointsNeededForPassion>Base skill points needed per passion [default: 5000]</SMN_basePointsNeededForPassion>
+
+        <!-- Cloud -->
+    <SMN_UploadingKills>Uploading to SkyMind turns the initiator's body into a blank.</SMN_UploadingKills>
+    <SMN_UploadingPermakills>Uploading to SkyMind leaves the initiator's body completely useless and dead.</SMN_UploadingPermakills>
+    <SMN_SkyMindOperationTimeRequired>Hours required to complete SkyMind operations [default: 24]</SMN_SkyMindOperationTimeRequired>
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Overclocking -->
+
+  <ATR_ApplyOverclocking.label>Применить разгон</ATR_ApplyOverclocking.label>
+  <ATR_ApplyOverclocking.description>Простая аппаратная перестройка механического юнита для снижения мер безопасности оборудования, позволяющая повысить производительность и риски.</ATR_ApplyOverclocking.description>
+  <ATR_ApplyOverclocking.jobString>Применение разгона.</ATR_ApplyOverclocking.jobString>
+
+  <ATR_ResetOverclocking.label>Сброс разгона</ATR_ResetOverclocking.label>
+  <ATR_ResetOverclocking.description>Простая аппаратная перестройка механического юнита для сброса мер безопасности оборудования к стандартным настройкам.</ATR_ResetOverclocking.description>
+  <ATR_ResetOverclocking.jobString>Сброс разгона.</ATR_ResetOverclocking.jobString>
+
+
+</LanguageData>

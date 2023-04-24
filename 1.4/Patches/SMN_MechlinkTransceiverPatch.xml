@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Adds the SkyMind Hediff extension to Biotech's Mechlink so it is treated as a transceiver. -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		  <li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationAddModExtension">
+            <xpath>Defs/HediffDef[defName="Mechlink" or defName="MechlinkImplant"]</xpath>
+            <value>
+                <li Class="SkyMind.SMN_HediffSkyMindExtension">
+                    <allowsConnection>true</allowsConnection>
+                    <isTransceiver>true</isTransceiver>
+                </li>
+            </value>
+		</match>
+	</Operation>
+
+</Patch>

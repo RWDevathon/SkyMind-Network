@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>SMN_CommunicationOptimization</defName>
+        <label>Optimized communication</label>
+        <tab>SMN_SkyMindResearch</tab>
+        <description>In order to extend the power of the communication network and prepare for a centralized host system, optimization to communication relays and the systems that control them must be developed. More powerful relay towers will aid in establishing an expansive network system.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>SMN_StandardizedCommunications</li>
+            <li>AdvancedFabrication</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>4.5</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>SMN_CranialSkyMindInterfaces</defName>
+        <label>Cranial SkyMind Interfaces</label>
+        <tab>SMN_SkyMindResearch</tab>
+        <description>Connecting static devices to the SkyMind network is relatively straightforward and bereft of particularly spectacular benefits. The ability to interface individuals with the network, however, promises to revolutionize reality. The development of SkyMind Transceivers and Receivers will allow individuals to connect to the network for remote control, skill acquisition, consciousness transfer, and even remotely controlled surrogate bodies.</description>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>SMN_CommunicationOptimization</li>
+        </prerequisites>
+        <researchViewX>7</researchViewX>
+        <researchViewY>5</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <discoveredLetterTitle>About: Pawns and the SkyMind</discoveredLetterTitle>
+        <discoveredLetterText>You can now manufacture SkyMind transceivers and receivers to allow most pawns to use the network. These two implants require manufacturing at a fabrication bench. Installing a receiver in a pawn to make them a surrogate murders the existing intelligence, but allows their body to be used as a remotely controlled puppet by their controller and furthermore allows that controller to transfer their consciousness permanently into the surrogate. Transceivers carry no particular negative consequences, and give organic pawns full access to all the network's features, ranging from skill acquisition, remotely accessing some devices like comms consoles, surrogate control, and mind transfer operations.</discoveredLetterText>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>SMN_ServerOptimization</defName>
+        <label>Server optimization</label>
+        <tab>SMN_SkyMindResearch</tab>
+        <description>Optimizing servers for space and utility is expensive, but promises to bring revolutionary expansion to the colony's insight generation. Combining vast storage and generation capabilities, these servers would make older models outright obsolete - if it didn't require an AI Persona Core to handle the sheer amount of data.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>SMN_CommunicationOptimization</li>
+        </prerequisites>
+        <researchViewX>7</researchViewX>
+        <researchViewY>4.5</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <discoveredLetterTitle>About: Advanced SkyMind Networks</discoveredLetterTitle>
+        <discoveredLetterText>The Networked Intelligence may require a persona core to build, but it offers the ability to progress deeper into SkyMind networks and can store and generate simultaneously at far higher capacities than lower networks. Two may connect to a research bench at a time, and offers a small boost to research speed - and is a requirement to developing the technology necessary to understand how to manufacture Ultratech persona cores or a SkyMind Core.</discoveredLetterText>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>SMN_SkyMindCore</defName>
+        <label>SkyMind Core</label>
+        <tab>SMN_SkyMindResearch</tab>
+        <description>The pinnacle of consciousness research, a supercomputer core capable of permanently storing, saving, replicating, and allowing the full use of consciousnesses is within reach. It is incredibly expensive, but it offers a glimpse of immortality. Acquiring and coaxing so many AI personas to play babysitter and host will be difficult. Finding the vanometric power cells necessary to keep the superstructure secure and isolated may be equally difficult.</description>
+        <baseCost>20000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>SMN_ServerOptimization</li>
+            <li>ShipComputerCore</li>
+        </prerequisites>
+        <researchViewX>8</researchViewX>
+        <researchViewY>4.5</researchViewY>
+        <requiredResearchFacilities>
+            <li>SMN_NetworkedIntelligence</li>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <discoveredLetterTitle>About: Building a Core</discoveredLetterTitle>
+        <discoveredLetterText>The SkyMind Core is the pinnacle of Ultratech SkyMind networks. A conglomeration of highly advanced but still restrained personae within a superstructure with no need for external power - thanks to internal vanometric power cells - and with immunity to atmospheric or environmental effects like heat or solar flares allows for a safe holding chamber of nigh immortal consciousnesses. From within this vessel, consciousnesses can be stored, transferred, or even duplicated. The infrastructure allows for a single pawn to control a huge number of surrogates, allowing for an almost hive-mind like consciousness.</discoveredLetterText>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>SMN_PersonaManufacturing</defName>
+        <label>Persona Manufacturing</label>
+        <tab>SMN_SkyMindResearch</tab>
+        <description>Persona cores are highly advanced devices that house consciousnesses, albeit ones that are carefully restricted in most ways. Mired in ethical and moral quandaries, their production is held secret amongst Ultratech societies. Free from the constraints of morality and with the aid of a willing persona, it should be possible to unravel its secrets and allow us to produce more.</description>
+        <baseCost>15000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>SMN_ServerOptimization</li>
+            <li>ShipComputerCore</li>
+        </prerequisites>
+        <researchViewX>8</researchViewX>
+        <researchViewY>5</researchViewY>
+        <requiredResearchFacilities>
+            <li>SMN_NetworkedIntelligence</li>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+    </ResearchProjectDef>
+
+</Defs>

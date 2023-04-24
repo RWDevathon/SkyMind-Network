@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_FeelingsTowardOrganics.degreeDatas.0.label>Обожает Органику</ATR_FeelingsTowardOrganics.degreeDatas.0.label>
+  <ATR_FeelingsTowardOrganics.degreeDatas.0.description>{PAWN_nameDef} испытывает глубокую привязанность ко всему органическому, считая его вершиной культуры и существования. {PAWN_nameDef} стремится вести себя как можно более органично, что бы это для него ни значило.</ATR_FeelingsTowardOrganics.degreeDatas.0.description>
+  <ATR_FeelingsTowardOrganics.degreeDatas.1.label>Уважает Органику</ATR_FeelingsTowardOrganics.degreeDatas.1.label>
+  <ATR_FeelingsTowardOrganics.degreeDatas.1.description>{PAWN_nameDef} естественно уважает органическую жизнь и готов доверять ей, понимая и поддерживая ее природу.</ATR_FeelingsTowardOrganics.degreeDatas.1.description>
+  <ATR_FeelingsTowardOrganics.degreeDatas.2.label>Не уважает Органику</ATR_FeelingsTowardOrganics.degreeDatas.2.label>
+  <ATR_FeelingsTowardOrganics.degreeDatas.2.description>{PAWN_nameDef} не понимает, зачем кому-то нужны органические формы жизни, и старается по возможности избегать общения с ними.</ATR_FeelingsTowardOrganics.degreeDatas.2.description>
+  <ATR_FeelingsTowardOrganics.degreeDatas.3.label>Ненавидит Органику</ATR_FeelingsTowardOrganics.degreeDatas.3.label>
+  <ATR_FeelingsTowardOrganics.degreeDatas.3.description>{PAWN_nameDef} презирает органическую жизнь и едва ли готов терпеть ее присутствие. Едва.</ATR_FeelingsTowardOrganics.degreeDatas.3.description>
+
+
+</LanguageData>

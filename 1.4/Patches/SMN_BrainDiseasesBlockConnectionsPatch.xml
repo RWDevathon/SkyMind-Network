@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Adds a Blocking SkyMind Connection comp to Dementia and Alzheimers -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/HediffDef[defName = "Dementia" or defName = "Alzheimers"]</xpath>
+        <value>
+            <li Class="SkyMind.SMN_HediffSkyMindExtension">
+                <blocksConnection>true</blocksConnection>
+            </li>
+        </value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>SMN_StandardizedCommunications</defName>
+        <label>Standardized communications</label>
+        <tab>SMN_SkyMindResearch</tab>
+        <description>Standardizing communication and digital presence technologies will allow a baseline for a network of wirelessly connected devices. The advent of a networked environment connecting those devices could allow for great opportunities for establishing a digital framework for insights into shared experience, security, or remote attacks on hostile entitites. It all begins with infrastructure.</description>
+        <baseCost>1200</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>MultiAnalyzer</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>4.5</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <discoveredLetterTitle>About: SkyMind Network</discoveredLetterTitle>
+        <discoveredLetterText>You have unlocked the basic components for a SkyMind network, and can now build relay towers to assemble the infrastructure for the network and allow the connection of powered devices. Many devices will require a pawn - or even a SkyMind Core - interfaced with the network to gain unique functionality, however.\n\nNetworked servers will allow you to accrue insights into skill, security, or hacking fields. You will need networked databases to store points, and either networked analysts or pawn researchers on a networked research bench to generate points. Skill points can give pawns xp or passions once you develop the means for pawns to connect to the network. Security points protect against enemy hacks on your network, which will randomly occur as long as you have an active network with an intensity based on your colony's strength. Hacking points can be used against other factions' networks for benefits.</discoveredLetterText>
+    </ResearchProjectDef>
+
+</Defs>

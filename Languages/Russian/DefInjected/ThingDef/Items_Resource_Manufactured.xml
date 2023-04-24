@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drone Resurrector Kit -->
+
+  <ATR_DroneResurrectorKit.label>Набор для воскрешения дронов</ATR_DroneResurrectorKit.label>
+  <ATR_DroneResurrectorKit.description>Специализированный набор инструментов, способных возвращать к жизни отключенные простые механические дроны. Инструменты достаточно развиты, чтобы вернуть к жизни простые механические устройства, такие как животные. Оживленные устройства должны полностью перезагрузиться, чтобы снова начать работать.</ATR_DroneResurrectorKit.description>
+  <ATR_DroneResurrectorKit.comps.0.useLabel>Используйте набор для воскрешения</ATR_DroneResurrectorKit.comps.0.useLabel>
+
+
+  <!-- Android Resurrection Kit -->
+
+  <ATR_AndroidResurrectorKit.label>Набор для воскрешения андроида</ATR_AndroidResurrectorKit.label>
+  <ATR_AndroidResurrectorKit.description>Специализированный набор инструментов, способных вернуть к жизни вышедшие из строя механические юниты. Инструменты достаточно совершенны, чтобы вернуть любой такой юнит к номинальной функциональности. Оживленные юниты должны полностью перезагрузиться, чтобы снова начать работать.</ATR_AndroidResurrectorKit.description>
+  <ATR_AndroidResurrectorKit.comps.0.useLabel>Используйте набор для воскрешения</ATR_AndroidResurrectorKit.comps.0.useLabel>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_MechaniteSurge.label>Механический всплеск</ATR_MechaniteSurge.label>
+  <ATR_MechaniteSurge.description>Дополнительный приток механитов через трубки с охлаждающей жидкостью. Перенаселение механитов не может быть поддержано хранилищем механитов, и скоро вернется к нормальному уровню.\n\n\nВ то же время, общая эффективность будет улучшена, а дополнительные механиты значительно сократят потери охлаждающей жидкости. Первоначальное вливание механитов может полностью заменить потерянную охлаждающую жидкость.</ATR_MechaniteSurge.description>
+  <ATR_MechaniteSurge.stages.0.label>Незначительный</ATR_MechaniteSurge.stages.0.label>
+  <ATR_MechaniteSurge.stages.1.label>Малый</ATR_MechaniteSurge.stages.1.label>
+  <ATR_MechaniteSurge.stages.2.label>Умеренный</ATR_MechaniteSurge.stages.2.label>
+  <ATR_MechaniteSurge.stages.3.label>Существенный</ATR_MechaniteSurge.stages.3.label>
+  <ATR_MechaniteSurge.stages.4.label>Пиковый</ATR_MechaniteSurge.stages.4.label>
+
+
+</LanguageData>

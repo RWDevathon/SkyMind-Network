@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SMN_DDOSRecovery.label>Восстановление после DDOS</SMN_DDOSRecovery.label>
+  <SMN_DDOSRecovery.description>Этот юнит восстанавливается после воздействия DDOS-атаки. Перекомпиляция и отделение ненужных данных от истинных - это утомительное и отвлекающее занятие, так как до тех пор, пока данные не будут полностью готовы, им нельзя доверять.</SMN_DDOSRecovery.description>
+
+  <ATR_MechanicalOverclocking.label>Разгон</ATR_MechanicalOverclocking.label>
+  <ATR_MechanicalOverclocking.description>Это устройство разгоняет свой основной процессор, заметно повышая производительность. Это требует значительного дополнительного энергопотребления и создает нагрузку на тепловую и обслуживающую системы. Необычно повышенная активность процессора напрягает и сознание хозяина.</ATR_MechanicalOverclocking.description>
+
+  <SMN_MemoryCorruption.label>Повреждение памяти</SMN_MemoryCorruption.label>
+  <SMN_MemoryCorruption.description>У этого юнита произошло критическое повреждение памяти. Память потеряна, но само поврежденное хранилище может быть восстановлено. Однако это будет долгий и трудный путь.</SMN_MemoryCorruption.description>
+  <SMN_MemoryCorruption.stages.0.label>Почти полное восстановление</SMN_MemoryCorruption.stages.0.label>
+  <SMN_MemoryCorruption.stages.1.label>Незначительные ошибки</SMN_MemoryCorruption.stages.1.label>
+  <SMN_MemoryCorruption.stages.2.label>Крупные ошибки</SMN_MemoryCorruption.stages.2.label>
+  <SMN_MemoryCorruption.stages.3.label>Существенный сбой</SMN_MemoryCorruption.stages.3.label>
+  <SMN_MemoryCorruption.stages.4.label>Критический сбой</SMN_MemoryCorruption.stages.4.label>
+  <SMN_MemoryCorruption.stages.5.label>Практически полная потеря</SMN_MemoryCorruption.stages.5.label>
+
+  <ATR_RemainingCharge.label>время автономной работы</ATR_RemainingCharge.label>
+  <ATR_RemainingCharge.description>Оставшееся время работы аккумулятора до потери функции.</ATR_RemainingCharge.description>
+  <ATR_RemainingCharge.stages.0.label>Пустой</ATR_RemainingCharge.stages.0.label>
+  <ATR_RemainingCharge.stages.1.label>Критический</ATR_RemainingCharge.stages.1.label>
+  <ATR_RemainingCharge.stages.2.label>Низкий</ATR_RemainingCharge.stages.2.label>
+  <ATR_RemainingCharge.stages.3.label>Умеренный</ATR_RemainingCharge.stages.3.label>
+  <ATR_RemainingCharge.stages.4.label>Высокий</ATR_RemainingCharge.stages.4.label>
+  <ATR_RemainingCharge.stages.5.label>Полный</ATR_RemainingCharge.stages.5.label>
+
+
+</LanguageData>

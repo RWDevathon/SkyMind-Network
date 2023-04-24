@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_PersonalityShiftAllowed.stages.0.label>Изменчивая личность</ATR_PersonalityShiftAllowed.stages.0.label>
+  <ATR_PersonalityShiftAllowed.stages.0.description>Этот несколько иной взгляд на мир интересен.</ATR_PersonalityShiftAllowed.stages.0.description>
+
+  <ATR_PersonalityShiftDenied.stages.0.label>Застойная личность</ATR_PersonalityShiftDenied.stages.0.label>
+  <ATR_PersonalityShiftDenied.stages.0.description>Я хотел попробовать себя в другой роли, но мне отказали. Я чувствую себя подавленной.</ATR_PersonalityShiftDenied.stages.0.description>
+
+  <SMN_SurrogateMentalBreak.stages.0.label>Суррогатный дискомфорт</SMN_SurrogateMentalBreak.stages.0.label>
+  <SMN_SurrogateMentalBreak.stages.0.description>Я испытал большой дискомфорт при использовании суррогата. Это стресс.</SMN_SurrogateMentalBreak.stages.0.description>
+
+
+</LanguageData>

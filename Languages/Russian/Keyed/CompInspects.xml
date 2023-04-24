@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Computer -->
+  <SMN_SkillServersSynthesis>Доступные очки навыков: {0} / {1}</SMN_SkillServersSynthesis>
+  <SMN_SkillProducedPoints>Производство очков навыков: {0}</SMN_SkillProducedPoints>
+  <SMN_SkillSlotsAdded>Добавлено хранилище навыков: {0}</SMN_SkillSlotsAdded>
+
+  <SMN_SecurityServersSynthesis>Доступные очки безопасности: {0} / {1}</SMN_SecurityServersSynthesis>
+  <SMN_SecurityProducedPoints>Производство очков безопасности: {0}</SMN_SecurityProducedPoints>
+  <SMN_SecuritySlotsAdded>Добавлено хранилище безопасности: {0}</SMN_SecuritySlotsAdded>
+
+  <SMN_HackingServersSynthesis>Доступные очки взлома: {0} / {1}</SMN_HackingServersSynthesis>
+  <SMN_HackingProducedPoints>Производство очков взлома: {0}</SMN_HackingProducedPoints>
+  <SMN_HackingSlotsAdded>Добавлено хранилище взлома: {0}</SMN_HackingSlotsAdded>
+
+  <!-- Heat -->
+  <SMN_CompHotSensitiveCriticalText>Тепловой порог превышен: повреждение неизбежно!</SMN_CompHotSensitiveCriticalText>
+  <SMN_CompHotSensitiveDangerText>Приближение к тепловому порогу: рекомендуется принять профилактические меры!</SMN_CompHotSensitiveDangerText>
+  <SMN_CompHotSensitiveWarningText>Превышен порог идеального тепла: рекомендуется соблюдать осторожность.</SMN_CompHotSensitiveWarningText>
+  <SMN_CompHotSensitiveSafeText>В пределах безопасного рабочего порога: работа в норме.</SMN_CompHotSensitiveSafeText>
+
+  <!-- SkyMind -->
+  <SMN_HackedWithTimer>Перекомпиляция ПО завершена в {0}.</SMN_HackedWithTimer>
+  <SMN_CryptoLocked>Криптоблокировка, доступ запрещен.</SMN_CryptoLocked>
+  <SMN_SkyMindDetected>Подключено к SkyMind</SMN_SkyMindDetected>
+
+  <!-- Core -->
+  <SMN_CloudIntelligenceSummary>Интеллекты в SkyMind: {0} / {1}</SMN_CloudIntelligenceSummary>
+
+  <!-- Link -->
+  <SMN_SkyMindOperationInProgress>Время до завершения операции: {0}</SMN_SkyMindOperationInProgress>
+  <SMN_SkyMindCoreOperationInProgress>Время до завершения операции для {0}: {1}</SMN_SkyMindCoreOperationInProgress>
+  <SMN_SurrogateConnected>Соединяется с: {0} другой пешкой</SMN_SurrogateConnected>
+
+  <!-- Tower -->
+  <SMN_SkyMindNetworkSummary>Подключено пользователей: {0} / {1}</SMN_SkyMindNetworkSummary>
+
+</LanguageData>

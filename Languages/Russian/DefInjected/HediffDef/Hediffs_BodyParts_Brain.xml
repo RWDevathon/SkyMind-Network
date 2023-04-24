@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Isolated Core Housing -->
+
+  <ATR_IsolatedCore.label>Интерфейс не установлен</ATR_IsolatedCore.label>
+  <ATR_IsolatedCore.description>Ядро этого юнита пусто. Для подключения к интерфейсу и активации юнита требуется инициализация автономного ядра или ядра приемника.</ATR_IsolatedCore.description>
+
+
+  <!-- Autonomous Core -->
+
+  <ATR_AutonomousCore.label>Автономное ядро</ATR_AutonomousCore.label>
+  <ATR_AutonomousCore.description>Это ядро полностью взаимодействует с автономным интеллектом. Все, что составляет интеллект, надежно хранится в этом ядре, откуда он может осуществлять контроль над остальными частями шасси.</ATR_AutonomousCore.description>
+
+
+  <!-- SkyMind Receiver Core -->
+
+  <ATR_ReceiverCore.label>Ядро приемник</ATR_ReceiverCore.label>
+  <ATR_ReceiverCore.description>Это ядро подключено к шасси, а все функции ядра переданы протоколам связи и дистанционного управления. В этом ядре нет интеллекта, но любой подключенный интеллект может исполнять свою волю через него.</ATR_ReceiverCore.description>
+
+
+  <!-- SkyMind Receiver -->
+
+  <SMN_SkyMindReceiver.label>Приемник SkyMind</SMN_SkyMindReceiver.label>
+  <SMN_SkyMindReceiver.description>Это устройство устанавливается непосредственно в мозг и полностью отменяет нейронную сеть субъекта, превращая его в пустую оболочку, которой можно управлять с помощью внешней силы. Из-за сложности устройства и трудностей, связанных с контролем органической материи, устройство имеет тенденцию сильно воспламеняться при разрушении. \n\nМногие войска использовали это в своих интересах, чтобы уничтожить суррогаты, а не позволить им попасть в руки врага.</SMN_SkyMindReceiver.description>
+
+
+  <!-- SkyMind Transceiver -->
+
+  <SMN_SkyMindTransceiver.label>Трансивер SkyMind</SMN_SkyMindTransceiver.label>
+  <SMN_SkyMindTransceiver.description>Это устройство устанавливается непосредственно в мозг, позволяя испытуемому свободно взаимодействовать с сетью SkyMind. Успешное вживление или удаление этого имплантата не имеет серьезных последствий.</SMN_SkyMindTransceiver.description>
+
+
+</LanguageData>

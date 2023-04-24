@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_RegenerativePill.label>Регенеративная таблетка</ATR_RegenerativePill.label>
+  <ATR_RegenerativePill.description>Редкий случай, когда механические таблетки (в основном) безопасны для органического потребления. Регенеративные таблетки используют специально запрограммированные механиты, которые путешествуют по телу хозяина, стремясь восстановить и укрепить поврежденные части для более быстрого восстановления. \n\nОрганики найдут этот опыт довольно неприятным, но, тем не менее, получат полную пользу от действия пилюли.</ATR_RegenerativePill.description>
+  <ATR_RegenerativePill.ingestible.ingestCommandString>Принять {0}</ATR_RegenerativePill.ingestible.ingestCommandString>
+  <ATR_RegenerativePill.ingestible.ingestReportString>Принимает {0}.</ATR_RegenerativePill.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Surrogate Limit Bonus -->
+
+  <SMN_SurrogateLimitBonus.label>суррогатный лимитный бонус</SMN_SurrogateLimitBonus.label>
+  <SMN_SurrogateLimitBonus.description>Сколько дополнительных суррогатов эта пешка может контролировать одновременно, не получая штрафа за сознание или скорость обучения.</SMN_SurrogateLimitBonus.description>
+
+
+</LanguageData>

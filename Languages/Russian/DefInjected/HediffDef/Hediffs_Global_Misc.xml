@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_CoolantLoss.label>потеря охлаждающей жидкости</ATR_CoolantLoss.label>
+  <ATR_CoolantLoss.description>Потеря охлаждающей жидкости в шасси, что приводит к снижению охлаждающей способности и потере точного управления двигателем. Недостаток циркуляции препятствует нормальному функционированию восстановительных механизмов, что приводит к увеличению времени восстановления. \n\nПриоритизация гарантирует, что основные функции получают достаточный поток охлаждающей жидкости до достижения критических уровней.</ATR_CoolantLoss.description>
+  <ATR_CoolantLoss.stages.0.label>номинальная</ATR_CoolantLoss.stages.0.label>
+  <ATR_CoolantLoss.stages.1.label>незначительная</ATR_CoolantLoss.stages.1.label>
+  <ATR_CoolantLoss.stages.2.label>умеренная</ATR_CoolantLoss.stages.2.label>
+  <ATR_CoolantLoss.stages.3.label>значительная</ATR_CoolantLoss.stages.3.label>
+  <ATR_CoolantLoss.stages.4.label>угрожающая</ATR_CoolantLoss.stages.4.label>
+  <ATR_CoolantLoss.stages.5.label>серьезная</ATR_CoolantLoss.stages.5.label>
+  <ATR_CoolantLoss.stages.6.label>критическая</ATR_CoolantLoss.stages.6.label>
+
+  <ATR_Overheating.label>перегрев</ATR_Overheating.label>
+  <ATR_Overheating.description>Небезопасные уровни удержания тепла в шасси. При незначительных уровнях механические юниты могут снизить некоторые функциональные возможности, связанные с высокой мощностью/тепловыделением, чтобы компенсировать воздействие. При значительных уровнях юнит будет страдать от нарастающих системных сбоев. Если он превысит критический порог, ядро отключится, и юнит умрет.</ATR_Overheating.description>
+  <ATR_Overheating.stages.0.label>номинальный</ATR_Overheating.stages.0.label>
+  <ATR_Overheating.stages.1.label>минутный</ATR_Overheating.stages.1.label>
+  <ATR_Overheating.stages.2.label>незначительный</ATR_Overheating.stages.2.label>
+  <ATR_Overheating.stages.3.label>умеренный</ATR_Overheating.stages.3.label>
+  <ATR_Overheating.stages.4.label>значительный</ATR_Overheating.stages.4.label>
+  <ATR_Overheating.stages.5.label>серьезный</ATR_Overheating.stages.5.label>
+
+  <ATR_MechanicalHypothermia.label>переохлаждение</ATR_MechanicalHypothermia.label>
+  <ATR_MechanicalHypothermia.description>Хотя механические части не страдают от обморожения, как органическая плоть, холод представляет собой экзистенциальную угрозу для машин. На критических уровнях юнит должен направлять все тепловыделение на внутренние системы, что фактически обездвиживает его, а батареи при охлаждении разряжаются с пугающей скоростью.</ATR_MechanicalHypothermia.description>
+  <ATR_MechanicalHypothermia.stages.0.label>незначительное</ATR_MechanicalHypothermia.stages.0.label>
+  <ATR_MechanicalHypothermia.stages.1.label>малое</ATR_MechanicalHypothermia.stages.1.label>
+  <ATR_MechanicalHypothermia.stages.2.label>умеренное</ATR_MechanicalHypothermia.stages.2.label>
+  <ATR_MechanicalHypothermia.stages.3.label>значительное</ATR_MechanicalHypothermia.stages.3.label>
+  <ATR_MechanicalHypothermia.stages.4.label>угрожающее</ATR_MechanicalHypothermia.stages.4.label>
+  <ATR_MechanicalHypothermia.stages.5.label>критическое</ATR_MechanicalHypothermia.stages.5.label>
+
+
+</LanguageData>

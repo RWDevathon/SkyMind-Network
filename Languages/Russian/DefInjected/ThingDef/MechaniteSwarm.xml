@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_MechSwarm.label>Рой механитов</ATR_MechSwarm.label>
+  <ATR_MechSwarm.description>Маленькая пилюля, содержащая настоящий легион механитов. Эти механиты значительно усиливают способность хозяина контролировать шасси, на два дня, так как естественная выработка механитов не может выдержать такой всплеск.</ATR_MechSwarm.description>
+  <ATR_MechSwarm.ingestible.ingestCommandString>Принять {0}</ATR_MechSwarm.ingestible.ingestCommandString>
+  <ATR_MechSwarm.ingestible.ingestReportString>Принимает {0}.</ATR_MechSwarm.ingestible.ingestReportString>
+
+
+</LanguageData>

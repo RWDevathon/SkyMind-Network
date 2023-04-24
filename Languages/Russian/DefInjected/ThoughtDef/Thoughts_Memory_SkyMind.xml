@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SMN_ConnectedSkyMindAttacked.stages.0.label>SkyMind взломан</SMN_ConnectedSkyMindAttacked.stages.0.label>
+  <SMN_ConnectedSkyMindAttacked.stages.0.description>Сеть SkyMind, к которой я подключился, была взломана! Я не чувствую себя в безопасности.</SMN_ConnectedSkyMindAttacked.stages.0.description>
+
+  <SMN_AttackedViaSkyMind.stages.0.label>Прямой взлом</SMN_AttackedViaSkyMind.stages.0.label>
+  <SMN_AttackedViaSkyMind.stages.0.description>Я подвергся психическому насилию из-за бреши в сети SkyMind, к которой я подключился! Я чувствую себя оскорбленным - как я мог верить, что это безопасно?</SMN_AttackedViaSkyMind.stages.0.description>
+
+  <SMN_TrolledViaSkyMind.stages.0.label>Троллинг</SMN_TrolledViaSkyMind.stages.0.label>
+  <SMN_TrolledViaSkyMind.stages.0.description>Хакеры пошли на многое, чтобы взломать сеть SkyMind только для того, чтобы обидеть и оскорбить меня! У кого хватило наглости сделать такое - и почему мы не смогли это остановить?</SMN_TrolledViaSkyMind.stages.0.description>
+
+
+</LanguageData>
