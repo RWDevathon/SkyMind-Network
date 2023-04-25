@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harmony\SMN_Utils_Patch.cs" />
     <Compile Include="Harmony\MHC_Utils_Patch.cs" />
     <Compile Include="SMN MH Compatibility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -43,7 +43,7 @@ namespace SkyMind
             // If this pawn can't use the SkyMind or is not a colonist or prisoner, then it doesn't get any buttons to interact with it.
             if (parent is Pawn pawn)
             {
-                if (!SMN_Utils.HasCloudCapableImplant(pawn) || (pawn.Faction != Faction.OfPlayer && !pawn.IsPrisonerOfColony))
+                if (!SMN_Utils.HasNetworkCapableImplant(pawn) || (pawn.Faction != Faction.OfPlayer && !pawn.IsPrisonerOfColony))
                 {
                     yield break;
                 }

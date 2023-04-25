@@ -14,7 +14,7 @@ namespace SkyMind
         private static Pawn blankPawn;
 
         // If a pawn has a hediff that allows it (via a defModExtension bool) to connect to the SkyMind network, return true.
-        public static bool HasCloudCapableImplant(Pawn pawn)
+        public static bool HasNetworkCapableImplant(Pawn pawn)
         {
             List<Hediff> pawnHediffs = pawn.health.hediffSet.hediffs;
             for (int i = pawnHediffs.Count - 1; i >= 0; i--)
@@ -22,13 +22,20 @@ namespace SkyMind
                 if (pawnHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.allowsConnection == true)
                     return true;
             }
+
+            // Pawns in the SkyMind Core are by nature considered cloud capable.
+            if (gameComp.GetCloudPawns().Contains(pawn))
+            {
+                return true;
+            }
+
             return false;
         }
 
         // Returns true if the race can ever be a surrogate.
         public static bool MayEverBeSurrogate(ThingDef thingDef)
         {
-            return thingDef.race.Humanlike && thingDef.HasModExtension<SMN_PawnSkyMindExtension>();
+            return thingDef.race.Humanlike;
         }
 
         // Returns true if the pawn can ever be a surrogate.
@@ -128,48 +135,48 @@ namespace SkyMind
             {
                 // Create the Blank pawn that will be used for all non-controlled surrogates, blank androids, etc.
                 PawnGenerationRequest request = new PawnGenerationRequest(Faction.OfPlayer.def.basicMemberKind, null, PawnGenerationContext.PlayerStarter, canGeneratePawnRelations: false, forceNoIdeo: true, forceBaselinerChance: 1, colonistRelationChanceFactor: 0f, forceGenerateNewPawn: true, fixedGender: Gender.None);
-                Pawn blankMechanical = PawnGenerator.GeneratePawn(request);
-                blankMechanical.story.Childhood = SMN_BackstoryDefOf.SMN_BlankChildhood;
-                blankMechanical.story.Adulthood = SMN_BackstoryDefOf.SMN_BlankAdulthood;
-                blankMechanical.story.traits.allTraits.Clear();
-                blankMechanical.skills.Notify_SkillDisablesChanged();
-                blankMechanical.skills.skills.ForEach(delegate (SkillRecord record)
+                Pawn pawn = PawnGenerator.GeneratePawn(request);
+                pawn.story.Childhood = SMN_BackstoryDefOf.SMN_BlankChildhood;
+                pawn.story.Adulthood = SMN_BackstoryDefOf.SMN_BlankAdulthood;
+                pawn.story.traits.allTraits.Clear();
+                pawn.skills.Notify_SkillDisablesChanged();
+                pawn.skills.skills.ForEach(delegate (SkillRecord record)
                 {
                     record.passion = 0;
                     record.Level = 0;
                     record.xpSinceLastLevel = 0;
                     record.xpSinceMidnight = 0;
                 });
-                blankMechanical.workSettings.EnableAndInitializeIfNotAlreadyInitialized();
-                blankMechanical.workSettings.DisableAll();
-                blankMechanical.playerSettings = new Pawn_PlayerSettings(blankMechanical)
+                pawn.workSettings.EnableAndInitializeIfNotAlreadyInitialized();
+                pawn.workSettings.DisableAll();
+                pawn.playerSettings = new Pawn_PlayerSettings(pawn)
                 {
                     AreaRestriction = null,
                     hostilityResponse = HostilityResponseMode.Flee
                 };
                 if (ModsConfig.BiotechActive)
                 {
-                    for (int i = blankMechanical.genes.GenesListForReading.Count - 1; i >= 0; i--)
+                    for (int i = pawn.genes.GenesListForReading.Count - 1; i >= 0; i--)
                     {
-                        blankMechanical.genes.RemoveGene(blankMechanical.genes.GenesListForReading[i]);
+                        pawn.genes.RemoveGene(pawn.genes.GenesListForReading[i]);
                     }
                 }
-                if (blankMechanical.ideo != null)
+                if (pawn.ideo != null)
                 {
-                    blankMechanical.ideo.SetIdeo(null);
+                    pawn.ideo.SetIdeo(null);
                 }
-                if (blankMechanical.timetable == null)
-                    blankMechanical.timetable = new Pawn_TimetableTracker(blankMechanical);
-                if (blankMechanical.playerSettings == null)
-                    blankMechanical.playerSettings = new Pawn_PlayerSettings(blankMechanical);
-                if (blankMechanical.foodRestriction == null)
-                    blankMechanical.foodRestriction = new Pawn_FoodRestrictionTracker(blankMechanical);
-                if (blankMechanical.drugs == null)
-                    blankMechanical.drugs = new Pawn_DrugPolicyTracker(blankMechanical);
-                if (blankMechanical.outfits == null)
-                    blankMechanical.outfits = new Pawn_OutfitTracker(blankMechanical);
-                blankMechanical.Name = new NameTriple("SMN_BlankPawnFirstName".Translate(), "SMN_BlankPawnNickname".Translate(), "SMN_BlankPawnLastName".Translate());
-                blankPawn = blankMechanical;
+                if (pawn.timetable == null)
+                    pawn.timetable = new Pawn_TimetableTracker(pawn);
+                if (pawn.playerSettings == null)
+                    pawn.playerSettings = new Pawn_PlayerSettings(pawn);
+                if (pawn.foodRestriction == null)
+                    pawn.foodRestriction = new Pawn_FoodRestrictionTracker(pawn);
+                if (pawn.drugs == null)
+                    pawn.drugs = new Pawn_DrugPolicyTracker(pawn);
+                if (pawn.outfits == null)
+                    pawn.outfits = new Pawn_OutfitTracker(pawn);
+                pawn.Name = new NameTriple("SMN_BlankPawnFirstName".Translate(), "SMN_BlankPawnNickname".Translate(), "SMN_BlankPawnLastName".Translate());
+                blankPawn = pawn;
             }
 
             return blankPawn;
@@ -614,7 +621,7 @@ namespace SkyMind
             }
 
             // If the pawn has a cloud capable implant or is in the SkyMind network already, then it is valid.
-            return HasCloudCapableImplant(pawn);
+            return HasNetworkCapableImplant(pawn);
         }
 
         // Returns a list of all surrogates without hosts in caravans. Return null if there are none.

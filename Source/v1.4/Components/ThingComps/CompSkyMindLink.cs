@@ -710,9 +710,6 @@ namespace SkyMind
                 // Remove any Hediffs the game may have applied when generating the clone - this is to avoid weird hediffs appearing that may cause unexpected behavior.
                 clone.health.RemoveAllHediffs();
 
-                // It should however have a SkyMind transceiver of some kind. Give it the one associated with its race.
-                clone.health.AddHediff(clone.def.GetModExtension<SMN_PawnSkyMindExtension>().defaultTransceiverImplant, clone.health.hediffSet.GetBrain());
-
                 // Duplicate the intelligence of this pawn into the clone (not murder) and add them to the SkyMind network.
                 SMN_Utils.Duplicate(ThisPawn, clone, false, false);
                 SMN_Utils.gameComp.PushCloudPawn(clone);

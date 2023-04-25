@@ -330,7 +330,7 @@ namespace SkyMind
                 // Get a list of all other hostile factions technologically capable of using the SkyMind network
                 foreach (Faction targetFaction in Find.FactionManager.GetFactions(minTechLevel: TechLevel.Industrial).Where(faction => faction.HostileTo(Faction.OfPlayer) && faction.def.GetModExtension<SMN_FactionSkyMindExtension>()?.canUseSurrogates == true))
                 {
-                    IEnumerable<Pawn> targetPawns = Find.CurrentMap.mapPawns.SpawnedPawnsInFaction(targetFaction).Where(pawn => SMN_Utils.HasCloudCapableImplant(pawn));
+                    IEnumerable<Pawn> targetPawns = Find.CurrentMap.mapPawns.SpawnedPawnsInFaction(targetFaction).Where(pawn => SMN_Utils.HasNetworkCapableImplant(pawn));
                     if (targetPawns.Any())
                     {
                         opts.Add(new FloatMenuOption(targetFaction.Name, delegate

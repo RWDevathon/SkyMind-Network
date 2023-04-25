@@ -120,7 +120,7 @@
     <HediffDef ParentName="ImplantHediffBase">
         <defName>SMN_SkyMindTransceiver</defName>
         <label>SkyMind Transceiver</label>
-        <description>This device is installed directly into the brain, allowing the subject to freely interact with the SkyMind network. Successfully implanting or removing this implant has no major consequences.</description>
+        <description>This device is installed directly into the cranium, allowing the subject to freely interact with the SkyMind network. Successfully implanting or removing this implant has no major consequences.</description>
 		<modExtensions>
 			<li Class="SkyMind.SMN_HediffSkyMindExtension">
                 <allowsConnection>true</allowsConnection>
@@ -136,7 +136,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <label>SkyMind Transceiver</label>
-        <description>A small module that can be implaned into an organic brain, allowing the subject to freely interact with the SkyMind network. Successfully implanting or removing this implant has no major consequences.</description>
+        <description>A small module that can be implaned into the cranium, allowing the subject to freely interact with the SkyMind network. Successfully implanting or removing this implant has no major consequences.</description>
         <recipeMaker>
             <researchPrerequisite>SMN_CranialSkyMindInterfaces</researchPrerequisite>
         </recipeMaker>
@@ -149,7 +149,7 @@
     <RecipeDef ParentName="SMN_SurgeryInstallSkyMindImplantBase">
         <defName>SMN_Install_SkyMindTransceiver</defName>
         <label>Install SkyMind transceiver</label>
-        <description>Installs and initializes a transceiver in the subjects brain. The pawn will be able to access the SkyMind network freely.</description>
+        <description>Installs and initializes a transceiver in the subject's brain. The pawn will be able to access the SkyMind network freely.</description>
         <researchPrerequisite>SMN_CranialSkyMindInterfaces</researchPrerequisite>
         <jobString>Installing SkyMind Transceiver.</jobString>
 		<ingredients>
@@ -172,7 +172,7 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <workerClass>SkyMind.Recipe_RemoveCranialSkyMindInterface</workerClass>
-        <defName>SMN_RemoveOrganicSkyMindTransceiver</defName>
+        <defName>SMN_RemoveSkyMindTransceiver</defName>
         <label>remove SkyMind transceiver</label>
         <description>Remove the Skymind transceiver implant.</description>
         <descriptionHyperlinks>

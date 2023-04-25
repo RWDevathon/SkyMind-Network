@@ -8,7 +8,7 @@ namespace SkyMind
         protected override ThoughtState CurrentStateInternal(Pawn p)
         {
             // Skip pawns that can't connect to the SkyMind.
-            if (!SMN_Utils.HasCloudCapableImplant(p))
+            if (!SMN_Utils.HasNetworkCapableImplant(p))
                 return false;
 
             // Skip pawns that can be but aren't connected to the SkyMind
