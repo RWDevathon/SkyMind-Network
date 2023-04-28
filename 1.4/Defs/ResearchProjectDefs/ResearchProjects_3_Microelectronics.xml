@@ -11,8 +11,8 @@
         <prerequisites>
             <li>MultiAnalyzer</li>
         </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>4.5</researchViewY>
+        <researchViewX>0</researchViewX>
+        <researchViewY>2</researchViewY>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>

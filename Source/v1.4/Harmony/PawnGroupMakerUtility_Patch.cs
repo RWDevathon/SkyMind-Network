@@ -37,7 +37,7 @@ namespace SkyMind
 
                     foreach (Pawn pawn in modifiedResults)
                     {
-                        // Count all non-trader pawns with humanlike intelligence that are organics with the proper setting or androids with the proper setting. Don't take pawns that have relations or that are too weak.
+                        // Count all non-trader pawns with humanlike intelligence. Don't take pawns that have relations or that are too weak.
                         if (pawn.def.race != null && pawn.def.race.Humanlike && pawn.trader == null && pawn.TraderKind == null && !pawn.relations.RelatedToAnyoneOrAnyoneRelatedToMe)
                         {
                             if (factionExtension.canUseSurrogates && SMN_Utils.MayEverBeSurrogate(pawn) && factionExtension.minStrengthForSurrogates <= pawn.kindDef.combatPower)
@@ -56,12 +56,17 @@ namespace SkyMind
                     // Determine how many surrogates are taking the place of candidates
                     int surCount = (int)(surrogateCandidates.Count * Rand.Range(factionExtension.percentOfGroupToBeSurrogatesMin, factionExtension.percentOfGroupToBeSurrogatesMax));
 
-                    IEnumerable<Pawn> selectedPawns = surrogateCandidates.TakeRandom(surCount);
+                    while (surrogateCandidates.Count > surCount)
+                    {
+                        surrogateCandidates.RemoveAt(0);
+                    }
+                    Log.Warning("surrogates: " + surrogateCandidates.Count());
 
                     // Set the selected pawn to control itself, as foreign surrogates do not actually have separate pawns to control them.
-                    foreach (Pawn selectedPawn in selectedPawns)
+                    foreach (Pawn selectedPawn in surrogateCandidates)
                     {
-                        SMN_Utils.TurnIntoSurrogate(selectedPawn);
+                        Log.Warning("BARNACLE " + selectedPawn);
+                        SMN_Utils.TurnIntoSurrogate(selectedPawn, part: selectedPawn.health.hediffSet.GetBrain());
 
                         // Connect the chosenCandidate to the surrogate as the controller. It is an external controller.
                         selectedPawn.GetComp<CompSkyMindLink>().ConnectSurrogate(selectedPawn, true);
@@ -70,7 +75,7 @@ namespace SkyMind
                 }
                 catch (Exception ex)
                 {
-                    Log.Warning("[SMN] Failed to apply surrogates when creating a Pawn Group. Unknown consequences may occur." + ex.Message + " " + ex.StackTrace);
+                    Log.Warning("[SMN] Failed to apply surrogates when creating a Pawn Group. Unknown consequences may occur. " + ex.Message + ex.StackTrace);
                 }
             }
         }

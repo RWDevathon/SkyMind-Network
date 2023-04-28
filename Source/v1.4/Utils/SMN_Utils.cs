@@ -50,7 +50,7 @@ namespace SkyMind
             List<Hediff> pawnHediffs = pawn.health.hediffSet.hediffs;
             for (int i = pawnHediffs.Count - 1; i >= 0; i--)
             {
-                if (pawnHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.isReceiver == true)
+                if (pawnHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.isReceiver ?? false)
                     return true;
             }
             return false;
@@ -67,39 +67,46 @@ namespace SkyMind
                 gameComp.hasMadeSurrogate = true;
             }
 
+            // Remove all transceivers from the pawn to ensure no surrogate + controller issues may arise.
+            List<Hediff> pawnHediffs = pawn.health.hediffSet.hediffs;
+            for (int i = pawnHediffs.Count - 1; i >= 0; i--)
+            {
+                if (pawnHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.isTransceiver ?? false)
+                {
+                    pawn.health.RemoveHediff(pawnHediffs[i]);
+                }
+            }
+
+            // If a hediff is provided, assume it's the desired receiver implant.
             if (hediff != null)
             {
                 pawn.health.AddHediff(hediff, part);
             }
+            // Give the pawn their receiver implant.
             else
             {
-                // Remove all transceivers from the pawn to ensure no surrogate + controller issues may arise.
-                List<Hediff> pawnHediffs = pawn.health.hediffSet.hediffs;
-                for (int i = pawnHediffs.Count - 1; i >= 0; i--)
-                {
-                    if (pawnHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>().isTransceiver)
-                    {
-                        pawn.health.RemoveHediff(pawnHediffs[i]);
-                    }
-                }
-
-                // Give the pawn their receiver implant, preferring the one selected via pawn kind extension and then via thing def extension.
+                // First try to take from the pawn kind.
                 if (pawn.kindDef.GetModExtension<SMN_PawnKindSkyMindExtension>() is SMN_PawnKindSkyMindExtension pawnKindExtension && pawnKindExtension.receiverImplant != null)
                 {
                     pawn.health.AddHediff(pawnKindExtension.receiverImplant, pawn.health.hediffSet.GetBrain());
                 }
+                // Then try to take from the race.
+                else if (pawn.def.GetModExtension<SMN_PawnSkyMindExtension>() is SMN_PawnSkyMindExtension thingDefExtension && thingDefExtension.defaultReceiverImplant != null)
+                {
+                    pawn.health.AddHediff(thingDefExtension.defaultReceiverImplant, pawn.health.hediffSet.GetBrain());
+                }
+                // If all else fails, give them the basic Receiver.
                 else
                 {
-                    SMN_PawnSkyMindExtension thingDefExtension = pawn.def.GetModExtension<SMN_PawnSkyMindExtension>();
-                    pawn.health.AddHediff(thingDefExtension.defaultReceiverImplant, pawn.health.hediffSet.GetBrain());
+                    pawn.health.AddHediff(SMN_HediffDefOf.SMN_SkyMindReceiver, pawn.health.hediffSet.GetBrain());
                 }
             }
 
-            // Turn the pawn into a Blank like all uncontrolled surrogates are. Blanks are never tethered to the surrogates.
-            Duplicate(GetBlank(), pawn, killingIntelligence, false);
-
-            // Give the pawn the No Controller Hediff that all uncontrolled surrogates have.
-            pawn.health.AddHediff(SMN_HediffDefOf.SMN_NoController);
+            // If killingIntelligence is true, then the pawn should be a blank and be considered murdered. Blanks are never tethered.
+            if (killingIntelligence)
+            {
+                Duplicate(GetBlank(), pawn, true, false);
+            }
         }
 
         // Turns the recipient pawn into a blank pawn, and remove all SkyMind connecting hediffs if requested.

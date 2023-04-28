@@ -12,30 +12,11 @@
             <li>SMN_StandardizedCommunications</li>
             <li>AdvancedFabrication</li>
         </prerequisites>
-        <researchViewX>6</researchViewX>
-        <researchViewY>4.5</researchViewY>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2</researchViewY>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>SMN_CranialSkyMindInterfaces</defName>
-        <label>Cranial SkyMind Interfaces</label>
-        <tab>SMN_SkyMindResearch</tab>
-        <description>Connecting static devices to the SkyMind network is relatively straightforward and bereft of particularly spectacular benefits. The ability to interface individuals with the network, however, promises to revolutionize reality. The development of SkyMind Transceivers and Receivers will allow individuals to connect to the network for remote control, skill acquisition, consciousness transfer, and even remotely controlled surrogate bodies.</description>
-        <baseCost>4000</baseCost>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>SMN_CommunicationOptimization</li>
-        </prerequisites>
-        <researchViewX>7</researchViewX>
-        <researchViewY>5</researchViewY>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <discoveredLetterTitle>About: Pawns and the SkyMind</discoveredLetterTitle>
-        <discoveredLetterText>You can now manufacture SkyMind transceivers and receivers to allow most pawns to use the network. These two implants require manufacturing at a fabrication bench. Installing a receiver in a pawn to make them a surrogate murders the existing intelligence, but allows their body to be used as a remotely controlled puppet by their controller and furthermore allows that controller to transfer their consciousness permanently into the surrogate. Transceivers carry no particular negative consequences, and give organic pawns full access to all the network's features, ranging from skill acquisition, remotely accessing some devices like comms consoles, surrogate control, and mind transfer operations.</discoveredLetterText>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -48,13 +29,32 @@
         <prerequisites>
             <li>SMN_CommunicationOptimization</li>
         </prerequisites>
-        <researchViewX>7</researchViewX>
-        <researchViewY>4.5</researchViewY>
+        <researchViewX>4</researchViewX>
+        <researchViewY>2</researchViewY>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
         <discoveredLetterTitle>About: Advanced SkyMind Networks</discoveredLetterTitle>
         <discoveredLetterText>The Networked Intelligence may require a persona core to build, but it offers the ability to progress deeper into SkyMind networks and can store and generate simultaneously at far higher capacities than lower networks. Two may connect to a research bench at a time, and offers a small boost to research speed - and is a requirement to developing the technology necessary to understand how to manufacture Ultratech persona cores or a SkyMind Core.</discoveredLetterText>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>SMN_CranialSkyMindInterfaces</defName>
+        <label>Cranial SkyMind Interfaces</label>
+        <tab>SMN_SkyMindResearch</tab>
+        <description>Connecting static devices to the SkyMind network is relatively straightforward and bereft of particularly spectacular benefits. The ability to interface individuals with the network, however, promises to revolutionize reality. The development of SkyMind Transceivers and Receivers will allow individuals to connect to the network for remote control, skill acquisition, consciousness transfer, and even remotely controlled surrogate bodies.</description>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>SMN_CommunicationOptimization</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>4</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <discoveredLetterTitle>About: Pawns and the SkyMind</discoveredLetterTitle>
+        <discoveredLetterText>You can now manufacture SkyMind transceivers and receivers to allow most pawns to use the network. These two implants require manufacturing at a fabrication bench. Installing a receiver in a pawn to make them a surrogate murders the existing intelligence, but allows their body to be used as a remotely controlled puppet by their controller and furthermore allows that controller to transfer their consciousness permanently into the surrogate. Transceivers carry no particular negative consequences, and give organic pawns full access to all the network's features, ranging from skill acquisition, remotely accessing some devices like comms consoles, surrogate control, and mind transfer operations.</discoveredLetterText>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -68,8 +68,8 @@
             <li>SMN_ServerOptimization</li>
             <li>ShipComputerCore</li>
         </prerequisites>
-        <researchViewX>8</researchViewX>
-        <researchViewY>4.5</researchViewY>
+        <researchViewX>6</researchViewX>
+        <researchViewY>2</researchViewY>
         <requiredResearchFacilities>
             <li>SMN_NetworkedIntelligence</li>
             <li>MultiAnalyzer</li>
@@ -89,8 +89,8 @@
             <li>SMN_ServerOptimization</li>
             <li>ShipComputerCore</li>
         </prerequisites>
-        <researchViewX>8</researchViewX>
-        <researchViewY>5</researchViewY>
+        <researchViewX>6</researchViewX>
+        <researchViewY>4</researchViewY>
         <requiredResearchFacilities>
             <li>SMN_NetworkedIntelligence</li>
             <li>MultiAnalyzer</li>

@@ -42,17 +42,11 @@ namespace SkyMind
             {
                 Hediff receiverHediff = HediffMaker.MakeHediff(recipe.addsHediff, pawn, part);
                 SMN_Utils.TurnIntoSurrogate(pawn, receiverHediff, part, true);
+                pawn.health.AddHediff(SMN_HediffDefOf.SMN_NoController);
             }
             else
             {
                 pawn.health.AddHediff(recipe.addsHediff, part);
-            }
-
-            // There are special considerations for adding these implants. Receiver chips kill the current mind.
-            if (recipe.addsHediff.GetModExtension<SMN_HediffSkyMindExtension>()?.isReceiver == true)
-            {
-                SMN_Utils.Duplicate(SMN_Utils.GetBlank(), pawn, isTethered: false);
-                pawn.health.AddHediff(SMN_HediffDefOf.SMN_NoController);
             }
         }
     }

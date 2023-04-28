@@ -29,5 +29,7 @@ namespace SkyMind
 
         public static HediffDef SMN_NoController;
 
+        public static HediffDef SMN_SkyMindReceiver;
+
     }
 }
