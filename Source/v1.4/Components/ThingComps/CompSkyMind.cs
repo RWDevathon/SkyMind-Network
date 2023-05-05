@@ -2,6 +2,7 @@
 using RimWorld;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine.Diagnostics;
 
 namespace SkyMind
 {
@@ -163,6 +164,35 @@ namespace SkyMind
                         pawn.health.AddHediff(HediffMaker.MakeHediff(SMN_HediffDefOf.SMN_MindOperation, pawn));
                     }
                 }
+            }
+        }
+
+        // Buildings must always disconnect when despawned.
+        public override void PostDeSpawn(Map map)
+        {
+            base.PostDeSpawn(map);
+
+            // Servers can not be connected to the network when despawned.
+            if (parent is Building && connected)
+            {
+                SMN_Utils.gameComp.DisconnectFromSkyMind(parent);
+            }
+        }
+
+        public override void Notify_MapRemoved()
+        {
+            base.Notify_MapRemoved();
+
+            // Pawns may stay connected to the SkyMind network if despawned.
+            if (parent is Pawn)
+            {
+                return;
+            }
+
+            // No building can be connected to the network when their map is removed.
+            if (connected)
+            {
+                SMN_Utils.gameComp.DisconnectFromSkyMind(parent);
             }
         }
 

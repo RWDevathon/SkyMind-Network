@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using UnityEngine.Diagnostics;
 using Verse;
 
 namespace SkyMind
@@ -63,6 +64,14 @@ namespace SkyMind
             base.PostDeSpawn(map);
 
             // The server lists need to know how much storage exists for each server mode. This removes it from all three types.
+            SMN_Utils.gameComp.RemoveServer(building);
+        }
+
+        public override void Notify_MapRemoved()
+        {
+            base.Notify_MapRemoved();
+
+            // Things that have their map removed are not despawned but outright lost, but it should still be removed from the server types.
             SMN_Utils.gameComp.RemoveServer(building);
         }
 

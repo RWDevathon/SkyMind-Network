@@ -3,6 +3,7 @@ using RimWorld;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine.Diagnostics;
 
 namespace SkyMind
 {
@@ -36,6 +37,16 @@ namespace SkyMind
             base.PostDeSpawn(map);
 
             // Buildings that provide core capacity lose it when they despawn if they are online (whenever something either has no power trader or has an online power trader).
+            if (parent is Building && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
+            {
+                SMN_Utils.gameComp.RemoveCore(this);
+            }
+        }
+
+        public override void Notify_MapRemoved()
+        {
+            base.Notify_MapRemoved();
+            // Buildings that provide core capacity lose it when the map they are on is lost if they are online (whenever something either has no power trader or has an online power trader).
             if (parent is Building && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
             {
                 SMN_Utils.gameComp.RemoveCore(this);
