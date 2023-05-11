@@ -9,7 +9,7 @@ SkyMind Network is a full mod originally designed and created by ARandomKiwi and
 * A system for the wireless and non-physical transfer of consciousness between connected pawns.
 * A system for pawns remotely controlling other so-called surrogate pawns with all relations and skills shared between host and surrogate.
 * Network towers for establishing and maintaining connections between pawns.
-* 3 Tiers of servers that can be configured for Skill, Security, or Hacking insight.
+* 3 Servers that can be configured for Skill, Security, or Hacking insight.
 * Skill insight can be used to give connected pawns xp or passions in a chosen field based on their learning speed.
 * Security insight is automatically used to defend against enemy hacking attempts (which trigger like raids do) to prevent damage to the system or colony.
 * Hacking insight can be used to target other factions to do various things like redirect drop pod shipments, do propaganda campaigns for relations benefits, or launch DDOS attacks to weaken hostile connected pawns on your map.
@@ -21,15 +21,19 @@ SkyMind Network is a full mod originally designed and created by ARandomKiwi and
 ## Links
 [Discord](https://discord.gg/udNCpbkABT)
 
-[GitHub](https://github.com/RWDevathon/Android-Tiers-Reforged-Core)
+[GitHub](https://github.com/RWDevathon/SkyMind-Network)
 
 Special thanks to:
 * Atlas - The true original creator of Android Tiers
 * ARandomKiwi - Creator of the wonderous and incredible AT++ content and maintainer
 * Dingo Ananas - Artist for many pieces of AT/AT++ content
 * JGH - Donated graphics for simplified buildings, icons, and many other graphics
+* Thermo - Thumbnail/Preview Image
 * Android Tiers Discord - The endless whirlpool of ideas, assistance, and the home domain
 * RimWorld and HAR Discords - Incredible amounts of support and assistance
+
+Background by rawpixel.com on Freepik
+(https://www.freepik.com/free-photo/smart-microchip-technology-background-gradient-gold_17122164.htm#query=yellow%20circuit%20backround&position=27&from_view=search&track=robertav1_2_sidr%22%3EImage)
 
 ## Contributions
 

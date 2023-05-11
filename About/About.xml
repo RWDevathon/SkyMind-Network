@@ -19,8 +19,8 @@
     </loadAfter>
     <description><![CDATA[
 A Standalone version of the SkyMind Network originally implemented by ARandomKiwi for Android Tiers++.
-No requirements relating to Android Tiers and functional for all humanlike pawns.
-Compatibility with other mods like Rimatomics, Rimefeller, SMN, and more to come!
+Requires only Harmony.
+Compatibility with other mods like Rimatomics, Rimefeller, MH: ATR, and more to come!
 
 Version <color=#FFD800>1.0.0</color>.
     ]]></description>
