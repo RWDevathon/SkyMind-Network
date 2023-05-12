@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Autonomous Core -->
-
-  <ATR_Install_AutonomousCore.label>Установить автономное ядро</ATR_Install_AutonomousCore.label>
-  <ATR_Install_AutonomousCore.description>Устанавливает и подключает автономное ядро. После того как ремонтные стимы подключат центральную сеть, ядро сможет хранить интеллект - либо скопированный из сети SkyMind, либо созданный заново.</ATR_Install_AutonomousCore.description>
-  <ATR_Install_AutonomousCore.jobString>Установка автономного ядра.</ATR_Install_AutonomousCore.jobString>
-
-
-  <!-- SkyMind Receiver Core -->
-
-  <Install_ReceiverCore.label>Установить ядро приемник</Install_ReceiverCore.label>
-  <Install_ReceiverCore.description>Устанавливает и подключает ядро приемник. После того как ремонтники подключат центральную сеть, ядро сможет принимать удаленные контроллеры и действовать как суррогат. Однако само по себе оно не будет обладать ни интеллектом, ни функциональностью.</Install_ReceiverCore.description>
-  <Install_ReceiverCore.jobString>Установка ядра приемник.</Install_ReceiverCore.jobString>
-
-
   <!-- SkyMind Receiver -->
 
   <SMN_Install_SkyMindReceiver.label>Установить приемник SkyMind</SMN_Install_SkyMindReceiver.label>
@@ -32,9 +18,9 @@
   <SMN_Install_SkyMindTransceiver.description>Устанавливает и инициализирует трансивер в мозгу испытуемого. Пешка сможет получить свободный доступ к сети SkyMind.</SMN_Install_SkyMindTransceiver.description>
   <SMN_Install_SkyMindTransceiver.jobString>Установка трансивера SkyMind.</SMN_Install_SkyMindTransceiver.jobString>
 
-  <SMN_RemoveOrganicSkyMindTransceiver.label>извлечь трансивер SkyMind</SMN_RemoveOrganicSkyMindTransceiver.label>
-  <SMN_RemoveOrganicSkyMindTransceiver.description>Извлекает имплантированный трансивер SkyMind.</SMN_RemoveOrganicSkyMindTransceiver.description>
-  <SMN_RemoveOrganicSkyMindTransceiver.jobString>Извлечение трансивера Skymind.</SMN_RemoveOrganicSkyMindTransceiver.jobString>
+  <SMN_RemoveSkyMindTransceiver.label>извлечь трансивер SkyMind</SMN_RemoveSkyMindTransceiver.label>
+  <SMN_RemoveSkyMindTransceiver.description>Извлекает имплантированный трансивер SkyMind.</SMN_RemoveSkyMindTransceiver.description>
+  <SMN_RemoveSkyMindTransceiver.jobString>Извлечение трансивера Skymind.</SMN_RemoveSkyMindTransceiver.jobString>
 
 
 </LanguageData>
