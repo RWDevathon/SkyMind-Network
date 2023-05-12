@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <SMN_Unconscious.label>Бессознательное</SMN_Unconscious.label>
+  <SMN_Unconscious.description>Эта пешка не имеет сознания и активна только из-за подсознательного самосохранения.</SMN_Unconscious.description>
+  <SMN_Unconscious.labelNoun>No host connected</SMN_Unconscious.labelNoun>
+
+  <SMN_FeedbackLoop.label>Петля обратной связи</SMN_FeedbackLoop.label>
+  <SMN_FeedbackLoop.description>В настоящее время эта пешка испытывает сильный эффект петли обратной связи и находится в бессознательном состоянии, пока не спадет.</SMN_FeedbackLoop.description>
+
   <SMN_SplitConsciousness.label>Разделенное сознание</SMN_SplitConsciousness.label>
   <SMN_SplitConsciousness.description>Сознание, контролирующее это тело, раздваивается, поскольку оно также контролирует другие тела. Это эффективно снижает способность сознания осуществлять тонкий контроль над этим телом. Большее количество тел означает более суровое наказание.</SMN_SplitConsciousness.description>
   <SMN_SplitConsciousness.stages.0.label>Безопасно</SMN_SplitConsciousness.stages.0.label>
@@ -16,12 +23,24 @@
   <SMN_ForeignConsciousness.labelNoun>чужое сознание</SMN_ForeignConsciousness.labelNoun>
 
   <SMN_MindOperation.label>Проводится операция SkyMind</SMN_MindOperation.label>
-  <SMN_MindOperation.description>В настоящее время это устройство проходит операцию SkyMind. Чтобы сохранить связь и целостность, сознание в настоящее время не контролирует это тело.</SMN_MindOperation.description>
+  <SMN_MindOperation.description>В настоящее время над этим юнитом проходит операция SkyMind. Чтобы сохранить связь и целостность, сознание в настоящее время не контролирует это тело.</SMN_MindOperation.description>
   <SMN_MindOperation.labelNoun>операция SkyMind</SMN_MindOperation.labelNoun>
 
   <SMN_NoController.label>Контроллер не подключен</SMN_NoController.label>
   <SMN_NoController.description>Этот суррогат не имеет контроллера и поэтому не способен к автономным действиям.</SMN_NoController.description>
   <SMN_NoController.labelNoun>Нет подключенного хоста</SMN_NoController.labelNoun>
+
+  <SMN_DDOSRecovery.label>Восстановление после DDOS-атаки</SMN_DDOSRecovery.label>
+  <SMN_DDOSRecovery.description>Этот юнит восстанавливается после воздействия DDOS-атаки. Обработка мыслей и память были повреждены, и потребуется некоторое время, чтобы полностью восстановиться после атаки.</SMN_DDOSRecovery.description>
+
+  <SMN_MemoryCorruption.label>Повреждение памяти</SMN_MemoryCorruption.label>
+  <SMN_MemoryCorruption.description>Этот индивидуум пострадал от критического повреждения памяти в результате неудачной операции SkyMind. Воспоминания утрачены, но физическая травма исчезнет. Однако это будет долгий и трудный путь.</SMN_MemoryCorruption.description>
+  <SMN_MemoryCorruption.stages.0.label>Почти полное восстановление</SMN_MemoryCorruption.stages.0.label>
+  <SMN_MemoryCorruption.stages.1.label>Мимолетное</SMN_MemoryCorruption.stages.1.label>
+  <SMN_MemoryCorruption.stages.2.label>Незначительное</SMN_MemoryCorruption.stages.2.label>
+  <SMN_MemoryCorruption.stages.3.label>Значительное</SMN_MemoryCorruption.stages.3.label>
+  <SMN_MemoryCorruption.stages.4.label>Тяжелое</SMN_MemoryCorruption.stages.4.label>
+  <SMN_MemoryCorruption.stages.5.label>Критическое</SMN_MemoryCorruption.stages.5.label>
 
 
 </LanguageData>
