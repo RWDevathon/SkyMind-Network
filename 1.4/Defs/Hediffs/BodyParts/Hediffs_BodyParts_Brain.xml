@@ -10,6 +10,9 @@
             <MarketValue>500</MarketValue>
 			<Mass>1</Mass>
 		</statBases>
+        <thingCategories>
+            <li>BodyPartsBionic</li>
+        </thingCategories>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
