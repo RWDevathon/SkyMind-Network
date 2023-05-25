@@ -53,6 +53,7 @@
             <li>
                 <statFactors>
                     <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">0</MechBandwidth>
+                    <GlobalLearningFactor>0.5</GlobalLearningFactor>
                 </statFactors>
             </li>
         </stages>

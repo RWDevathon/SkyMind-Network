@@ -158,9 +158,7 @@ namespace SkyMind
 
         public void MakeExplosion()
         {
-            CompBreakdownable breakComp = parent.GetComp<CompBreakdownable>();
-            if (breakComp != null)
-                breakComp.DoBreakdown();
+            parent.GetComp<CompBreakdownable>()?.DoBreakdown();
 
             Building building = (Building)parent;
             building.HitPoints -= (int)(building.HitPoints * Rand.Range(0.10f, 0.45f));

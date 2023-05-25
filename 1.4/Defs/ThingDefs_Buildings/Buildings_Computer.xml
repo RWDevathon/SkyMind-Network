@@ -80,11 +80,6 @@
             <li Class="SkyMind.CompProperties_SkyMindTower">
                 <SkyMindSlotsProvided>10</SkyMindSlotsProvided>
             </li>
-            <li Class="SkyMind.CompProperties_HeatSensitive">
-                <safeHeat>30</safeHeat>
-                <warningHeat>40</warningHeat>
-                <dangerHeat>50</dangerHeat>
-            </li>
         </comps>
         <researchPrerequisites>
             <li>SMN_SkyMindCore</li>
