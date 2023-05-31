@@ -60,12 +60,10 @@ namespace SkyMind
                     {
                         surrogateCandidates.RemoveAt(0);
                     }
-                    Log.Warning("surrogates: " + surrogateCandidates.Count());
 
                     // Set the selected pawn to control itself, as foreign surrogates do not actually have separate pawns to control them.
                     foreach (Pawn selectedPawn in surrogateCandidates)
                     {
-                        Log.Warning("BARNACLE " + selectedPawn);
                         SMN_Utils.TurnIntoSurrogate(selectedPawn, part: selectedPawn.health.hediffSet.GetBrain());
 
                         // Connect the chosenCandidate to the surrogate as the controller. It is an external controller.
