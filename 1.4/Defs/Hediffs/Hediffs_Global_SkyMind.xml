@@ -32,6 +32,7 @@
         <label>Feedback loop</label>
         <description>This pawn is currently experiencing a severe feedback loop effect and is effectively unconscious until it fades.</description>
         <initialSeverity>1</initialSeverity>
+	    <isBad>true</isBad>
         <defaultLabelColor>(0.3, 0.7, 0.3)</defaultLabelColor>
         <scenarioCanAdd>false</scenarioCanAdd>
         <comps>
