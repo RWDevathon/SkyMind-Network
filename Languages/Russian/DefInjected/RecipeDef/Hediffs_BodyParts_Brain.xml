@@ -3,24 +3,24 @@
 
   <!-- SkyMind Receiver -->
 
-  <SMN_Install_SkyMindReceiver.label>Установить приемник SkyMind</SMN_Install_SkyMindReceiver.label>
-  <SMN_Install_SkyMindReceiver.description>Устанавливает и инициализирует приемник в мозге субъекта. Интеллект, хранящийся в мозге, умрет, и субъект станет суррогатом.</SMN_Install_SkyMindReceiver.description>
-  <SMN_Install_SkyMindReceiver.jobString>Установка приемника SkyMind.</SMN_Install_SkyMindReceiver.jobString>
+  <SMN_Install_SkyMindReceiver.label>Установить приёмник SkyMind</SMN_Install_SkyMindReceiver.label>
+  <SMN_Install_SkyMindReceiver.description>Устанавливает и инициализирует приёмник в мозге подопытного. Интеллект, хранящийся в мозге, умрёт, и подопытный станет суррогатом.</SMN_Install_SkyMindReceiver.description>
+  <SMN_Install_SkyMindReceiver.jobString>установка приёмника SkyMind.</SMN_Install_SkyMindReceiver.jobString>
 
-  <SMN_RemoveSkyMindReceiver.label>извлечь приемник SkyMind</SMN_RemoveSkyMindReceiver.label>
-  <SMN_RemoveSkyMindReceiver.description>Извлекает имплантированный приемник Skymind.</SMN_RemoveSkyMindReceiver.description>
-  <SMN_RemoveSkyMindReceiver.jobString>Извлечение приемника Skymind.</SMN_RemoveSkyMindReceiver.jobString>
+  <SMN_RemoveSkyMindReceiver.label>удалить приёмник SkyMind</SMN_RemoveSkyMindReceiver.label>
+  <SMN_RemoveSkyMindReceiver.description>Удалить имплантированный приемник Skymind.</SMN_RemoveSkyMindReceiver.description>
+  <SMN_RemoveSkyMindReceiver.jobString>Удаление приёмника SkyMind.</SMN_RemoveSkyMindReceiver.jobString>
 
 
   <!-- SkyMind Transceiver -->
 
   <SMN_Install_SkyMindTransceiver.label>Установить трансивер SkyMind</SMN_Install_SkyMindTransceiver.label>
-  <SMN_Install_SkyMindTransceiver.description>Устанавливает и инициализирует трансивер в мозгу испытуемого. Пешка сможет получить свободный доступ к сети SkyMind.</SMN_Install_SkyMindTransceiver.description>
+  <SMN_Install_SkyMindTransceiver.description>Устанавливает и инициализирует трансивер в мозгу подопытного. Пешка сможет получить свободный доступ к сети SkyMind.</SMN_Install_SkyMindTransceiver.description>
   <SMN_Install_SkyMindTransceiver.jobString>Установка трансивера SkyMind.</SMN_Install_SkyMindTransceiver.jobString>
 
-  <SMN_RemoveSkyMindTransceiver.label>извлечь трансивер SkyMind</SMN_RemoveSkyMindTransceiver.label>
-  <SMN_RemoveSkyMindTransceiver.description>Извлекает имплантированный трансивер SkyMind.</SMN_RemoveSkyMindTransceiver.description>
-  <SMN_RemoveSkyMindTransceiver.jobString>Извлечение трансивера Skymind.</SMN_RemoveSkyMindTransceiver.jobString>
+  <SMN_RemoveSkyMindTransceiver.label>удалить трансивер SkyMind</SMN_RemoveSkyMindTransceiver.label>
+  <SMN_RemoveSkyMindTransceiver.description>Удалить имплантированный трансивер SkyMind.</SMN_RemoveSkyMindTransceiver.description>
+  <SMN_RemoveSkyMindTransceiver.jobString>Удаление трансивера SkyMind</SMN_RemoveSkyMindTransceiver.jobString>
 
 
 </LanguageData>

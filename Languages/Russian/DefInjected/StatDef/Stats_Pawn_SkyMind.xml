@@ -4,7 +4,7 @@
   <!-- Surrogate Limit Bonus -->
 
   <SMN_SurrogateLimitBonus.label>суррогатный лимитный бонус</SMN_SurrogateLimitBonus.label>
-  <SMN_SurrogateLimitBonus.description>Сколько дополнительных суррогатов эта пешка может контролировать одновременно, не получая штрафа за сознание или скорость обучения.</SMN_SurrogateLimitBonus.description>
+  <SMN_SurrogateLimitBonus.description>Сколько дополнительных суррогатов эта пешка может контролировать одновременно, не получая страданий сознания или скорость обучения.</SMN_SurrogateLimitBonus.description>
 
 
 </LanguageData>
