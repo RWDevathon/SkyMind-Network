@@ -109,7 +109,7 @@ namespace SkyMind
             {
                 // Cloud pawn controllers that aren't busy controlling other surrogates or that are in a mind operation already are eligible for downloading from.
                 Pawn controller = surrogatePawns.FirstOrFallback();
-                if (SMN_Utils.gameComp.GetCloudPawns().Contains(controller) && controller.health.hediffSet.GetFirstHediffOfDef(SMN_HediffDefOf.SMN_MindOperation) == null && controller.GetComp<CompSkyMindLink>().surrogatePawns.Count == 1)
+                if (SMN_Utils.gameComp.GetCloudPawns().Contains(controller) && controller.health.hediffSet.GetFirstHediffOfDef(SMN_HediffDefOf.SMN_MindOperation) == null && controller.GetComp<CompSkyMindLink>().surrogatePawns.Count == 1 && MayDownloadTo(controller, ThisPawn))
                 {
                     yield return new Command_Action
                     {
@@ -610,31 +610,17 @@ namespace SkyMind
                 {
                     SMN_Utils.PermutePawn(ThisPawn, recipientPawn);
                 }
-                // Duplication, insert a copy of the current pawn into the recipient - a surrogate will now become a fully fledged sapient copy of the source.
-                else if (status == 2)
-                {
-                    // Disconnect the surrogate to sever the connection, then duplicate this pawn into the surrogate.
-                    SMN_Utils.gameComp.DisconnectFromSkyMind(recipientPawn);
-                    SMN_Utils.Duplicate(ThisPawn, recipientPawn, false, false);
-                    // Remove all implants considered receivers, remove no host hediff.
-                    List<Hediff> targetHediffs = new List<Hediff>();
-                    recipientPawn.health.hediffSet.GetHediffs(ref targetHediffs, hediff => hediff.def.GetModExtension<SMN_HediffSkyMindExtension>()?.isReceiver == true || hediff.def == SMN_HediffDefOf.SMN_NoController);
-                    for (int i = targetHediffs.Count - 1; i >= 0; i--)
-                    {
-                        recipientPawn.health.RemoveHediff(targetHediffs[i]);
-                    }
-                }
                 // Download, insert of a copy of the recipient pawn into the current pawn.
                 else if (status == 4)
                 {
                     // Disconnect the surrogate now to sever the connection and let it be ready for duplication.
                     SMN_Utils.gameComp.DisconnectFromSkyMind(ThisPawn);
 
-                    // Remove all SkyMind implants and the No Controller hediff.
+                    // Remove any SkyMind receivers for the newly autonomous pawn and the No Controller hediff if it has any.
                     List<Hediff> surrogateHediffs = ThisPawn.health.hediffSet.hediffs;
                     for (int i = surrogateHediffs.Count - 1; i >= 0; i--)
                     {
-                        if (surrogateHediffs[i].def == SMN_HediffDefOf.SMN_NoController || surrogateHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.allowsConnection == true)
+                        if (surrogateHediffs[i].def == SMN_HediffDefOf.SMN_NoController || surrogateHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.isReceiver == true)
                         {
                             ThisPawn.health.RemoveHediff(surrogateHediffs[i]);
                         }
@@ -767,7 +753,13 @@ namespace SkyMind
             Linked = operationType;
         }
 
-        // Operation tracker. -2 = player surrogate operation, -1 = No operation, 1 = permutation, 2 = duplication, 3 = absorption, 4 = download, 5 = upload, 6 = replication
+        // A simple public method for other assemblies to harmony patch into and decide whether a particular pawn is legal for downloading an intelligence into.
+        public virtual bool MayDownloadTo(Pawn source, Pawn destination)
+        {
+            return true;
+        }
+
+        // Operation tracker. -2 = player surrogate operation, -1 = No operation, 1 = permutation, 2 = unused, 3 = absorption, 4 = download, 5 = upload, 6 = replication
         private int networkOperationInProgress = -1;
 
         // Tracker for the recipient pawn of a mind operation that requires two linked units.
