@@ -5,7 +5,7 @@
   <SMN_SkyMindConnectionFailed>Не удалось установить соединение SkyMind. Проверьте пропускную способность и доступность сети.</SMN_SkyMindConnectionFailed>
   <SMN_SkyMindConnectionFailedNoNetwork>Не удалось установить соединение SkyMind. Нет доступной сети.</SMN_SkyMindConnectionFailedNoNetwork>
 
-  <SMN_GridlockerCleared>Решетчатый замок был успешно расшифрован и отключен.</SMN_GridlockerCleared>
+  <SMN_GridlockerCleared>Сетевой замок был успешно расшифрован и отключен.</SMN_GridlockerCleared>
 
   <!-- Core -->
   <SMN_RemoveCloudPawnSuccess>Нейронная сеть {0} была удалена.</SMN_RemoveCloudPawnSuccess>
@@ -14,7 +14,7 @@
 
   <!-- Player hacking -->
   <SMN_HackOperationFailed>В ходе операции не удалось взломать систему безопасности выбранной фракции. Никаких последствий не ожидается.</SMN_HackOperationFailed>
-  <SMN_DisruptorHackSuccess>Срыв успешный. Вражеские подразделения ослаблены.</SMN_DisruptorHackSuccess>
+  <SMN_DisruptorHackSuccess>Срыв успешен. Вражеские подразделения ослаблены.</SMN_DisruptorHackSuccess>
 
   <SMN_NoArrival>Ничего не было отправлено по перепутанным координатам до того, как фракция перезагрузила свою систему наведения. На этот раз им повезло.</SMN_NoArrival>
 
@@ -24,7 +24,7 @@
   <SMN_OperationInitiated>Сетевое соединение SkyMind установлено по запросу {0}. Не отключайте соединение до завершения процедуры.</SMN_OperationInitiated>
   <SMN_OperationCompleted>Операция SkyMind завершена</SMN_OperationCompleted>
   <SMN_OperationCompletedDesc>Сеть SkyMind успешно выполнила операцию по запросу {0}.</SMN_OperationCompletedDesc>
-  <SMN_OperationFailure>Операция SkyMind провалилась!</SMN_OperationFailure>
-  <SMN_OperationFailureDesc>У {0} произошло катастрофическое повреждение памяти из-за разрушения связи SkyMind во время операции с разумом. Операция не удалась, и произошло серьезное повреждение памяти.</SMN_OperationFailureDesc>
+  <SMN_OperationFailure>Операция SkyMind провалена!</SMN_OperationFailure>
+  <SMN_OperationFailureDesc>У {0} произошло катастрофическое повреждение памяти из-за разрушения связи SkyMind во время операции с разумом. Операция не удалась, и произошло серьёзное повреждение памяти.</SMN_OperationFailureDesc>
 
 </LanguageData>

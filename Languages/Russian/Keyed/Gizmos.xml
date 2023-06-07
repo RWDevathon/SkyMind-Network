@@ -9,7 +9,7 @@
 
   <!-- Comms Console -->
   <SMN_OpenRemoteComms>Открыть коммуникации</SMN_OpenRemoteComms>
-  <SMN_OpenRemoteCommsDesc>Коммуникации открыты удаленно через соединение SkyMind.</SMN_OpenRemoteCommsDesc>
+  <SMN_OpenRemoteCommsDesc>Открыть коммуникации удаленно через соединение SkyMind.</SMN_OpenRemoteCommsDesc>
 
   <!-- Computer -->
   <SMN_ServerNetworkConnectionNeeded>Сервер не подключен к сети SkyMind.</SMN_ServerNetworkConnectionNeeded>
@@ -27,7 +27,7 @@
   <SMN_HackingWindowDesc>Открыть интерфейс взлома, позволяющий использовать очки взлома для участия в гнусной деятельности.</SMN_HackingWindowDesc>
 
   <SMN_SwitchToSkillMode>Неактивно!</SMN_SwitchToSkillMode>
-  <SMN_SwitchToSkillModeDesc>Этот сервер находится в незаконном состоянии. Нажмите для перехода к навыкам.</SMN_SwitchToSkillModeDesc>
+  <SMN_SwitchToSkillModeDesc>Этот сервер находится в незаконном состоянии. Нажмите, чтобы переключиться на навыки.</SMN_SwitchToSkillModeDesc>
 
   <!-- SkyMind -->
   <SMN_ConnectSkyMind>Подключение к SkyMind</SMN_ConnectSkyMind>
@@ -45,7 +45,7 @@
   <SMN_ReplicateCloudPawnDesc>Воссоздать копию интеллектуальных данных SkyMind.</SMN_ReplicateCloudPawnDesc>
 
   <SMN_Skills>Навыки</SMN_Skills>
-  <SMN_SkillsDesc>Открытая мастерская навыков, позволяющая обменивать серверные очки навыков на опыт и пристрастия.</SMN_SkillsDesc>
+  <SMN_SkillsDesc>Открыть мастерскую навыков, позволяющую обменивать серверные очки навыков на опыт и пристрастия.</SMN_SkillsDesc>
 
   <SMN_ControlSurrogate>Подключить</SMN_ControlSurrogate>
   <SMN_ControlSurrogateDesc>Возьмите под контроль выбранный суррогат без хоста.</SMN_ControlSurrogateDesc>
@@ -59,15 +59,15 @@
   <!-- Link -->
   <SMN_Surrogate>суррогат</SMN_Surrogate>
 
-  <SMN_DownloadCloudPawn>Загрузить</SMN_DownloadCloudPawn>
-  <SMN_DownloadCloudPawnDesc>Загрузите интеллект SkyMind в эту пешку.</SMN_DownloadCloudPawnDesc>
+  <SMN_DownloadCloudPawn>Скачать</SMN_DownloadCloudPawn>
+  <SMN_DownloadCloudPawnDesc>Скачать интеллект SkyMind в эту пешку.</SMN_DownloadCloudPawnDesc>
   <SMN_DownloadCloudPawnConfirm>Эта операция полностью передает интеллект SkyMind в эту пешку. Интеллект не сохраняется в сети.</SMN_DownloadCloudPawnConfirm>
 
   <SMN_DisconnectSurrogate>Отключить</SMN_DisconnectSurrogate>
   <SMN_DisconnectSurrogateDesc>Отключить все суррогатные связи.</SMN_DisconnectSurrogateDesc>
 
   <SMN_ToggleControlMode>Переключатель управления</SMN_ToggleControlMode>
-  <SMN_ToggleControlModeDesc>Переключает режим суррогатного управления, позволяя использовать суррогатное управление, но отключая операции SkyMind.</SMN_ToggleControlModeDesc>
+  <SMN_ToggleControlModeDesc>Переключить режим суррогатного управления, позволяя использовать суррогатное управление, но отключая операции SkyMind.</SMN_ToggleControlModeDesc>
 
   <SMN_Permute>Обменять</SMN_Permute>
   <SMN_PermuteDesc>Обменять сознание выбранного в данный момент колониста с другим колонистом.</SMN_PermuteDesc>
@@ -75,10 +75,10 @@
 
   <SMN_Transfer>Передача</SMN_Transfer>
   <SMN_TransferDesc>Перенесите сознание выбранного колониста в органического суррогата.</SMN_TransferDesc>
-  <SMN_TransferConfirm>Эта операция перенесет {0} в тело выбранного суррогата. В результате исходное тело {0} останется без разума. Приемник SkyMind сгорит после завершения операции.</SMN_TransferConfirm>
+  <SMN_TransferConfirm>Эта операция перенесет {0} в туловище выбранного суррогата. В результате исходное туловище {0} останется без разума. Приёмник SkyMind сгорит после завершения операции.</SMN_TransferConfirm>
 
   <SMN_Upload>Загрузить</SMN_Upload>
-  <SMN_UploadDesc>Загрузите этот интеллект в сеть SkyMind. То, что происходит с оставленным телом, контролируется через настройки (по умолчанию тело становится безмозглым).</SMN_UploadDesc>
+  <SMN_UploadDesc>Загрузите этот интеллект в сеть SkyMind. То, что происходит с оставленным туловищем, контролируется через настройки (по умолчанию туловище становится безмозглым).</SMN_UploadDesc>
   <SMN_UploadConfirm>В ходе операции этот интеллект передается в сеть SkyMind, а тело остается позади.</SMN_UploadConfirm>
 
   <!-- Remotely Triggered -->

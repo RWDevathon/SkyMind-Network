@@ -4,18 +4,18 @@
   <!-- SkyMind Towers Abstract -->
 
   <SMN_SkyMindRelay.label>Релейная башня SkyMind</SMN_SkyMindRelay.label>
-  <SMN_SkyMindRelay.description>Эта башня служит в качестве реле для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind - эта башня рассчитана на три непрерывных соединения устройств.</SMN_SkyMindRelay.description>
-  <SMN_SkyMindRelay_Blueprint.label>Релейная башня SkyMind (чертеж)</SMN_SkyMindRelay_Blueprint.label>
-  <SMN_SkyMindRelay_Blueprint_Install.label>Релейная башня SkyMind (чертеж)</SMN_SkyMindRelay_Blueprint_Install.label>
-  <SMN_SkyMindRelay_Frame.label>Релейная башня SkyMind (строительство)</SMN_SkyMindRelay_Frame.label>
-  <SMN_SkyMindRelay_Frame.description>Эта башня служит в качестве реле для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind - эта башня рассчитана на три непрерывных соединения устройств.</SMN_SkyMindRelay_Frame.description>
+  <SMN_SkyMindRelay.description>Эта башня служит в качестве реле для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind — эта башня рассчитана на три непрерывных соединения устройств.</SMN_SkyMindRelay.description>
+  <SMN_SkyMindRelay_Blueprint.label>Релейная башня SkyMind (проект)</SMN_SkyMindRelay_Blueprint.label>
+  <SMN_SkyMindRelay_Blueprint_Install.label>Релейная башня SkyMind (проект)</SMN_SkyMindRelay_Blueprint_Install.label>
+  <SMN_SkyMindRelay_Frame.label>Релейная башня SkyMind (в процессе сборки)</SMN_SkyMindRelay_Frame.label>
+  <SMN_SkyMindRelay_Frame.description>Эта башня служит в качестве реле для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind — эта башня рассчитана на три непрерывных соединения устройств.</SMN_SkyMindRelay_Frame.description>
 
   <SMN_SkyMindNetwork.label>Сетевая башня SkyMind</SMN_SkyMindNetwork.label>
-  <SMN_SkyMindNetwork.description>Эта башня служит мощным сетевым узлом для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind - эта башня рассчитана на пятнадцать непрерывных подключений устройств.</SMN_SkyMindNetwork.description>
-  <SMN_SkyMindNetwork_Blueprint.label>Сетевая башня SkyMind (чертеж)</SMN_SkyMindNetwork_Blueprint.label>
-  <SMN_SkyMindNetwork_Blueprint_Install.label>Сетевая башня SkyMind (чертеж)</SMN_SkyMindNetwork_Blueprint_Install.label>
-  <SMN_SkyMindNetwork_Frame.label>Сетевая башня SkyMind (строительство)</SMN_SkyMindNetwork_Frame.label>
-  <SMN_SkyMindNetwork_Frame.description>Эта башня служит мощным сетевым узлом для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind - эта башня рассчитана на пятнадцать непрерывных подключений устройств.</SMN_SkyMindNetwork_Frame.description>
+  <SMN_SkyMindNetwork.description>Эта башня служит мощным сетевым узлом для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind — эта башня рассчитана на пятнадцать непрерывно подключений устройств.</SMN_SkyMindNetwork.description>
+  <SMN_SkyMindNetwork_Blueprint.label>Сетевая башня SkyMind (проект)</SMN_SkyMindNetwork_Blueprint.label>
+  <SMN_SkyMindNetwork_Blueprint_Install.label>Сетевая башня SkyMind (проект)</SMN_SkyMindNetwork_Blueprint_Install.label>
+  <SMN_SkyMindNetwork_Frame.label>Сетевая башня SkyMind (в процессе сборки)</SMN_SkyMindNetwork_Frame.label>
+  <SMN_SkyMindNetwork_Frame.description>Эта башня служит мощным сетевым узлом для связи и работы устройств, подключенных к SkyMind. Подобные башни необходимы для операций суррогатов или SkyMind — эта башня рассчитана на пятнадцать непрерывно подключений устройств.</SMN_SkyMindNetwork_Frame.description>
 
 
 </LanguageData>

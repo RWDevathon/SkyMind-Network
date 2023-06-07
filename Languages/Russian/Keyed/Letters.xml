@@ -3,43 +3,43 @@
 
   <!-- General -->
   <SMN_ServerMeltdown>Разрушение сервера</SMN_ServerMeltdown>
-  <SMN_ServerMeltdownDesc>Сервер частично взорвался из-за чрезмерного нагрева!</SMN_ServerMeltdownDesc>
+  <SMN_ServerMeltdownDesc>Сервер частично взорвался из-за перегрева!</SMN_ServerMeltdownDesc>
 
   <!-- Hacking Incidents -->
   <!-- Generic Messages -->
-  <SMN_IncidentGenericAttackDesc>Вражеская попытка взлома, сила которой оценивается как {0}, успешно проникла в систему безопасности SkyMind колонии, заразив {1} сетевых устройств до того, как сработали защитные средства.</SMN_IncidentGenericAttackDesc>
-  <SMN_IncidentGenericDefense>Попытка взлома была пресечена</SMN_IncidentGenericDefense>
-  <SMN_IncidentGenericDefenseDesc>Вражеская попытка взлома, сила которой оценивается как {0}, не смогла проникнуть в систему безопасности колонии SkyMind. Функциональность системы в норме, а серверы безопасности пытаются опередить вторжения.</SMN_IncidentGenericDefenseDesc>
+  <SMN_IncidentGenericAttackDesc>Вражеская попытка взлома, сила которой оценивается как {0}, успешно проникла в систему безопасности SkyMind поселения, заразив {1} сетевых устройств до того, как сработали защитные средства.</SMN_IncidentGenericAttackDesc>
+  <SMN_IncidentGenericDefense>Попытка взлома была побеждена</SMN_IncidentGenericDefense>
+  <SMN_IncidentGenericDefenseDesc>Вражеская попытка взлома, сила которой оценивается как {0}, не смогла проникнуть в систему безопасности SkyMind поселения. Функциональность системы в норме, а серверы безопасности пытаются опередить вторжения.</SMN_IncidentGenericDefenseDesc>
   <SMN_IncidentGenericAllyIntercept>Взлом перехвачен!</SMN_IncidentGenericAllyIntercept>
   <SMN_IncidentGenericAllyInterceptDesc>Белые хакеры вашего союзника {0} связались с вами и сообщили о попытке взлома вашей сети SkyMind враждебно настроенным человеком. Они не только смогли остановить атаку (сила которой оценивается в {1} очков), которая нарушила бы вашу безопасность, но и выявили несколько уязвимостей, которые можно легко устранить, в результате чего ваша система безопасности набирает {2} очков!</SMN_IncidentGenericAllyInterceptDesc>
 
   <!-- Gridscreen Virus -->
   <!-- Grid-virus defeated -->
-  <SMN_IncidentGridVirusDefeated>Сетевой вирус побежден</SMN_IncidentGridVirusDefeated>
+  <SMN_IncidentGridVirusDefeated>Сетевой вирус побеждён</SMN_IncidentGridVirusDefeated>
 
   <!-- Grid-sleeper attack -->
   <SMN_IncidentGridsleeperAttack>Сетевой усыпитель</SMN_IncidentGridsleeperAttack>
-  <SMN_IncidentGridsleeperAttackDesc>Затронутые устройства вышли из строя, и им потребуется время для восстановления работоспособности по умолчанию.</SMN_IncidentGridsleeperAttackDesc>
+  <SMN_IncidentGridsleeperAttackDesc>Затронутые устройства вышли из строя, и им потребуется время для восстановления функциональности по умолчанию.</SMN_IncidentGridsleeperAttackDesc>
 
   <!-- Grid-locker attack -->
   <SMN_IncidentGridlockerAttack>Сетевой замок</SMN_IncidentGridlockerAttack>
-  <SMN_IncidentGridlockerAttackDesc>Функциональность затронутых устройств была зашифрована хакером! Теперь хакеру предстоит восстановить функциональность - для этого потребуется заключить сделку.</SMN_IncidentGridlockerAttackDesc>
+  <SMN_IncidentGridlockerAttackDesc>Функциональность затронутых устройств была зашифрована хакером! Теперь хакеру предстоит восстановить функциональность — для этого потребуется заключить сделку.</SMN_IncidentGridlockerAttackDesc>
 
   <SMN_CryptolockerNeedRansom>Сетевой замок - Вымогательство</SMN_CryptolockerNeedRansom>
-  <SMN_CryptolockerNeedRansomDesc>Заблокированное сетью устройство выдает сообщение по кругу. Хакер отправит коды дешифровки и откажется от контроля над {0} взломанными юнитами в обмен на {1} серебра. </SMN_CryptolockerNeedRansomDesc>
+  <SMN_CryptolockerNeedRansomDesc>Заблокированное сетью устройство выдаёт сообщение по кругу. Хакер отправит коды дешифровки и откажется от контроля над {0} взломанными устройствами в обмен на {1} серебра.</SMN_CryptolockerNeedRansomDesc>
 
   <!-- Grid-breaker attack -->
   <SMN_IncidentGridbreakerAttack>Сетевой прерыватель</SMN_IncidentGridbreakerAttack>
-  <SMN_IncidentGridbreakerAttackDesc>В пострадавших устройствах произошел сбой аппаратного обеспечения из-за небезопасных программных процедур. Для восстановления стандартных функций после ремонта потребуется некоторое время.</SMN_IncidentGridbreakerAttackDesc>
+  <SMN_IncidentGridbreakerAttackDesc>В пострадавших устройствах произошёл сбой аппаратного обеспечения из-за небезопасных программных процедур. Для восстановления стандартных функций после ремонта потребуется некоторое время.</SMN_IncidentGridbreakerAttackDesc>
 
   <!-- Ally Grid Virus Intervention -->
   <SMN_IncidentGridVirusAllyIntercept>Сетевой вирус перехвачен!</SMN_IncidentGridVirusAllyIntercept>
 
   <!-- DDOS Attack -->
-  <SMN_IncidentDDOSDefeated>Сетевой вирус побежден</SMN_IncidentDDOSDefeated>
+  <SMN_IncidentDDOSDefeated>Сетевой вирус побеждён</SMN_IncidentDDOSDefeated>
 
   <SMN_IncidentDDOSAttack>DDOS</SMN_IncidentDDOSAttack>
-  <SMN_IncidentDDOSNormalAttackDesc>Пострадавшие устройства наводнены нежелательными данными и мусорной информацией. Это наносит ущерб навыкам и генерации хакерской информации. Однако атака не смогла эффективно повредить отдельные устройства.</SMN_IncidentDDOSNormalAttackDesc>
+  <SMN_IncidentDDOSNormalAttackDesc>Пострадавшие устройства наводнены нежелательными данными и мусорной информацией. Это наносит ущерб навыкам и генерации хакерской информации. Однако атака не смогла эффективно повредить отдельных юнитов.</SMN_IncidentDDOSNormalAttackDesc>
   <SMN_IncidentDDOSOverwhelmingAttackDesc>Пострадавшие устройства наводнены нежелательными данными и мусорной информацией. Это наносит ущерб навыкам и генерации хакерской информации. Атака смогла успешно загрузить достаточно мусорной информации, чтобы устройства были вынуждены перекомпилировать большую часть своих знаний.</SMN_IncidentDDOSOverwhelmingAttackDesc>
 
   <SMN_IncidentDDOSAllyIntercept>DDOS перехвачен!</SMN_IncidentDDOSAllyIntercept>
@@ -48,28 +48,28 @@
   <SMN_IncidentTrollDefeated>Атака троллей побеждена</SMN_IncidentTrollDefeated>
 
   <SMN_IncidentTrollAttack>Тролль</SMN_IncidentTrollAttack>
-  <SMN_IncidentTrollAttackDesc>Пострадавшая пешка, {0}, потеряла в общей сложности {1} очков навыков, распределенных между их страстными и высокоуровневыми навыками! {0} также крайне расстроен из-за ужасных вещей, которые хакеры смогли загрузить в его разум, и из-за того, что системы безопасности не смогли защитить его.</SMN_IncidentTrollAttackDesc>
+  <SMN_IncidentTrollAttackDesc>Пострадавшая пешка, {0}, потеряла в общей сложности {1} очков навыков, распределенных между их страстями и высокоуровневыми навыками! {0} также крайне {PAWN_gender ? расстроен : расстроена} из-за ужасных вещей, которые хакеры смогли загрузить в {PAWN_possessive} разум, и из-за того, что системы безопасности не смогли защитить {PAWN_possessive}.</SMN_IncidentTrollAttackDesc>
 
   <SMN_IncidentTrollAllyIntercept>Атака тролля перехвачена!</SMN_IncidentTrollAllyIntercept>
 
   <!-- Diplohack -->
-  <SMN_IncidentDiplohackDefeated>Диплохак побежден</SMN_IncidentDiplohackDefeated>
+  <SMN_IncidentDiplohackDefeated>Диплохак побеждён</SMN_IncidentDiplohackDefeated>
 
   <SMN_IncidentDiplohackAttack>Диплохак</SMN_IncidentDiplohackAttack>
-  <SMN_IncidentDiplohackAttackDesc>Неизвестные хакеры смогли расшифровать ключевые линии связи с {0} и доставили им сообщение, достоверно указывающее на вас как на источник. Сообщение содержало неверную информацию, которая привела караван из {0} в засаду. Они ясно выразили свое недовольство вашей "беспечности и слабой безопасности" в дипломатическом ответе, составленном в резких выражениях - и, предположительно, реальном. Они обещали распространить информацию об этом инциденте и среди других фракций.</SMN_IncidentDiplohackAttackDesc>
+  <SMN_IncidentDiplohackAttackDesc>Неизвестные хакеры смогли расшифровать ключевые линии связи с {0} и доставили им сообщение, достоверно указывающее на вас как на источник. Сообщение содержало неверную информацию, которая привела караван из {0} в засаду. Они ясно выразили свое недовольство вашей &quot;беспечности и слабой безопасности&quot; в дипломатическом ответе, составленном в резких выражениях — и, предположительно, реальном. Они обещали распространить информацию об этом инциденте и среди других фракций.</SMN_IncidentDiplohackAttackDesc>
 
   <SMN_IncidentDiplohackAllyIntercept>Диплохак перехвачен!</SMN_IncidentDiplohackAllyIntercept>
 
   <!-- Provoker Hack -->
-  <SMN_IncidentProvokerhackDefeated>Взлом Провокатор побежден</SMN_IncidentProvokerhackDefeated>
+  <SMN_IncidentProvokerhackDefeated>Взлом Провокатор побеждён</SMN_IncidentProvokerhackDefeated>
 
   <SMN_IncidentProvokerhackAttack>Взлом Провокатор</SMN_IncidentProvokerhackAttack>
-  <SMN_IncidentProvokerhackAttackDesc>Неизвестные хакеры смогли взломать систему безопасности SkyMind и установить простую программу-излучатель сигнала. Сигнал привлек внимание враждебных сил прежде, чем его удалось деактивировать!</SMN_IncidentProvokerhackAttackDesc>
+  <SMN_IncidentProvokerhackAttackDesc>Неизвестные хакеры смогли взломать систему безопасности SkyMind и установить простую программу-излучатель сигнала. Сигнал привлёк внимание враждебных сил прежде, чем его удалось деактивировать!</SMN_IncidentProvokerhackAttackDesc>
 
   <SMN_IncidentProvokerhackAllyIntercept>Взлом Провокатор перехвачен!</SMN_IncidentProvokerhackAllyIntercept>
 
   <!-- Counterhack -->
-  <SMN_IncidentCounterhackDefeated>Контрвзлом побежден</SMN_IncidentCounterhackDefeated>
+  <SMN_IncidentCounterhackDefeated>Контрвзлом побеждён</SMN_IncidentCounterhackDefeated>
 
   <SMN_IncidentCounterhackAttack>Контрвзлом</SMN_IncidentCounterhackAttack>
   <SMN_IncidentCounterhackAttackDesc>Неизвестные хакеры проникли в сеть SkyMind и захватили столько информации, сколько смогли, отдав предпочтение разведданным, собранным на других объектах, а затем навыкам. По оценкам, они украли до {0} очков, прежде чем потеряли доступ.</SMN_IncidentCounterhackAttackDesc>
@@ -78,16 +78,16 @@
 
   <!-- Player Hacks failing -->
   <SMN_RelationshipRetaliation>Отношения испорчены</SMN_RelationshipRetaliation>
-  <SMN_RelationshipRetaliationDesc>Попытка операции была перехвачена и отбита средствами защиты цели. Фракция подозревает вас в совершении покушения, но не имеет веских доказательств вашей причастности к преступлению. Фактическое воздействие на отношения {0}, похоже, произошло потому, что перехвативший операцию человек решил обвинить вас перед всеми, кто готов слушать. Досадный дипломатический инцидент.</SMN_RelationshipRetaliationDesc>
+  <SMN_RelationshipRetaliationDesc>Операция была перехвачена и отбита средствами защиты цели. Фракция подозревает вас в совершении покушения, но не имеет веских доказательств вашей причастности к преступлению. Фактическое воздействие на отношения {0}, похоже, произошло потому, что перехвативший операцию человек решил обвинить вас перед всеми, кто готов слушать. Досадный дипломатический инцидент.</SMN_RelationshipRetaliationDesc>
 
   <SMN_FirstSurrogateCreated>О: Суррогаты</SMN_FirstSurrogateCreated>
-  <SMN_FirstSurrogateCreatedDesc>Вы создали свою первую суррогатную пешку. Пока она не подключена к контроллеру (любая пешка, подключенная к SkyMind, может переключать управление и связываться с этой пешкой), она остается пустой и не считается частью вашей фракции. При подключении к контроллеру она будет разделять навыки, пристрастия и отношения со своим контроллером. Полученные XP автоматически разделяются. Настроение, здоровье и некоторые другие детали не могут быть разделены, чтобы избежать проблем с нарушением игры.</SMN_FirstSurrogateCreatedDesc>
+  <SMN_FirstSurrogateCreatedDesc>Вы создали свою первую суррогатную пешку. Пока она не подключена к оператору (любая пешка, подключенная к SkyMind, может переключать управление и связываться с этой пешкой), она остается пустой и не считается частью вашей фракции. При подключении к оператору она будет разделять навыки, страсти и отношения со своим оператором. Полученные XP автоматически разделяются. Настроение, здоровье и некоторые другие детали не могут быть разделены, чтобы избежать проблем с нарушением игры.</SMN_FirstSurrogateCreatedDesc>
 
   <!-- Mental States -->
   <SMN_SurrogateSufferedMentalState>Суррогат Сломлен</SMN_SurrogateSufferedMentalState>
-  <SMN_SurrogateSufferedMentalStateDesc>Суррогат пережил психический срыв и отключился в качестве реакции самосохранения. Он перезагрузится автоматически.</SMN_SurrogateSufferedMentalStateDesc>
+  <SMN_SurrogateSufferedMentalStateDesc>Суррогат пережил психический срыв и отключился в качестве защитной реакции. Он перезагрузится автоматически.</SMN_SurrogateSufferedMentalStateDesc>
 
-  <SMN_ControllerSufferedMentalState>Контроллер Сломлен</SMN_ControllerSufferedMentalState>
-  <SMN_ControllerSufferedMentalStateDesc>Суррогатный контроллер получил психический срыв из-за экстремального сбоя в суррогате, распространяющегося на контроллер, или сбоя непосредственно в контроллере. Все подключенные к контроллеру суррогаты отключились - автоматически инициировав перезагрузку - и отсоединились от контроллера.</SMN_ControllerSufferedMentalStateDesc>
+  <SMN_ControllerSufferedMentalState>Оператор Сломлен</SMN_ControllerSufferedMentalState>
+  <SMN_ControllerSufferedMentalStateDesc>Оператор суррогата получил психический срыв из-за экстремального сбоя в суррогате, распространяющегося на оператора, или сбоя непосредственно у оператора. Все подключенные к оператору суррогаты отключились – автоматически инициировав перезагрузку — и отсоединились от оператора.</SMN_ControllerSufferedMentalStateDesc>
 
 </LanguageData>
