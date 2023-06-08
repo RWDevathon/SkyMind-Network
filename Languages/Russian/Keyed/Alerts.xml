@@ -4,10 +4,10 @@
   <SMN_AlertServerHeatCriticalDesc>По крайней мере одно теплочувствительное устройство находится в опасности возгорания из-за превышения максимально безопасного порога нагрева! Требуется принять меры для сохранения целостности сети!</SMN_AlertServerHeatCriticalDesc>
 
   <SMN_AlertFullSkillServers>Сервер навыков заполнен</SMN_AlertFullSkillServers>
-  <SMN_AlertFullSkillServersDesc>Больше нет возможности накапливать очки навыков. Рассмотрите возможность их использования или расширения емкости.</SMN_AlertFullSkillServersDesc>
+  <SMN_AlertFullSkillServersDesc>Больше нет возможности накапливать очки навыков. Рассмотрите возможность их использования или расширения ёмкости.</SMN_AlertFullSkillServersDesc>
 
   <SMN_AlertFullHackingServers>Хакерский сервер заполнен</SMN_AlertFullHackingServers>
-  <SMN_AlertFullHackingServersDesc>Больше нет возможности накапливать очков взлома, и сейчас нет штрафа. Рассмотрите возможность их использования или расширения емкости.</SMN_AlertFullHackingServersDesc>
+  <SMN_AlertFullHackingServersDesc>Больше нет возможности накапливать очков взлома, и сейчас нет штрафа. Рассмотрите возможность их использования или расширения ёмкости.</SMN_AlertFullHackingServersDesc>
 
   <SMN_AlertLowSecurity>Сеть под угрозой</SMN_AlertLowSecurity>
   <SMN_AlertLowSecurityDesc>Количество доступных очков безопасности крайне мало для успешной защиты от любых попыток взлома! Требуются дополнительные серверы и очки безопасности — в настоящее время следует проявлять максимальную осторожность при использовании сети.</SMN_AlertLowSecurityDesc>
