@@ -15,7 +15,7 @@
   <SMN_ServerNetworkConnectionNeeded>Сервер не подключен к сети SkyMind.</SMN_ServerNetworkConnectionNeeded>
 
   <SMN_SkillMode>Режим навыков</SMN_SkillMode>
-  <SMN_SkillModeDesc>Этот сервер назначен для генерации очков навыков. Щелкните, чтобы переключиться на безопасность.</SMN_SkillModeDesc>
+  <SMN_SkillModeDesc>Этот сервер назначен для генерации очков навыков. Нажмите, чтобы переключиться на безопасность.</SMN_SkillModeDesc>
 
   <SMN_SecurityMode>Режим безопасности</SMN_SecurityMode>
   <SMN_SecurityModeDesc>Этот сервер назначен для генерации очков безопасности. Нажмите, чтобы переключиться на взлом.</SMN_SecurityModeDesc>
@@ -31,7 +31,7 @@
 
   <!-- SkyMind -->
   <SMN_ConnectSkyMind>Подключение к SkyMind</SMN_ConnectSkyMind>
-  <SMN_ConnectSkyMindDesc>Подключите это устройство к сети SkyMind для удаленного взаимодействия.</SMN_ConnectSkyMindDesc>
+  <SMN_ConnectSkyMindDesc>Подключите это устройство к сети SkyMind для удалённого взаимодействия.</SMN_ConnectSkyMindDesc>
 
   <!-- Core -->
   <SMN_CloudPawnInfo>Информация</SMN_CloudPawnInfo>
