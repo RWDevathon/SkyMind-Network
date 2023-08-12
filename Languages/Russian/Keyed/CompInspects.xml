@@ -16,12 +16,12 @@
 
   <!-- Heat -->
   <SMN_CompHotSensitiveCriticalText>Тепловой порог превышен: повреждение неизбежно!</SMN_CompHotSensitiveCriticalText>
-  <SMN_CompHotSensitiveDangerText>Приближение к тепловому порогу: рекомендуется принять профилактические меры!</SMN_CompHotSensitiveDangerText>
-  <SMN_CompHotSensitiveWarningText>Превышен порог идеального тепла: рекомендуется соблюдать осторожность.</SMN_CompHotSensitiveWarningText>
+  <SMN_CompHotSensitiveDangerText>Приближение к перегреву: рекомендуется принять профилактические меры!</SMN_CompHotSensitiveDangerText>
+  <SMN_CompHotSensitiveWarningText>Превышен порог идеальной температуры: рекомендуется соблюдать осторожность.</SMN_CompHotSensitiveWarningText>
   <SMN_CompHotSensitiveSafeText>В пределах безопасного рабочего порога: работа в норме.</SMN_CompHotSensitiveSafeText>
 
   <!-- SkyMind -->
-  <SMN_HackedWithTimer>Перекомпиляция ПО завершена в {0}.</SMN_HackedWithTimer>
+  <SMN_HackedWithTimer>Перекомпиляция программы завершена в {0}.</SMN_HackedWithTimer>
   <SMN_CryptoLocked>Криптоблокировка, доступ запрещен.</SMN_CryptoLocked>
   <SMN_SkyMindDetected>Подключено к SkyMind</SMN_SkyMindDetected>
 

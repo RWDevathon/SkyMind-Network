@@ -6,9 +6,9 @@
 
   <!-- Recipe Users: FabricationBench -->
 
-  <Make_SMN_SkyMindReceiver.label>изготовить Приемник SkyMind</Make_SMN_SkyMindReceiver.label>
-  <Make_SMN_SkyMindReceiver.description>Изготовить Приемник SkyMind.</Make_SMN_SkyMindReceiver.description>
-  <Make_SMN_SkyMindReceiver.jobString>Изготавливает Приемник SkyMind.</Make_SMN_SkyMindReceiver.jobString>
+  <Make_SMN_SkyMindReceiver.label>изготовить Приёмник SkyMind</Make_SMN_SkyMindReceiver.label>
+  <Make_SMN_SkyMindReceiver.description>Изготовить Приёмник SkyMind.</Make_SMN_SkyMindReceiver.description>
+  <Make_SMN_SkyMindReceiver.jobString>Изготавливает Приёмник SkyMind.</Make_SMN_SkyMindReceiver.jobString>
 
   <Make_SMN_SkyMindTransceiver.label>изготовить Трансивер SkyMind</Make_SMN_SkyMindTransceiver.label>
   <Make_SMN_SkyMindTransceiver.description>Изготовить Трансивер SkyMind.</Make_SMN_SkyMindTransceiver.description>

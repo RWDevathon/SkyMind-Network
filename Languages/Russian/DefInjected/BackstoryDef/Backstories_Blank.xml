@@ -5,14 +5,14 @@
 
   <SMN_BlankChildhood.title>Свежая заготовка</SMN_BlankChildhood.title>
   <SMN_BlankChildhood.titleShort>Юнит</SMN_BlankChildhood.titleShort>
-  <SMN_BlankChildhood.baseDesc>{PAWN_nameDef} - это совершенно чистая заготовка, готовая к новому сознанию.</SMN_BlankChildhood.baseDesc>
+  <SMN_BlankChildhood.baseDesc>{PAWN_nameDef} — это чистая заготовка, готовая к новому сознанию.</SMN_BlankChildhood.baseDesc>
 
 
   <!-- Adulthoods -->
 
   <SMN_BlankAdulthood.title>Взрослая заготовка</SMN_BlankAdulthood.title>
   <SMN_BlankAdulthood.titleShort>Юнит</SMN_BlankAdulthood.titleShort>
-  <SMN_BlankAdulthood.baseDesc>{PAWN_nameDef} - это совершенно чистая заготовка. Он полностью лишен характера и полезности.</SMN_BlankAdulthood.baseDesc>
+  <SMN_BlankAdulthood.baseDesc>{PAWN_nameDef} — это чистая заготовка. Он полностью лишён характера и полезности.</SMN_BlankAdulthood.baseDesc>
 
 
 </LanguageData>

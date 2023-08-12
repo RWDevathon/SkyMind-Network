@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- Miscellaneous Keys -->
-  <SkyMindNetwork_ModTitle>Android Tiers Reforged Core</SkyMindNetwork_ModTitle>
+  <SkyMindNetwork_ModTitle>SkyMind Network</SkyMindNetwork_ModTitle>
 
   <!-- Hostile Hacking -->
-  <SMN_EnemyHacksOccur>Враждебный взлом включен.</SMN_EnemyHacksOccur>
-  <SMN_ChanceAlliesInterceptHack>Шанс перехватить взломы против вас для каждой союзной фракции</SMN_ChanceAlliesInterceptHack>
-  <SMN_ChanceAlliesInterceptHackDesc>Процентный шанс того, что союзные фракции спасут вас от успешного взлома противника, предотвращая повреждения и фактически давая вам очки безопасности. Это на КАЖДОГО СОЮЗНИКА.</SMN_ChanceAlliesInterceptHackDesc>
-  <SMN_PointsGainedOnInterceptPercentage>Очки, получаемые при перехвате союзников, как процент от атаки</SMN_PointsGainedOnInterceptPercentage>
-  <SMN_PointsGainedOnInterceptPercentageDesc>Когда союзник перехватывает атаку против вас, он жертвует вам очки безопасности. Это определяет, какой процент от очков рейда они вам дают.</SMN_PointsGainedOnInterceptPercentageDesc>
-  <SMN_EnemyHackAttackStrengthModifier>Модификатор силы взлома противника</SMN_EnemyHackAttackStrengthModifier>
-  <SMN_EnemyHackAttackStrengthModifierDesc>Мультипликативный модификатор количества очков взлома у врага. Меньше 100% снижает интенсивность, больше 100% повышает интенсивность.</SMN_EnemyHackAttackStrengthModifierDesc>
-  <SMN_PercentageOfValueUsedForRansoms>Процент от стоимости товара, требуемый при атаке с целью выкупа</SMN_PercentageOfValueUsedForRansoms>
+  <SMN_EnemyHacksOccur>Кибератаки противника</SMN_EnemyHacksOccur>
+  <SMN_ChanceAlliesInterceptHack>Шанс союзников, перехватить кибератаку</SMN_ChanceAlliesInterceptHack>
+  <SMN_ChanceAlliesInterceptHackDesc>Процентный шанс того, что союзные фракции спасут вас от кибератаки противника, предотвращая любые негативные последствия, и давая вам бесплатные очки защиты.</SMN_ChanceAlliesInterceptHackDesc>
+  <SMN_PointsGainedOnInterceptPercentage>Очки защиты, при перехвате</SMN_PointsGainedOnInterceptPercentage>
+  <SMN_PointsGainedOnInterceptPercentageDesc>Когда союзник перехватывает атаку против вас, он жертвует вам очки защиты, в процентах от силы атаки. Это определяет, сколько очков защиты они вам дадут.</SMN_PointsGainedOnInterceptPercentageDesc>
+  <SMN_EnemyHackAttackStrengthModifier>Модификатор силы кибератаки противника</SMN_EnemyHackAttackStrengthModifier>
+  <SMN_EnemyHackAttackStrengthModifierDesc>Множитель количества очков взлома у противника. Менее 100% снижает частоту взломов, более 100% повышает её.</SMN_EnemyHackAttackStrengthModifierDesc>
+  <SMN_PercentageOfValueUsedForRansoms>Процент от стоимости предмета, требуемый при атаке с целью выкупа</SMN_PercentageOfValueUsedForRansoms>
 
   <!-- Player Hacking -->
-  <SMN_PlayerCanHack>Взлом игрока включен.</SMN_PlayerCanHack>
-  <SMN_receiveFullHackingAlert>Предупреждение о очках взлома, превышающих 90% мощности.</SMN_receiveFullHackingAlert>
-  <SMN_RetaliationChanceOnFailure>Шанс того, что выбранная фракция предпримет ответные меры в случае неудачного взлома</SMN_RetaliationChanceOnFailure>
+  <SMN_PlayerCanHack>Кибератаки игрока [ОВ = Очки взлома]</SMN_PlayerCanHack>
+  <SMN_receiveFullHackingAlert>Предупреждение о превышении ОВ более 90%</SMN_receiveFullHackingAlert>
+  <SMN_RetaliationChanceOnFailure>Шанс ответных мер, при неудачном взломе</SMN_RetaliationChanceOnFailure>
   <SMN_MinHackSuccessChance>Минимальный шанс успешного взлома</SMN_MinHackSuccessChance>
   <SMN_MaxHackSuccessChance>Максимальный шанс успешного взлома</SMN_MaxHackSuccessChance>
 
   <!-- Connectivity Settings -->
   <!-- Surrogates -->
-  <SMN_surrogatesAllowed>Суррогаты разрешены.</SMN_surrogatesAllowed>
-  <SMN_otherFactionsAllowedSurrogates>Другие фракции могут использовать суррогатов.</SMN_otherFactionsAllowedSurrogates>
-  <SMN_minGroupSizeForSurrogates>Количество членов для групп фракций, которые появлятся с суррогатами</SMN_minGroupSizeForSurrogates>
-  <SMN_minSurrogatePercentagePerLegalGroup>Минимальный процент суррогатов в легальных группах [по умолчанию 0%]</SMN_minSurrogatePercentagePerLegalGroup>
-  <SMN_maxSurrogatePercentagePerLegalGroup>Максимальный процент суррогатов в легальных группах [по умолчанию 70%]</SMN_maxSurrogatePercentagePerLegalGroup>
-  <SMN_displaySurrogateControlIcon>Отображение парящего значка над контролируемыми суррогатами.</SMN_displaySurrogateControlIcon>
-  <SMN_safeSurrogateConnectivityCountBeforePenalty>Суррогаты на одного контроллера до штрафов:</SMN_safeSurrogateConnectivityCountBeforePenalty>
+  <SMN_surrogatesAllowed>SkyMind суррогаты [ОП = Очки познания]</SMN_surrogatesAllowed>
+  <SMN_otherFactionsAllowedSurrogates>Фракции могут использовать суррогаты</SMN_otherFactionsAllowedSurrogates>
+  <SMN_minGroupSizeForSurrogates>Количество суррогатов в отрядах фракций </SMN_minGroupSizeForSurrogates>
+  <SMN_minSurrogatePercentagePerLegalGroup>Минимальный процент суррогатов в группе [по умолчанию 0%]</SMN_minSurrogatePercentagePerLegalGroup>
+  <SMN_maxSurrogatePercentagePerLegalGroup>Максимальный процент суррогатов в группе [по умолчанию 70%]</SMN_maxSurrogatePercentagePerLegalGroup>
+  <SMN_displaySurrogateControlIcon>Отображение иконки над суррогатами</SMN_displaySurrogateControlIcon>
+  <SMN_safeSurrogateConnectivityCountBeforePenalty>Суррогатов на одного оператора до штрафов:</SMN_safeSurrogateConnectivityCountBeforePenalty>
 
   <!-- Skills -->
-  <SMN_receiveFullSkillAlert>Предупреждение о превышении 90% заполненности очков навыков.</SMN_receiveFullSkillAlert>
-  <SMN_skillPointInsertionRate>Количество очков навыков, используемых на одну вставку [по умолчанию: 100]</SMN_skillPointInsertionRate>
-  <SMN_skillPointConversionRate>Количество базового XP, получаемого за очки навыка [по умолчанию: 0,5].</SMN_skillPointConversionRate>
-  <SMN_passionSoftCap>Мягкий лимит на страсти до увеличения стоимости одной страсти [по умолчанию: 8]</SMN_passionSoftCap>
-  <SMN_basePointsNeededForPassion>Базовые очки навыков, необходимые для страсти [по умолчанию: 5000].</SMN_basePointsNeededForPassion>
+  <SMN_receiveFullSkillAlert>Предупреждение о превышении ОП более 90%</SMN_receiveFullSkillAlert>
+  <SMN_skillPointInsertionRate>Количество ОП, нужных для добавления [по умолчанию 100] </SMN_skillPointInsertionRate>
+  <SMN_skillPointConversionRate>Количество XP, получаемого за каждое ОП [по умолчанию 0.5] </SMN_skillPointConversionRate>
+  <SMN_passionSoftCap>Мягкий лимит на увеличения затрат ОП на интерес [по умолчанию 8] </SMN_passionSoftCap>
+  <SMN_basePointsNeededForPassion>Количество ОП, необходимых для интереса [по умолчанию 5000] </SMN_basePointsNeededForPassion>
 
   <!-- Cloud -->
-  <SMN_UploadingKills>Загрузка в SkyMind превращает тело инициатора в пустое.</SMN_UploadingKills>
-  <SMN_UploadingPermakills>Загрузка в SkyMind оставляет тело инициатора полностью бесполезным и мертвым.</SMN_UploadingPermakills>
-  <SMN_SkyMindOperationTimeRequired>Часы, необходимые для выполнения операций SkyMind [по умолчанию: 24]</SMN_SkyMindOperationTimeRequired>
+  <SMN_UploadingKills>Загрузка в SkyMind лишает туловище сознания</SMN_UploadingKills>
+  <SMN_UploadingPermakills>Загрузка в SkyMind полностью убивает туловище</SMN_UploadingPermakills>
+  <SMN_SkyMindOperationTimeRequired>Часов на выполнения операций SkyMind [по умолчанию 24] </SMN_SkyMindOperationTimeRequired>
 
 </LanguageData>
