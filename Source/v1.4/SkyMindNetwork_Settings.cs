@@ -8,10 +8,10 @@ namespace SkyMind
     {
             // Settings for Enemy hacks
         public static bool enemyHacksOccur;
-        public static float chanceAlliesInterceptHack;
-        public static float pointsGainedOnInterceptPercentage;
-        public static float enemyHackAttackStrengthModifier;
-        public static float percentageOfValueUsedForRansoms;
+        public static float chanceAlliesInterceptHack = 0.05f;
+        public static float pointsGainedOnInterceptPercentage = 0.25f;
+        public static float enemyHackAttackStrengthModifier = 1f;
+        public static float percentageOfValueUsedForRansoms = 0.25f;
 
             // Settings for player hacks
         public static bool playerCanHack = true;

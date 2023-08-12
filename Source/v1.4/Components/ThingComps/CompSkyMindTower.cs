@@ -1,7 +1,6 @@
 ﻿using Verse;
 using RimWorld;
 using System.Text;
-using UnityEngine.Diagnostics;
 
 namespace SkyMind
 {
@@ -19,9 +18,9 @@ namespace SkyMind
         public override void PostDeSpawn(Map map)
         {
             base.PostDeSpawn(map);
-            // If the tower has a power supply, then it will remove the tower capacity IF it was not offline to avoid double-reducing the tower capacity. This will not affect pawns so they can go caravanning.
+            // The tower capacity should only be removed for towers that do not have a power supply (and are thus always on) or for towers that are currently on.
             CompPowerTrader cpt = parent.GetComp<CompPowerTrader>();
-            if (cpt != null && cpt.PowerOn)
+            if (parent is Building && cpt == null && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
             {
                 SMN_Utils.gameComp.RemoveTower(this);
             }
@@ -32,7 +31,7 @@ namespace SkyMind
         {
             base.Notify_MapRemoved();
             CompPowerTrader cpt = parent.GetComp<CompPowerTrader>();
-            if (cpt != null && cpt.PowerOn)
+            if (parent is Building && cpt == null && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
             {
                 SMN_Utils.gameComp.RemoveTower(this);
             }

@@ -21,16 +21,13 @@ namespace SkyMind
         // Some states are illegal and should not be allowed.
         public override IEnumerable<string> ConfigErrors()
         {
-            if (allowsConnection)
+            if (allowsConnection && blocksConnection)
             {
-                if (blocksConnection)
-                {
-                    yield return "A HediffDef was given an SMN_HediffSkyMindExtension that both allowed and blocked SkyMind connections.";
-                }
-                if (!(isTransceiver || isReceiver))
-                {
-                    yield return "A HediffDef was given an SMN_HediffSkyMindExtension that allows SkyMind connection but is neither a transceiver nor receiver.";
-                }
+                 yield return "A HediffDef was given an SMN_HediffSkyMindExtension that both allowed and blocked SkyMind connections.";
+            }
+            else if (blocksConnection && (isTransceiver || isReceiver))
+            {
+                yield return "A HediffDef was given an SMN_HediffSkyMindExtension that was a transceiver or receiver but blocked SkyMind connections.";
             }
             if (isTransceiver && isReceiver)
             {

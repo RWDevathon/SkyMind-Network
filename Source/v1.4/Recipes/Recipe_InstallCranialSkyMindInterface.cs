@@ -6,6 +6,25 @@ namespace SkyMind
 {
     public class Recipe_InstallCranialSkyMindInterface : Recipe_InstallImplant
     {
+        // If the pawn has any implant that allows SkyMind connection already, then we can not install another one. SkyMind implants are mutually exclusive.
+        public override bool AvailableOnNow(Thing thing, BodyPartRecord part = null)
+        {
+            if (thing is Pawn pawn)
+            {
+                HediffSet hediffSet = pawn.health.hediffSet;
+                for (int i = hediffSet.hediffs.Count - 1; i >= 0; i--)
+                {
+                    if (hediffSet.hediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.allowsConnection == true)
+                    {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            return false;
+        }
+
+
         // This recipe is specifically targetting organic brains, so we only need to check if the brain is available (a slight optimization over checking fixed body parts).
         public override IEnumerable<BodyPartRecord> GetPartsToApplyOn(Pawn pawn, RecipeDef recipe)
         {
@@ -13,14 +32,6 @@ namespace SkyMind
             BodyPartRecord targetBodyPart = hediffSet.GetBrain();
             if (targetBodyPart != null)
             {
-                // If the pawn has any implant that allows SkyMind connection already, then we can not install another one. SkyMind implants are mutually exclusive.
-                for (int i = hediffSet.hediffs.Count - 1; i >= 0; i--)
-                {
-                    if (hediffSet.hediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>()?.allowsConnection == true)
-                    {
-                        yield break;
-                    }
-                }
                 yield return targetBodyPart;
             }
             yield break;

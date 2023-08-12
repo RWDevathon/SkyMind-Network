@@ -618,17 +618,22 @@ namespace SkyMind
 
             // Pawns afflicted with a Hediff that prevents SkyMind connections, or who are already subjects of mind operations, are not permissible targets for mind operations.
             List<Hediff> targetHediffs = pawn.health.hediffSet.hediffs;
+            bool hasImplantEnablingTransfer = false;
             for (int i = targetHediffs.Count - 1; i >= 0; i--)
             {
-                Hediff hediff = targetHediffs[i];
-                if (hediff.def.GetModExtension<SMN_HediffSkyMindExtension>()?.blocksConnection == true)
+                SMN_HediffSkyMindExtension skyMindExtension = targetHediffs[i].def.GetModExtension<SMN_HediffSkyMindExtension>();
+                if (skyMindExtension?.blocksConnection == true)
                 {
                     return false;
+                }
+                else if (skyMindExtension?.isTransceiver == true || skyMindExtension?.isReceiver == true)
+                {
+                    hasImplantEnablingTransfer = true;
                 }
             }
 
             // If the pawn has a cloud capable implant or is in the SkyMind network already, then it is valid.
-            return HasNetworkCapableImplant(pawn);
+            return hasImplantEnablingTransfer;
         }
 
         // Returns a list of all surrogates without hosts in caravans. Return null if there are none.
@@ -752,6 +757,7 @@ namespace SkyMind
             if (kill)
             {
                 TurnIntoBlank(copy);
+                copy.health.AddHediff(SMN_HediffDefOf.SMN_FeedbackLoop);
             }
             // Else, duplicate all mind-related things to the copy. This is not considered murder.
             else
