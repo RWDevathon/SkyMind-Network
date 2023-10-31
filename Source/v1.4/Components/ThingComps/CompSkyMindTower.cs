@@ -20,7 +20,7 @@ namespace SkyMind
             base.PostDeSpawn(map);
             // The tower capacity should only be removed for towers that do not have a power supply (and are thus always on) or for towers that are currently on.
             CompPowerTrader cpt = parent.GetComp<CompPowerTrader>();
-            if (parent is Building && cpt == null && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
+            if (parent is Building && cpt?.PowerOn != false)
             {
                 SMN_Utils.gameComp.RemoveTower(this);
             }
@@ -31,7 +31,7 @@ namespace SkyMind
         {
             base.Notify_MapRemoved();
             CompPowerTrader cpt = parent.GetComp<CompPowerTrader>();
-            if (parent is Building && cpt == null && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
+            if (parent is Building && cpt?.PowerOn != false)
             {
                 SMN_Utils.gameComp.RemoveTower(this);
             }
