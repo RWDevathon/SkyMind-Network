@@ -21,11 +21,6 @@ namespace SkyMind
             AllocateIfNull();
         }
 
-        public override void LoadedGame()
-        {
-            base.LoadedGame();
-        }
-
         public override void ExposeData()
         {
             base.ExposeData();
@@ -601,6 +596,9 @@ namespace SkyMind
 
         // Networked devices are things that are connected to the SkyMind network, including free pawns, surrogates, and buildings.
         public HashSet<Thing> networkedDevices = new HashSet<Thing>();
+
+        // Temperature sensitive devices that should be tracked for alert purposes.
+        public HashSet<ThingWithComps> temperatureSensitiveDevices = new HashSet<ThingWithComps>();
 
         // Cloud Pawns are pawns that are stored in the SkyMind Network. This is important as their gizmo's are inaccessible and can't be connected to the SkyMind (but should be considered as if they are).
         private HashSet<Pawn> cloudPawns = new HashSet<Pawn>();

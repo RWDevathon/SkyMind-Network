@@ -5,4 +5,6 @@
     <SMN_BlankPawnNickname>Blank</SMN_BlankPawnNickname>
     <SMN_BlankPawnLastName>Error</SMN_BlankPawnLastName>
 
+    <SMN_IdentifySurrogate>Target a hostless surrogate for connection</SMN_IdentifySurrogate>
+
 </LanguageData>

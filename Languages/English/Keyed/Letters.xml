@@ -2,8 +2,8 @@
 <LanguageData>
 
 	<!-- General -->
-	<SMN_ServerMeltdown>Server Meltdown</SMN_ServerMeltdown>
-    <SMN_ServerMeltdownDesc>A server has partially exploded due to excessive heat!</SMN_ServerMeltdownDesc>
+	<SMN_DeviceFailure>Device Failure</SMN_DeviceFailure>
+    <SMN_DeviceFailureDesc>A temperature sensitive device has suffered a critical failure due to extreme temperature!</SMN_DeviceFailureDesc>
 
 	<!-- Hacking Incidents -->
 		<!-- Generic Messages -->

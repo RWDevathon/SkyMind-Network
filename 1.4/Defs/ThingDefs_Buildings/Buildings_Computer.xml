@@ -14,10 +14,13 @@
         <comps>
             <li Class="CompProperties_Breakdownable"/>
             <li Class="CompProperties_Flickable"/>
-            <li Class="SkyMind.CompProperties_HeatSensitive">
-                <safeHeat>20</safeHeat>
-                <warningHeat>30</warningHeat>
-                <dangerHeat>40</dangerHeat>
+            <li Class="SkyMind.CompProperties_TemperatureSensitive">
+                <coldDangerLimit>0</coldDangerLimit>
+                <coldWarningLimit>4</coldWarningLimit>
+                <coldSafeLimit>12</coldSafeLimit>
+                <heatSafeLimit>32</heatSafeLimit>
+                <heatWarningLimit>40</heatWarningLimit>
+                <heatDangerLimit>44</heatDangerLimit>
             </li>
         </comps>
         <rotatable>false</rotatable>

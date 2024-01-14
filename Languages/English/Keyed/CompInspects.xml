@@ -14,11 +14,12 @@
 	<SMN_HackingProducedPoints>Hacking Points producing: {0}</SMN_HackingProducedPoints>
 	<SMN_HackingSlotsAdded>Hacking Storage added: {0}</SMN_HackingSlotsAdded>
 
-	<!-- Heat -->
-	<SMN_CompHotSensitiveCriticalText>Heat threshold surpassed: damage imminent!</SMN_CompHotSensitiveCriticalText>
-	<SMN_CompHotSensitiveDangerText>Approaching heat threshold: preventative action advised!</SMN_CompHotSensitiveDangerText>
-	<SMN_CompHotSensitiveWarningText>Ideal heat threshold surpassed: caution advised.</SMN_CompHotSensitiveWarningText>
-	<SMN_CompHotSensitiveSafeText>Within safe operating threshold: operations normal.</SMN_CompHotSensitiveSafeText>
+	<!-- Temperature -->
+    <SMN_CompTempSensitiveStructureOutside>Temperature sensitive structures take damage outside!</SMN_CompTempSensitiveStructureOutside>
+	<SMN_CompTempSensitiveCriticalText>Temperature conditions critical: damage imminent!</SMN_CompTempSensitiveCriticalText>
+	<SMN_CompTempSensitiveDangerText>Local temperature conditions severe: preventative action advised!</SMN_CompTempSensitiveDangerText>
+	<SMN_CompTempSensitiveWarningText>Ideal temperature threshold exceeded: caution advised. Unit at risk of damage.</SMN_CompTempSensitiveWarningText>
+	<SMN_CompTempSensitiveSafeText>Within safe operating threshold: operations normal.</SMN_CompTempSensitiveSafeText>
 
 	<!-- SkyMind -->
 	<SMN_HackedWithTimer>Software recompilation complete in {0}.</SMN_HackedWithTimer>

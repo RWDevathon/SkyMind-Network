@@ -171,13 +171,14 @@
   <ItemGroup>
     <Compile Include="Alerts\Alert_FullHackingServers.cs" />
     <Compile Include="Alerts\Alert_FullSkillServers.cs" />
+    <Compile Include="Alerts\Alert_TemperatureSensitiveDevicesAtRisk.cs" />
     <Compile Include="Alerts\Alert_LowSecurity.cs" />
     <Compile Include="Components\ThingComps\CompSkyMindCommsConsole.cs" />
     <Compile Include="Components\ThingComps\CompInsightBench.cs" />
-    <Compile Include="Components\ThingComps\CompHeatSensitive.cs" />
+    <Compile Include="Components\ThingComps\CompTemperatureSensitive.cs" />
     <Compile Include="Components\ThingComps\CompProperties_SkyMindCore.cs" />
     <Compile Include="Components\ThingComps\CompProperties_SkyMindTower.cs" />
-    <Compile Include="Components\ThingComps\CompProperties_HeatSensitive.cs" />
+    <Compile Include="Components\ThingComps\CompProperties_TemperatureSensitive.cs" />
     <Compile Include="Components\ThingComps\CompProperties_SuperComputer.cs" />
     <Compile Include="Components\ThingComps\CompRemotelyTriggered.cs" />
     <Compile Include="Components\ThingComps\CompSuperComputer.cs" />

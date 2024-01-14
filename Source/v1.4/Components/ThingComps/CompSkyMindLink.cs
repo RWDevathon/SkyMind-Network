@@ -7,9 +7,109 @@ using System.Text;
 
 namespace SkyMind
 {
-    public class CompSkyMindLink : ThingComp
+    public class CompSkyMindLink : ThingComp, ITargetingSource
     {
         private Pawn ThisPawn => (Pawn)parent;
+
+        public bool CasterIsPawn => true;
+
+        public bool IsMeleeAttack => false;
+
+        public bool Targetable => true;
+
+        public bool MultiSelect => true;
+
+        public bool HidePawnTooltips => true;
+
+        public Thing Caster => parent;
+
+        public Pawn CasterPawn => (Pawn)parent;
+
+        public Verb GetVerb => null;
+
+        private TargetingParameters cachedTargetParameters;
+
+        public Texture2D UIIcon => SMN_Textures.ConnectIcon;
+
+        public TargetingParameters targetParams
+        {
+            get
+            {
+                if (cachedTargetParameters == null)
+                {
+                    cachedTargetParameters = new TargetingParameters()
+                    {
+                        canTargetPawns = true,
+                        canTargetBuildings = false,
+                        canTargetAnimals = false,
+                        canTargetMechs = false,
+                        mapObjectTargetsMustBeAutoAttackable = false,
+                        onlyTargetIncapacitatedPawns = true,
+                    };
+                }
+                return cachedTargetParameters;
+            }
+        }
+
+        public ITargetingSource DestinationSelector => null;
+
+        public bool CanHitTarget(LocalTargetInfo target)
+        {
+            return ValidateTarget(target, showMessages: false);
+        }
+
+        public bool ValidateTarget(LocalTargetInfo target, bool showMessages = true)
+        {
+            if (!(target.Thing is Pawn pawn))
+            {
+                return false;
+            }
+
+            if ((pawn.Faction != null && !pawn.Faction.IsPlayer) || !SMN_Utils.IsSurrogate(pawn))
+            {
+                if (showMessages)
+                {
+                    Messages.Message("SMN_NotUncontrolledSurrogate".Translate(pawn.LabelShort), pawn, MessageTypeDefOf.RejectInput, false);
+                }
+                return false;
+            }
+
+            if (pawn.GetComp<CompSkyMind>().Breached != -1)
+            {
+                if (showMessages)
+                {
+                    Messages.Message("SMN_LockedSurrogate".Translate(pawn.LabelShort), pawn, MessageTypeDefOf.RejectInput, false);
+                }
+                return false;
+            }
+            return true;
+        }
+
+        public void DrawHighlight(LocalTargetInfo target)
+        {
+            if (target.IsValid)
+            {
+                GenDraw.DrawTargetHighlight(target);
+            }
+        }
+
+        public void OrderForceTarget(LocalTargetInfo target)
+        {
+            ConnectSurrogate((Pawn)target.Thing);
+        }
+
+        public void OnGUI(LocalTargetInfo target)
+        {
+            Widgets.MouseAttachedLabel("SMN_IdentifySurrogate".Translate());
+            if (ValidateTarget(target, showMessages: false))
+            {
+                GenUI.DrawMouseAttachment(UIIcon);
+            }
+            else
+            {
+                GenUI.DrawMouseAttachment(TexCommand.CannotShoot);
+            }
+        }
 
         public override void PostExposeData()
         {
@@ -182,31 +282,17 @@ namespace SkyMind
                     action = delegate ()
                     {
                         List<FloatMenuOption> opts = new List<FloatMenuOption>();
-                        TargetingParameters targetParameters = new TargetingParameters()
-                        {
-                            canTargetPawns = true,
-                            canTargetBuildings = false,
-                            canTargetAnimals = false,
-                            canTargetMechs = false,
-                            mapObjectTargetsMustBeAutoAttackable = false,
-                            onlyTargetIncapacitatedPawns = true,
-                            validator = delegate (TargetInfo targetInfo)
-                            {
-                                return targetInfo.Thing is Pawn pawn && (pawn.Faction == null || pawn.Faction.IsPlayer) && SMN_Utils.IsSurrogate(pawn)
-                                        && pawn.GetComp<CompSkyMind>().Breached == -1 && !pawn.GetComp<CompSkyMindLink>().HasSurrogate();
-                            }
-                        };
                         foreach (Map map in Find.Maps)
                         {
                             opts.Add(new FloatMenuOption(map.Parent.Label, delegate
                             {
                                 Current.Game.CurrentMap = map;
-                                Find.Targeter.BeginTargeting(targetParameters, (LocalTargetInfo target) => ConnectSurrogate((Pawn)target.Thing));
+                                Find.Targeter.BeginTargeting(this, null, true, null, null);
                             }));
                         }
                         if (opts.Count == 1)
                         {
-                            Find.Targeter.BeginTargeting(targetParameters, (LocalTargetInfo target) => ConnectSurrogate((Pawn)target.Thing));
+                            Find.Targeter.BeginTargeting(this, null, true, null, null);
                         }
                         else if (opts.Count > 1)
                         {

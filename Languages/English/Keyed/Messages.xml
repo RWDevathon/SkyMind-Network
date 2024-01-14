@@ -19,6 +19,8 @@
     <SMN_NoArrival>Nothing was sent to the mixed up coordinates before the faction reset their guidance system. They got lucky, this time.</SMN_NoArrival>
 
 	<!-- Link -->
+    <SMN_NotUncontrolledSurrogate>{0} is not ready for remote control. Only uncontrolled surrogates are valid targets.</SMN_NotUncontrolledSurrogate>
+    <SMN_LockedSurrogate>{0} has had its receiver security breached and is still inoperable.</SMN_LockedSurrogate>
     <SMN_CannotConnect>Attempted connection could not be established, ensure adequate network capacity and target viability.</SMN_CannotConnect>
 	<SMN_SurrogateControlled>{0} connected to a new surrogate</SMN_SurrogateControlled>
 	<SMN_OperationInitiated>SkyMind network link established by {0}'s request. Do not disable network connection until procedure is complete.</SMN_OperationInitiated>

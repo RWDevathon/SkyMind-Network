@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<SMN_AlertServerHeatCriticalDesc>At least one heat sensitive device is in danger of combusting due to surpassing its maximum safety heat threshold! Action is required to retain network integrity!</SMN_AlertServerHeatCriticalDesc>
+    <SMN_AlertTemperatureSensitiveDevicesAtRisk>Temperature Sensitivity</SMN_AlertTemperatureSensitiveDevicesAtRisk>
+	<SMN_AlertTemperatureSensitiveDevicesAtRiskDesc>At least one temperature sensitive device is at risk of damage due to surpassing its temperature safety threshold. Action may be required to prevent damage to the devices.</SMN_AlertTemperatureSensitiveDevicesAtRiskDesc>
 
 	<SMN_AlertFullSkillServers>Full Skill Servers</SMN_AlertFullSkillServers>
     <SMN_AlertFullSkillServersDesc>There is no more capacity for skill points. Consider using them, or expanding capacity.</SMN_AlertFullSkillServersDesc>
