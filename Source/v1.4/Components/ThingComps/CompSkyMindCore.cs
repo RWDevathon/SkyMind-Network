@@ -27,7 +27,7 @@ namespace SkyMind
             // If there is no power supply to this server, it can't be turned on/off normally. Just add it in and handle removing it separately.
             if (parent.GetComp<CompPowerTrader>() == null)
             {
-                SMN_Utils.gameComp.AddCore(this);
+                SMN_Utils.gameComp.AddCore(Props.cloudPawnCapacityProvided);
             }
         }
 
@@ -38,7 +38,7 @@ namespace SkyMind
             // Buildings that provide core capacity lose it when they despawn if they are online (whenever something either has no power trader or has an online power trader).
             if (parent is Building && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
             {
-                SMN_Utils.gameComp.RemoveCore(this);
+                SMN_Utils.gameComp.RemoveCore(Props.cloudPawnCapacityProvided);
             }
         }
 
@@ -48,7 +48,7 @@ namespace SkyMind
             // Buildings that provide core capacity lose it when the map they are on is lost if they are online (whenever something either has no power trader or has an online power trader).
             if (parent is Building && parent.GetComp<CompPowerTrader>()?.PowerOn != false)
             {
-                SMN_Utils.gameComp.RemoveCore(this);
+                SMN_Utils.gameComp.RemoveCore(Props.cloudPawnCapacityProvided);
             }
         }
 
@@ -59,10 +59,10 @@ namespace SkyMind
             switch (signal)
             {
                 case "PowerTurnedOn":
-                    SMN_Utils.gameComp.AddCore(this);
+                    SMN_Utils.gameComp.AddCore(Props.cloudPawnCapacityProvided);
                     break;
                 case "PowerTurnedOff":
-                    SMN_Utils.gameComp.RemoveCore(this);
+                    SMN_Utils.gameComp.RemoveCore(Props.cloudPawnCapacityProvided);
                     break;
             }
         }

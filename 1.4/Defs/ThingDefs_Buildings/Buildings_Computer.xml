@@ -93,7 +93,7 @@
     <ThingDef ParentName="SMN_ServerBase">
         <defName>SMN_NetworkedDatabase</defName>
         <label>Networked Database</label>
-        <description>A basic server for data tabulation, storage, and calculations. It is incapable of generating insights, but greatly enhances the workflow of those who wish to spend less time doing math and more time analyzing. It generates a small amount of heat, and may be damaged if the heat exceeds its safety threshold.\n\nDatabases store server points generated from other sources for use when powered and connected to the SkyMind, but does not generate points itself.</description>
+        <description>A basic server for data tabulation, storage, and calculations. It is incapable of generating insights, but greatly enhances the workflow of those who wish to spend less time doing math and more time analyzing. It generates a small amount of heat. Databases store server points generated from other sources for use when powered and connected to the SkyMind, but does not generate points itself.\n\nServers like these require stable temperature conditions, and will suffer damage, breakdown, or even be permanently destroyed by adverse conditions like being outdoors or being exposed to significant cold or hot temperatures. The safe range for this device is 12-32 degrees Celsius / 53-90 degrees Fahrenheit.</description>
         <statBases>
             <WorkToBuild>12500</WorkToBuild>
             <Mass>140</Mass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="SMN_ServerBase">
         <defName>SMN_NetworkedAnalyst</defName>
         <label>Networked Analyst</label>
-        <description>A basic server for analyzing data and generating insights into the chosen task focus using rudimentary machine learning algorithms. Due to its small size and number of calculations, it relies on data servers for storage and generates significant heat. It may be damaged if the heat exceeds its safety threshold.\n\nAnalysts generate server points in a chosen category when powered and connected to the SkyMind, but can not store points.</description>
+        <description>A basic server for analyzing data and generating insights into the chosen task focus using rudimentary machine learning algorithms. Due to its small size and number of calculations, it relies on data servers for storage and generates significant heat. Analysts generate server points in a chosen category when powered and connected to the SkyMind, but can not store points.\n\nServers like these require stable temperature conditions, and will suffer damage, breakdown, or even be permanently destroyed by adverse conditions like being outdoors or being exposed to significant cold or hot temperatures. The safe range for this device is 12-32 degrees Celsius / 53-90 degrees Fahrenheit.</description>
         <statBases>
             <WorkToBuild>22500</WorkToBuild>
             <Mass>80</Mass>
@@ -210,7 +210,7 @@
     <ThingDef ParentName="SMN_ServerBase">
         <defName>SMN_NetworkedIntelligence</defName>
         <label>Networked Intelligence</label>
-        <description>An advanced server for data analysis, tabulation, storage, and insight generation in a chosen task focus using an autonomous AI persona. While it theoretically makes other servers obsolete, the space efficiency and use cases come at a high cost of power and heat generation. It is very susceptible to overheating and may become damaged if it overheats.\n\nIntelligences store and produce server points in a chosen field when powered and connected to the SkyMind, but requires a persona core.</description>
+        <description>An advanced server for data analysis, tabulation, storage, and insight generation in a chosen task focus using an autonomous AI persona. While it theoretically makes other servers obsolete, the space efficiency and use cases come at a high cost of power and heat generation. Intelligences store and produce server points in a chosen field when powered and connected to the SkyMind, but requires a persona core.\n\nServers like these require stable temperature conditions, and will suffer damage, breakdown, or even be permanently destroyed by adverse conditions like being outdoors or being exposed to significant cold or hot temperatures. The safe range for this device is 12-32 degrees Celsius / 53-90 degrees Fahrenheit.</description>
         <statBases>
             <MaxHitPoints>300</MaxHitPoints>
             <WorkToBuild>35000</WorkToBuild>

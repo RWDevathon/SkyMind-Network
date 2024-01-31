@@ -323,19 +323,18 @@ namespace SkyMind
             return SkyMindCloudCapacity > 0;
         }
 
-        // Add the SkyMind Tower's capacity to the current total.
+        // Add capacity to the SkyMind for networked devices.
         public void AddTower(CompSkyMindTower tower)
         {
             SkyMindNetworkCapacity += tower.Props.SkyMindSlotsProvided;
         }
 
-        // Remove the SkyMind Tower's capacity from the current total.
+        // Remove capacity to the SkyMind for networked devices. Disconnect random devices if this would result in exceeding the limit.
         public void RemoveTower(CompSkyMindTower tower)
         {
             SkyMindNetworkCapacity -= tower.Props.SkyMindSlotsProvided;
 
-            // Removing a tower may result in being over the SkyMind network limit. Randomly disconnect some until under the limit if necessary.
-            while (SkyMindNetworkCapacity < networkedDevices.Count)
+            while (SkyMindNetworkCapacity < networkedDevices.Count && networkedDevices.Count > 0)
             {
                 Thing device = networkedDevices.RandomElement();
                 DisconnectFromSkyMind(device);
@@ -348,19 +347,18 @@ namespace SkyMind
             return SkyMindNetworkCapacity;
         }
 
-        // Add a SkyMind Core that generates cloudPawn capacity to the appropriate set for later use.
-        public void AddCore(CompSkyMindCore core)
+        // Add capacity to the SkyMind for cloud-stored pawns.
+        public void AddCore(int capacity)
         {
-            SkyMindCloudCapacity += core.Props.cloudPawnCapacityProvided;
+            SkyMindCloudCapacity += capacity;
         }
 
-        // Remove a SkyMind Core that generates cloudPawn capacity from the appropriate set.
-        public void RemoveCore(CompSkyMindCore core)
+        // Remove capacity to the SkyMind for cloud-stored pawns. Murder random stored intelligences if this would result in exceeding the limit.
+        public void RemoveCore(int capacity)
         {
-            SkyMindCloudCapacity -= core.Props.cloudPawnCapacityProvided;
+            SkyMindCloudCapacity -= capacity;
 
-            // Removing a core may result in being over the cloud pawn limit. Randomly murder stored intelligences until under the limit if necessary.
-            while (SkyMindCloudCapacity < cloudPawns.Count)
+            while (SkyMindCloudCapacity < cloudPawns.Count && cloudPawns.Count > 0)
             {
                 // Killing the pawn will automatically handle any interrupted mind operations or surrogate connections.
                 Pawn victim = cloudPawns.RandomElement();
