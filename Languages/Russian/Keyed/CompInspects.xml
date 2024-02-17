@@ -14,11 +14,12 @@
   <SMN_HackingProducedPoints>Производство очков взлома: {0}</SMN_HackingProducedPoints>
   <SMN_HackingSlotsAdded>Добавлено хранилище взлома: {0}</SMN_HackingSlotsAdded>
 
-  <!-- Heat -->
-  <SMN_CompHotSensitiveCriticalText>Тепловой порог превышен: повреждение неизбежно!</SMN_CompHotSensitiveCriticalText>
-  <SMN_CompHotSensitiveDangerText>Приближение к перегреву: рекомендуется принять профилактические меры!</SMN_CompHotSensitiveDangerText>
-  <SMN_CompHotSensitiveWarningText>Превышен порог идеальной температуры: рекомендуется соблюдать осторожность.</SMN_CompHotSensitiveWarningText>
-  <SMN_CompHotSensitiveSafeText>В пределах безопасного рабочего порога: работа в норме.</SMN_CompHotSensitiveSafeText>
+  <!-- Temperature -->
+  <SMN_CompTempSensitiveStructureOutside>Теплочувствительные структуры переносят повреждения снаружи!</SMN_CompTempSensitiveStructureOutside>
+  <SMN_CompTempSensitiveCriticalText>Тепловой порог превышен: повреждение неизбежно!</SMN_CompTempSensitiveCriticalText>
+  <SMN_CompTempSensitiveDangerText>Приближение к перегреву: рекомендуется принять профилактические меры!</SMN_CompTempSensitiveDangerText>
+  <SMN_CompTempSensitiveWarningText>Превышен порог идеальной температуры: соблюдайте осторожность. Устройство может быть повреждено.</SMN_CompTempSensitiveWarningText>
+  <SMN_CompTempSensitiveSafeText>В пределах безопасного рабочего порога: работа в норме.</SMN_CompTempSensitiveSafeText>
 
   <!-- SkyMind -->
   <SMN_HackedWithTimer>Перекомпиляция программы завершена в {0}.</SMN_HackedWithTimer>

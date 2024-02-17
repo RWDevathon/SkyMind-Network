@@ -3,13 +3,13 @@
 
   <!-- AutoDoor -->
   <SMN_AutoDoorOpen>Открыть</SMN_AutoDoorOpen>
-  <SMN_AutoDoorOpenDescription>Открывается удаленно через соединение SkyMind.</SMN_AutoDoorOpenDescription>
+  <SMN_AutoDoorOpenDescription>Открывается удалённо через сеть SkyMind.</SMN_AutoDoorOpenDescription>
   <SMN_AutoDoorClose>Закрыть</SMN_AutoDoorClose>
-  <SMN_AutoDoorCloseDescription>Закрывается удаленно через соединение SkyMind.</SMN_AutoDoorCloseDescription>
+  <SMN_AutoDoorCloseDescription>Закрывается удалённо через сеть SkyMind.</SMN_AutoDoorCloseDescription>
 
   <!-- Comms Console -->
-  <SMN_OpenRemoteComms>Открыть коммуникации</SMN_OpenRemoteComms>
-  <SMN_OpenRemoteCommsDesc>Открыть коммуникации удаленно через соединение SkyMind.</SMN_OpenRemoteCommsDesc>
+  <SMN_OpenRemoteComms>Открыть Консоль связи</SMN_OpenRemoteComms>
+  <SMN_OpenRemoteCommsDesc>Открыть консоль связи удалённо через сеть SkyMind.</SMN_OpenRemoteCommsDesc>
 
   <!-- Computer -->
   <SMN_ServerNetworkConnectionNeeded>Сервер не подключен к сети SkyMind.</SMN_ServerNetworkConnectionNeeded>
@@ -79,10 +79,10 @@
 
   <SMN_Upload>Загрузить</SMN_Upload>
   <SMN_UploadDesc>Загрузите этот интеллект в сеть SkyMind. То, что происходит с оставленным туловищем, контролируется через настройки (по умолчанию туловище становится безмозглым).</SMN_UploadDesc>
-  <SMN_UploadConfirm>В ходе операции этот интеллект передается в сеть SkyMind, а тело остается позади.</SMN_UploadConfirm>
+  <SMN_UploadConfirm>В ходе операции этот интеллект передаётся в сеть SkyMind, а тело остаётся позади.</SMN_UploadConfirm>
 
   <!-- Remotely Triggered -->
   <SMN_DetonateIEDRemotely>Запуск СВУ</SMN_DetonateIEDRemotely>
-  <SMN_DetonateIEDRemotelyDesc>Дистанционное и мгновенное срабатывание СВУ через соединение SkyMind.</SMN_DetonateIEDRemotelyDesc>
+  <SMN_DetonateIEDRemotelyDesc>Дистанционное и мгновенное срабатывание СВУ через сеть SkyMind.</SMN_DetonateIEDRemotelyDesc>
 
 </LanguageData>
