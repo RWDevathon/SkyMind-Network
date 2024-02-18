@@ -2,8 +2,8 @@
 <LanguageData>
 
   <!-- General -->
-  <SMN_ServerMeltdown>Разрушение сервера</SMN_ServerMeltdown>
-  <SMN_ServerMeltdownDesc>Сервер частично взорвался из-за перегрева!</SMN_ServerMeltdownDesc>
+  <SMN_DeviceFailure>Устройство сбоит</SMN_DeviceFailure>
+  <SMN_DeviceFailureDesc>Теплочувствительное устройство получило критический сбой из-за экстремальной температуры!</SMN_DeviceFailureDesc>
 
   <!-- Hacking Incidents -->
   <!-- Generic Messages -->

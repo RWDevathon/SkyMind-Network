@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <SMN_AlertServerHeatCriticalDesc>По крайней мере одно теплочувствительное устройство находится в опасности возгорания из-за превышения максимально безопасного порога нагрева! Требуется принять меры для сохранения целостности сети!</SMN_AlertServerHeatCriticalDesc>
+  <SMN_AlertTemperatureSensitiveDevicesAtRisk>Чувствительно к температуре</SMN_AlertTemperatureSensitiveDevicesAtRisk>
+  <SMN_AlertTemperatureSensitiveDevicesAtRiskDesc>По крайней мере одно теплочувствительное устройство находится под угрозой возгорания из-за превышения максимально безопасного порога нагрева! Требуется принять меры для сохранения целостности устройств.</SMN_AlertTemperatureSensitiveDevicesAtRiskDesc>
 
   <SMN_AlertFullSkillServers>Сервер навыков заполнен</SMN_AlertFullSkillServers>
   <SMN_AlertFullSkillServersDesc>Больше нет возможности накапливать очки навыков. Рассмотрите возможность их использования или расширения ёмкости.</SMN_AlertFullSkillServersDesc>
