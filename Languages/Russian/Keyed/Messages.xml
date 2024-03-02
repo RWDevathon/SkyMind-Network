@@ -22,7 +22,7 @@
   <SMN_NotUncontrolledSurrogate>{0} не готов к удалённому управлению. Только неконтролируемые суррогаты подходящие цели.</SMN_NotUncontrolledSurrogate>
   <SMN_LockedSurrogate>У {0} была нарушена защита приёмника, и он по-прежнему неработоспособен.</SMN_LockedSurrogate>
   <SMN_CannotConnect>Попытка установить соединение не удалась, убедитесь в достаточной пропускной способности сети и жизнеспособности цели.</SMN_CannotConnect>
-  <SMN_SurrogateControlled>{0} подключен к новому суррогату</SMN_SurrogateControlled>
+  <SMN_SurrogateControlled>{0} подключён к новому суррогату</SMN_SurrogateControlled>
   <SMN_OperationInitiated>Сетевое соединение SkyMind установлено по запросу {0}. Не отключайте соединение до завершения процедуры.</SMN_OperationInitiated>
   <SMN_OperationCompleted>Операция SkyMind завершена</SMN_OperationCompleted>
   <SMN_OperationCompletedDesc>Сеть SkyMind успешно выполнила операцию по запросу {0}.</SMN_OperationCompletedDesc>

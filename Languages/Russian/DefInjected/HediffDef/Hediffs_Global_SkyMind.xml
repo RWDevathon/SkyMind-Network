@@ -6,10 +6,10 @@
   <SMN_Unconscious.labelNoun>Хост не подключен</SMN_Unconscious.labelNoun>
 
   <SMN_FeedbackLoop.label>Петля обратной связи</SMN_FeedbackLoop.label>
-  <SMN_FeedbackLoop.description>В настоящее время эта пешка испытывает сильный эффект петли обратной связи и находится в бессознательном состоянии, пока эффект не спадёт.</SMN_FeedbackLoop.description>
+  <SMN_FeedbackLoop.description>В настоящее время эта пешка испытывает сильный эффект петли обратной связи и будет без сознания, пока эффект не спадёт.</SMN_FeedbackLoop.description>
 
   <SMN_SplitConsciousness.label>Разделённое сознание</SMN_SplitConsciousness.label>
-  <SMN_SplitConsciousness.description>Сознание, контролирующее это туловище, разделяется, поскольку оно также контролирует другие туловища. Это эффективно снижает способность сознания осуществлять тонкий контроль над этим туловищем. Большее количество тел означает более суровый штраф.</SMN_SplitConsciousness.description>
+  <SMN_SplitConsciousness.description>Сознание, контролирующее это тело — разделено, поскольку оно также контролирует другие тела. Эффективно снижает способность сознания осуществлять тонкий контроль над телом. Большее количество тел означает более суровый штраф.</SMN_SplitConsciousness.description>
   <SMN_SplitConsciousness.stages.0.label>Безопасное</SMN_SplitConsciousness.stages.0.label>
   <SMN_SplitConsciousness.stages.1.label>Незначительное</SMN_SplitConsciousness.stages.1.label>
   <SMN_SplitConsciousness.stages.2.label>Управляемое</SMN_SplitConsciousness.stages.2.label>
@@ -19,11 +19,11 @@
   <SMN_SplitConsciousness.labelNoun>Разделённое сознание</SMN_SplitConsciousness.labelNoun>
 
   <SMN_ForeignConsciousness.label>Чужое сознание</SMN_ForeignConsciousness.label>
-  <SMN_ForeignConsciousness.description>Сознание, контролирующее это туловище, принадлежит другой фракции. Оператор отключится, когда будет сражён, и, скорее всего, запустит самоуничтожение ядра.</SMN_ForeignConsciousness.description>
+  <SMN_ForeignConsciousness.description>Сознание, контролирующее это тело, принадлежит другой фракции. Оператор отключится, когда будет сражён, и, скорее всего, запустит самоуничтожение ядра.</SMN_ForeignConsciousness.description>
   <SMN_ForeignConsciousness.labelNoun>чужое сознание</SMN_ForeignConsciousness.labelNoun>
 
   <SMN_MindOperation.label>Операция SkyMind в процессе</SMN_MindOperation.label>
-  <SMN_MindOperation.description>В настоящее время над этим юнитом проходит операция SkyMind. В целях сохранения связи и целостности, сознание сейчас не контролирует это туловище.</SMN_MindOperation.description>
+  <SMN_MindOperation.description>В настоящее время над этим юнитом проходит операция SkyMind. В целях сохранения связи и целостности, сознание сейчас не контролирует это тело.</SMN_MindOperation.description>
   <SMN_MindOperation.labelNoun>операция SkyMind</SMN_MindOperation.labelNoun>
 
   <SMN_NoController.label>Оператор не подключён</SMN_NoController.label>
@@ -34,7 +34,7 @@
   <SMN_DDOSRecovery.description>Этот юнит восстанавливается после воздействия DDOS атаки. Обработка мыслей и память были повреждены, и потребуется некоторое время, чтобы полностью восстановиться после атаки.</SMN_DDOSRecovery.description>
 
   <SMN_MemoryCorruption.label>Повреждение памяти</SMN_MemoryCorruption.label>
-  <SMN_MemoryCorruption.description>Этот индивидуум пострадал от максимального повреждения памяти в результате провала операции SkyMind. Воспоминания потеряны, но физическая травма исчезнет. Однако это будет длинная и трудная дорога.</SMN_MemoryCorruption.description>
+  <SMN_MemoryCorruption.description>Этот индивидуум, пострадал от серьёзного повреждения памяти, в результате провала операции SkyMind. Воспоминания потеряны, но физическая травма исчезнет. Однако это будет долгий и тернистый путь.</SMN_MemoryCorruption.description>
   <SMN_MemoryCorruption.stages.0.label>Почти полное восстановление</SMN_MemoryCorruption.stages.0.label>
   <SMN_MemoryCorruption.stages.1.label>Мимолётное</SMN_MemoryCorruption.stages.1.label>
   <SMN_MemoryCorruption.stages.2.label>Незначительное</SMN_MemoryCorruption.stages.2.label>
