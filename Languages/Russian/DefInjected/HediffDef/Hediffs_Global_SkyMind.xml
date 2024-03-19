@@ -5,7 +5,7 @@
   <SMN_Unconscious.description>Эта пешка не имеет сознания и активна только из-за подсознательного самосохранения.</SMN_Unconscious.description>
   <SMN_Unconscious.labelNoun>Хост не подключен</SMN_Unconscious.labelNoun>
 
-  <SMN_FeedbackLoop.label>Петля обратной связи</SMN_FeedbackLoop.label>
+  <SMN_FeedbackLoop.label>Обратная петля</SMN_FeedbackLoop.label>
   <SMN_FeedbackLoop.description>В настоящее время эта пешка испытывает сильный эффект петли обратной связи и будет без сознания, пока эффект не спадёт.</SMN_FeedbackLoop.description>
 
   <SMN_SplitConsciousness.label>Разделённое сознание</SMN_SplitConsciousness.label>
@@ -22,8 +22,8 @@
   <SMN_ForeignConsciousness.description>Сознание, контролирующее это тело, принадлежит другой фракции. Оператор отключится, когда будет сражён, и, скорее всего, запустит самоуничтожение ядра.</SMN_ForeignConsciousness.description>
   <SMN_ForeignConsciousness.labelNoun>чужое сознание</SMN_ForeignConsciousness.labelNoun>
 
-  <SMN_MindOperation.label>Операция SkyMind в процессе</SMN_MindOperation.label>
-  <SMN_MindOperation.description>В настоящее время над этим юнитом проходит операция SkyMind. В целях сохранения связи и целостности, сознание сейчас не контролирует это тело.</SMN_MindOperation.description>
+  <SMN_MindOperation.label>В процессе операции SkyMind</SMN_MindOperation.label>
+  <SMN_MindOperation.description>В настоящее время над юнитом проходит операция SkyMind. В целях сохранения связи и целостности, сознание сейчас не контролирует это тело.</SMN_MindOperation.description>
   <SMN_MindOperation.labelNoun>операция SkyMind</SMN_MindOperation.labelNoun>
 
   <SMN_NoController.label>Оператор не подключён</SMN_NoController.label>
