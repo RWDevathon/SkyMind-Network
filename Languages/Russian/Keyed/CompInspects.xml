@@ -15,9 +15,9 @@
   <SMN_HackingSlotsAdded>Добавлено хранилище взлома: {0}</SMN_HackingSlotsAdded>
 
   <!-- Temperature -->
-  <SMN_CompTempSensitiveStructureOutside>Теплочувствительные структуры переносят повреждения снаружи!</SMN_CompTempSensitiveStructureOutside>
-  <SMN_CompTempSensitiveCriticalText>Тепловой порог превышен: повреждение неизбежно!</SMN_CompTempSensitiveCriticalText>
-  <SMN_CompTempSensitiveDangerText>Приближение к перегреву: рекомендуется принять профилактические меры!</SMN_CompTempSensitiveDangerText>
+  <SMN_CompTempSensitiveStructureOutside>Теплочувствительные структуры получают урон находясь снаружи!</SMN_CompTempSensitiveStructureOutside>
+  <SMN_CompTempSensitiveCriticalText>Превышен порог температуры: повреждение неизбежно!</SMN_CompTempSensitiveCriticalText>
+  <SMN_CompTempSensitiveDangerText>Приближение к перегреву: рекомендуется принять меры!</SMN_CompTempSensitiveDangerText>
   <SMN_CompTempSensitiveWarningText>Превышен порог идеальной температуры: соблюдайте осторожность. Устройство может быть повреждено.</SMN_CompTempSensitiveWarningText>
   <SMN_CompTempSensitiveSafeText>В пределах безопасного рабочего порога: работа в норме.</SMN_CompTempSensitiveSafeText>
 

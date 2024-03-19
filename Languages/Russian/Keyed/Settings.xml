@@ -22,7 +22,7 @@
 
   <!-- Connectivity Settings -->
   <!-- Surrogates -->
-  <SMN_surrogatesAllowed>SkyMind суррогаты [ОП = Очки познания]</SMN_surrogatesAllowed>
+  <SMN_surrogatesAllowed>SkyMind суррогаты [ОН = Очки навыков]</SMN_surrogatesAllowed>
   <SMN_otherFactionsAllowedSurrogates>Фракции могут использовать суррогаты</SMN_otherFactionsAllowedSurrogates>
   <SMN_minGroupSizeForSurrogates>Количество суррогатов в отрядах фракций </SMN_minGroupSizeForSurrogates>
   <SMN_minSurrogatePercentagePerLegalGroup>Минимальный процент суррогатов в группе [по умолчанию 0%]</SMN_minSurrogatePercentagePerLegalGroup>
@@ -31,15 +31,15 @@
   <SMN_safeSurrogateConnectivityCountBeforePenalty>Суррогатов на одного оператора до штрафов:</SMN_safeSurrogateConnectivityCountBeforePenalty>
 
   <!-- Skills -->
-  <SMN_receiveFullSkillAlert>Предупреждение о превышении ОП более 90%</SMN_receiveFullSkillAlert>
-  <SMN_skillPointInsertionRate>Количество ОП, нужных для добавления [по умолчанию 100] </SMN_skillPointInsertionRate>
-  <SMN_skillPointConversionRate>Количество XP, получаемого за каждое ОП [по умолчанию 0.5] </SMN_skillPointConversionRate>
-  <SMN_passionSoftCap>Мягкий лимит на увеличения затрат ОП на интерес [по умолчанию 8] </SMN_passionSoftCap>
-  <SMN_basePointsNeededForPassion>Количество ОП, необходимых для интереса [по умолчанию 5000] </SMN_basePointsNeededForPassion>
+  <SMN_receiveFullSkillAlert>Предупреждение о превышении ОН более 90%</SMN_receiveFullSkillAlert>
+  <SMN_skillPointInsertionRate>Количество ОН, нужных для добавления [по умолчанию 100] </SMN_skillPointInsertionRate>
+  <SMN_skillPointConversionRate>Количество XP, получаемого за каждое ОН [по умолчанию 0.5] </SMN_skillPointConversionRate>
+  <SMN_passionSoftCap>Мягкий лимит на увеличения затрат ОН на интерес [по умолчанию 8] </SMN_passionSoftCap>
+  <SMN_basePointsNeededForPassion>Количество ОН, необходимых для интереса [по умолчанию 5000] </SMN_basePointsNeededForPassion>
 
   <!-- Cloud -->
-  <SMN_UploadingKills>Загрузка в SkyMind лишает туловище сознания</SMN_UploadingKills>
-  <SMN_UploadingPermakills>Загрузка в SkyMind полностью убивает туловище</SMN_UploadingPermakills>
+  <SMN_UploadingKills>Загрузка в SkyMind лишает тело сознания</SMN_UploadingKills>
+  <SMN_UploadingPermakills>Загрузка в SkyMind полностью убивает тело</SMN_UploadingPermakills>
   <SMN_SkyMindOperationTimeRequired>Часов на выполнения операций SkyMind [по умолчанию 24] </SMN_SkyMindOperationTimeRequired>
 
 </LanguageData>

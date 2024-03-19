@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <SMN_SkyMindDisconnectionRisk>Отключение от сети SkyMind в процессе выполнения операции приведет к серьезным последствиям. При неправильном отключении гарантируется повреждение памяти различной степени.</SMN_SkyMindDisconnectionRisk>
+  <SMN_SkyMindDisconnectionRisk>Отключение от сети SkyMind в процессе выполнения операции, приведет к серьёзным последствиям. При неправильном отключении, гарантируется повреждение памяти различной степени.</SMN_SkyMindDisconnectionRisk>
   <SMN_InsufficientPoints>Для этой операции требуется не менее {0} очков.</SMN_InsufficientPoints>
 
   <!-- Skill Upgrades -->
-  <SMN_PawnBeingModified>Навыки и страсть к:</SMN_PawnBeingModified>
+  <SMN_PawnBeingModified>Навыки и интересы к:</SMN_PawnBeingModified>
   <SMN_CurrentXP>XP требуемое для следующего уровня:</SMN_CurrentXP>
   <SMN_TodaysXP>XP сегодня:</SMN_TodaysXP>
 
   <SMN_AddSkillPoints>Ввести очки в {0}</SMN_AddSkillPoints>
-  <SMN_AvailableSkillPoints>Доступно очков : {0}</SMN_AvailableSkillPoints>
-  <SMN_AvailableSkillPointsDesc>Примечание: Инъекция озарения зависит от способностей подопытного к обучению, а также от ежедневных пределов осмысления. Инъекция страсти зависит от индивидуальных способностей к обучению, а также от уже имеющихся пристрастий. Чрезмерная стимуляция неэффективна</SMN_AvailableSkillPointsDesc>
+  <SMN_AvailableSkillPoints>Доступно очков: {0}</SMN_AvailableSkillPoints>
+  <SMN_AvailableSkillPointsDesc>Примечание: Инъекция озарения зависит от способностей подопытного к обучению, а также от ежедневных пределов осмысления. Инъекция интереса зависит от индивидуальных способностей к обучению, а также от уже имеющихся интересов. Чрезмерная стимуляция неэффективна</SMN_AvailableSkillPointsDesc>
 
   <!-- Hacking Interface -->
   <SMN_HackInterfaceTitle>Ожидание директивы о ведении кибервойны.</SMN_HackInterfaceTitle>
